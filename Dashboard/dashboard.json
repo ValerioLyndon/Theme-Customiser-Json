@@ -1,0 +1,43 @@
+{
+	"json_version": 0.2,
+	"data": {
+		"name": "Minimal Dashboard",
+		"author": "5cm",
+		"css": "https://dl.dropboxusercontent.com/s/dztsdtw6atwuqk6/Dashboard.css",
+		"type": "modern",
+		"help": "https://myanimelist.net/forum/?topicid=1862835",
+		"options": {
+			"background-img": {
+				"name": "Background Image",
+				"type": "text/image_url",
+				"replacements": [["url(https://i.postimg.cc/Ytj7rMNQ/background.jpg)", "{{{insert}}}"]],
+				"default": "https://i.postimg.cc/Ytj7rMNQ/background.jpg"
+			},
+			"background-tint": {
+				"name": "Background Tint",
+				"description": "The colour to apply on top of the background image. The 4th number is the opacity and accepts any value from 0 to 1.",
+				"type": "color",
+				"replacements": [["rgba(0,0,0,.265)", "{{{insert}}}"]],
+				"default": "rgba(0,0,0,.265)"
+			}
+		},
+		"mods": {
+			"vl-dark": {
+				"name": "Dark Mode (V.L ver)",
+				"conflicts": ["shishio-dark"],
+				"css": {"bottom": "https://dl.dropboxusercontent.com/s/wq30a7cmh3amr0i/vl-dark.css"}
+			},
+			"shishio-dark": {
+				"name": "Dark Mode (Shishio ver)",
+				"description": "Mod by Shishio-kun. For help, see [url=https://myanimelist.net/forum/?topicid=1862835]the forum thread[/url].",
+				"conflicts": ["vl-dark"],
+				"css": {"bottom": "https://dl.dropboxusercontent.com/s/53v6m8cwls5de8u/shishio-dark.css"}
+			},
+			"shishio-table": {
+				"name": "Extended Table",
+				"description": "Mod by Shishio-kun. For help, see [url=https://myanimelist.net/forum/?topicid=1862835]the forum thread[/url].",
+				"css": {"bottom": "/* Extended Table by Shishio-kun\nhttps://myanimelist.net/forum/?topicid=1862835 */\n\nbody::before,\nbody::after {\nheight: 850px;\n}\n\nfooter {\ntop: 918px;\nheight: 173px;\n}"}
+			}
+		}
+	}
+}
