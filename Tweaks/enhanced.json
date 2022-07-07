@@ -1,0 +1,88 @@
+{
+	"json_version": 0.2,
+	"data": {
+		"name": "Enhanced Default",
+		"author": "Various Authors",
+		"type": "modern",
+		"mods": {
+			"vl-accent": {
+				"name": "Change accent colour",
+				"description": "[i]Mod by Valerio Lyndon.[/i]",
+				"tags": ["colours"],
+				"css": {"bottom": "https://dl.dropboxusercontent.com/s/4f1fzy7dvdssqro/vl-accent.css"}
+			},
+			"vl-cat-bars": {
+				"name": "Category-coloured Header Bars",
+				"description": "[i]Mod by Valerio Lyndon.[/i]",
+				"tags": ["per-category options", "colours"],
+				"css": {"bottom": "https://dl.dropboxusercontent.com/s/tc72stvnooitc4r/vl-cat-bars.css"}
+			},
+			"vl-cat-text-list": {
+				"name": "Category-coloured List Text",
+				"description": "[i]Mod by Valerio Lyndon.[/i]",
+				"tags": ["per-category options", "colours"],
+				"conflicts": ["vl-cat-text-titles"],
+				"css": {"bottom": "https://dl.dropboxusercontent.com/s/w38ktudj94p2c7i/vl-cat-text-list.css"}
+			},
+			"vl-cat-text-titles": {
+				"name": "Category-coloured List Titles",
+				"description": "[i]Mod by Valerio Lyndon.[/i]",
+				"tags": ["per-category options", "colours"],
+				"conflicts": ["vl-cat-text-list"],
+				"css": {"bottom": "https://dl.dropboxusercontent.com/s/vqm1b9efv5rm4zw/vl-cat-text-titles.css"}
+			},
+			"vl-tag-notes": {
+				"name": "Convert Tags to Notes",
+				"description": "[i]Mod by Valerio Lyndon.[/i]",
+				"tags": ["tags", "conversion"],
+				"css": {"bottom": "https://dl.dropboxusercontent.com/s/277sehq0max8nle/vl-tag-notes.css"}
+			},
+			"vl-large-images": {
+				"name": "Larger Images",
+				"description": "[i]Mod by Valerio Lyndon.[/i]",
+				"tags": ["imagery", "conversion"],
+				"css": {"bottom": "https://dl.dropboxusercontent.com/s/nivi679lw66khcg/vl-large-images.css"},
+				"options": {
+					"hd": {
+						"name": "HD Images",
+						"description": "This will add a third-party tool that should increase the resolution of images. This will increase page load times."
+					},
+					"width": {
+						"name": "Width of images.",
+						"type": "text/size",
+						"replacements": [["192px", "{{{insert}}}"]],
+						"default": "192px"
+					},
+					"height": {
+						"name": "Height of images.",
+						"type": "text/size",
+						"replacements": [["272px", "{{{insert}}}"]],
+						"default": "272px"
+					},
+					"object-fit": {
+						"name": "Image fit.",
+						"description": "Changes how the image is placed within the width and height.",
+						"type": "text/value/object-fit",
+						"replacements": [["cover", "{{{insert}}}"]],
+						"default": "cover"
+					}
+				}
+			},
+			"vl-tag-descriptions": {
+				"name": "Tag Descriptions",
+				"description": "This mod will require manual CSS modification. Check out the linked forum thread to install.",
+				"url": "https://myanimelist.net/forum/?topicid=1807962"
+			},
+			"vl-score-descriptions": {
+				"name": "Score Descriptions",
+				"description": "This mod will require manual CSS modification. Check out the linked forum thread to install.",
+				"url": "https://myanimelist.net/forum/?topicid=1807962"
+			},
+			"vl-cursor": {
+				"name": "Score Descriptions",
+				"description": "[i]Mod by Valerio Lyndon. Based on the [url=https://myanimelist.net/forum/?topicid=1903808]forum thread[/url] by Shishio-kun.[/i]",
+				"url": "https://myanimelist.net/forum/?topicid=1807962"
+			}
+		}
+	}
+}

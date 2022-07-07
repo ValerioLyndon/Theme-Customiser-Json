@@ -7,6 +7,12 @@
 			"image": "https://i.imgur.com/zVIasfi.png",
 			"type": "modern",
 			"url": "https://dl.dropboxusercontent.com/s/7zduv6xu8z8blmx/dashboard.json"
+		},
+		{
+			"name": "Enhanced Default",
+			"author": "Various",
+			"type": "modern",
+			"url": ""
 		}
 	]
 }
