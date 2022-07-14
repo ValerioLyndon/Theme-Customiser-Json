@@ -1,0 +1,67 @@
+{
+	"json_version": 0.2,
+	"data": {
+		"name": "ephemeral",
+		"author": "nymphiae",
+		"css": "@\\import \"https://malscraper.azurewebsites.net/covers/all/anime/presets/datatitleafter\";\n@\\import \"https://malscraper.azurewebsites.net/covers/all/manga/presets/datatitleafter\";\n@\\import \"https://dl.dropboxusercontent.com/s/czfzgkxgd6n2pmw/ephemeral-final.css\";\n\n/* BEYOND THIS POINT -- *\\\n| Valerio Lyndon's Fixes |\n| These extras were not  |\n| authored by nymphiae   |\n| and any issues caused  |\n| are not her fault.     |\n\\* -------------------- */\n\n/* Fix icons */\nbody [class^=\"fa\"] {\n\tfont-family: \"FontAwesome 6 Pro\", \"FontAwesome 6\", FontAwesome !important;\n}\n\n/* Fix weird search icon positioning */\n.status-menu-container .search-container #search-button {\n\ttop: 5px;\n}",
+		"type": "modern",
+		"help": "https://myanimelist.net/forum/?topicid=1765282",
+		"columns": {
+			"animelist": {
+				"Numbers": true,
+				"Score": true,
+				"Episodes": true,
+				"Tags": true
+			},
+			"mangalist": {
+				"Score": true,
+				"Chapters": true,
+				"Volumes": true,
+				"Tags": true
+			}
+		},
+		"options": {
+			"username": {
+				"name": "Your MAL Username",
+				"description": "Must be entered exactly as it appears on MyAnimeList. This is not required, but will speed up page load times by optimising the cover generator for your list.",
+				"type": "text",
+				"replacements": [
+					["all/anime/presets", "anime/{{{insert}}}/presets"],
+					["all/manga/presets", "manga/{{{insert}}}/presets"]
+				]
+			}
+		},
+		"mods": {
+			"note": {
+				"name": "Change avatar/sidebar image",
+				"description": "To change the 'avatar' in the sidebar, upload an image to the \"Cover image\" section on the MAL style page."
+			},
+			"sidebar-colour": {
+				"name": "Sidebar Strip Colour",
+				"description": "Change the colour of the strip next to the sidebar.",
+				"css": {
+					"bottom": "/* Side Bar Colour */\n.header::before,\n.list-menu-float::before {\n\tbackground: linear-gradient(180deg, #c2ffde 10%, #6283f4 100%);\n}"
+				},
+				"options": {
+					"top": {
+						"name": "Gradient Colour 1",
+						"type": "color",
+						"replacements": [["#c2ffde", "{{{insert}}}"]],
+						"default": "#c2ffde"
+					},
+					"bottom": {
+						"name": "Gradient Colour 2",
+						"type": "color",
+						"replacements": [["#6283f4", "{{{insert}}}"]],
+						"default": "#6283f4"
+					}
+				}
+			},
+			"edit-dialogue": {
+				"name": "Style the Edit Anime dialogue",
+				"description": "Want to make your Edit overlay window look great? Nymphiae has offered CSS for use with a browser extension such as Stylus. See the linked forum thread for info.",
+				"url": "https://myanimelist.net/forum/?topicid=1765282&show=0#msg57738399"
+			}
+		}
+	}
+}
