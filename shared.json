@@ -27,6 +27,15 @@
 			"url": "https://dl.dropboxusercontent.com/s/6j7ihqfl655gvo2/Berserk.json",
 			"tags": ["minimalist", "themed", "lightweight", "table layout"],
 			"date": "2019-08-02"
+		},
+		{
+			"name": "minimalist sidebar",
+			"author": "nymphiae",
+			"imaeg": "https://i.imgur.com/z9ykK61.jpg"
+			"type": "classic",
+			"url": "https://dl.dropboxusercontent.com/s/xeb40vpdvvspqd0/minimalist%20sidebar.json",
+			"tags": ["minimalist", "lightweight", "table layout"],
+			"date": "2014-05-07"
 		}
 	]
 }
