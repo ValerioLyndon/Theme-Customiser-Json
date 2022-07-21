@@ -15,7 +15,9 @@
 			"author": "Takana no Hana",
 			"image": "https://i.imgur.com/J26BQmV.png",
 			"type": "modern",
-			"url": "https://dl.dropboxusercontent.com/s/o9czudz2gx3mdix/ShelterStyleRefresh-Line.json"
+			"url": "https://dl.dropboxusercontent.com/s/o9czudz2gx3mdix/ShelterStyleRefresh-Line.json",
+			"tags": ["highly customisable", "table layout", "beginner-friendly"],
+			"date": "2022-07-07"
 		},
 		{
 			"name": "ephemeral",
