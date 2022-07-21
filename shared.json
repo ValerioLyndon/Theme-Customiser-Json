@@ -40,7 +40,7 @@
 		{
 			"name": "minimalist sidebar",
 			"author": "nymphiae",
-			"imaeg": "https://i.imgur.com/z9ykK61.jpg"
+			"image": "https://i.imgur.com/z9ykK61.jpg",
 			"type": "classic",
 			"url": "https://dl.dropboxusercontent.com/s/xeb40vpdvvspqd0/minimalist%20sidebar.json",
 			"tags": ["minimalist", "lightweight", "table layout"],
