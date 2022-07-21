@@ -29,6 +29,15 @@
 			"date": "2019-08-02"
 		},
 		{
+			"name": "Code Geass",
+			"author": "5cm",
+			"image": "https://i.imgur.com/GJaVJeC.jpg",
+			"type": "classic",
+			"url": "https://dl.dropboxusercontent.com/s/doqorykpjyyzb5k/Code%20Geass.json",
+			"tags": ["minimalist", "themed", "lightweight", "table layout"],
+			"date": "2019-01-16"
+		},
+		{
 			"name": "minimalist sidebar",
 			"author": "nymphiae",
 			"image": "https://i.imgur.com/z9ykK61.jpg",
