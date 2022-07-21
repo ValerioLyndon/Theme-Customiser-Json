@@ -5,6 +5,31 @@
 		"author": "nymphiae",
 		"type": "classic",
 		"css": "https://dl.dropboxusercontent.com/s/1w2rfajhmdw3ozk/minimalist%20sidebar.css",
-		"help": "https://myanimelist.net/forum/?topicid=1167775"
+		"help": "https://myanimelist.net/forum/?topicid=1167775",
+		"columns": {
+			"mode": "greylist",
+			"animelist": {
+				"Numbers": true,
+				"Score": true,
+				"Type": true,
+				"Episodes": true,
+				"Tags": false
+			},
+			"mangalist": {
+				"Numbers": true,
+				"Score": true,
+				"Type": true,
+				"Chapters": true,
+				"Tags": false
+			}
+		},
+		"options": {
+			"sidebar-image": {
+				"name": "Sidebar Image",
+				"type": "text/image_url",
+				"replacements": [["background-image: url(https://i.imgur.com/LVAZ8XI.png);", "background-image: {{{insert}}};"]],
+				"default": "https://i.imgur.com/LVAZ8XI.png"
+			}
+		}
 	}
 }
