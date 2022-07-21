@@ -18,6 +18,15 @@
 			"url": "https://dl.dropboxusercontent.com/s/5o5wks0v9b2k3fl/ephemeral.json",
 			"tags": ["minimalist", "table layout", "beginner-friendly"],
 			"date": "2019-02-04"
+		},
+		{
+			"name": "Berserk",
+			"author": "5cm",
+			"image": "https://i.imgur.com/8LY5zeU.jpg",
+			"type": "classic",
+			"url": "https://dl.dropboxusercontent.com/s/6j7ihqfl655gvo2/Berserk.json",
+			"tags": ["minimalist", "themed", "lightweight", "table layout"],
+			"date": "2019-08-02"
 		}
 	]
 }
