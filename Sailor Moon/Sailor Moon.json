@@ -1,0 +1,40 @@
+{
+	"json_version": 0.2,
+	"data": {
+		"name": "Sailor Moon",
+		"author": "5cm",
+		"type": "modern",
+		"css": "https://dl.dropboxusercontent.com/s/6o2pnn997mjurcp/Sailor%20Moon.css",
+		"help": "https://myanimelist.net/forum/?topicid=1099375&show=350#msg57006432",
+		"columns": {
+			"mode": "greylist",
+			"animelist": {
+				"Image": true
+			},
+			"mangalist": {
+				"Image": true
+			}
+		},
+		"mods": {
+			"hd-images": {
+				"name": "High-resolution Pop-up Images",
+				"description": "If you want higher resolution images, this will enable them. [b]Will increase page load times[/b].",
+				"css": {
+					"import": "@\\import \"https://malscraper.azurewebsites.net/covers/all/anime/presets/dataimagelink\";\n@\\import \"https://malscraper.azurewebsites.net/covers/all/manga/presets/dataimagelink\";",
+					"bottom": "/* HD Cover Images */\n.data.image a::before {\n\tcontent: '';\n\tposition: absolute;\n\ttop: 0;\n\tleft: 0;\n\tright: 0;\n\tbottom: 0;\n\tbackground-size: cover;\n\tbackground-position: center;\n}"
+				},
+				"options": {
+					"username": {
+						"name": "Your MyAnimeList Username",
+						"description": "Must be entered exactly as it appears on MyAnimeList. This is not required, but will reduce the impact on page load times.",
+						"type": "text",
+						"replacements": [
+							["all/anime/presets", "anime/{{{insert}}}/presets"],
+							["all/manga/presets", "manga/{{{insert}}}/presets"]
+						]
+					}
+				}
+			}
+		}
+	}
+}

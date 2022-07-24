@@ -56,6 +56,15 @@
 			"date": "2019-01-16"
 		},
 		{
+			"name": "Sailor Moon",
+			"author": "5cm",
+			"image": "https://i.imgur.com/WFOgwQW.jpg",
+			"type": "modern",
+			"url": "https://dl.dropboxusercontent.com/s/g5cab9aqa9ihm78/Sailor%20Moon.json",
+			"tags": ["minimalist", "themed", "lightweight", "table layout"],
+			"date": "2019-02-23"
+		},
+		{
 			"name": "minimalist sidebar",
 			"author": "nymphiae",
 			"image": "https://i.imgur.com/z9ykK61.jpg",
