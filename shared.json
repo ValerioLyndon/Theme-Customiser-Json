@@ -56,6 +56,15 @@
 			"date": "2019-01-16"
 		},
 		{
+			"name": "Symphogear XV",
+			"author": "5cm",
+			"image": "https://i.imgur.com/Lfbc65f.jpg",
+			"type": "classic",
+			"url": "https://dl.dropboxusercontent.com/s/52sj6ssokmupj9x/Symphogear%20XV.json",
+			"tags": ["themed", "lightweight", "table layout"],
+			"date": "2019-10-17"
+		},
+		{
 			"name": "Sailor Moon",
 			"author": "5cm",
 			"image": "https://i.imgur.com/WFOgwQW.jpg",
