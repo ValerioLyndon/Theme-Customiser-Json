@@ -29,6 +29,16 @@
 			"date": "2022-07-21"
 		},
 		{
+			"name": "GochiUsa Refresh",
+			"author": "Takana no Hana",
+			"image": "https://i.imgur.com/dT9wA2N.jpg",
+			"type": "modern",
+			"supports": ["animelist"],
+			"url": "https://dl.dropboxusercontent.com/s/r3hx2ugbkwsy1y7/GochiUsa%20Refresh.json",
+			"tags": ["themed", "table layout"],
+			"date": "2019-09-08"
+		},
+		{
 			"name": "ephemeral",
 			"author": "nymphiae",
 			"image": "https://i.imgur.com/bDyc57W.jpg",
