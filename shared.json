@@ -48,6 +48,15 @@
 			"date": "2019-02-04"
 		},
 		{
+			"name": "Barakamon",
+			"author": "5cm",
+			"image": "https://i.imgur.com/InAWE4M.jpg",
+			"type": "classic",
+			"url": "https://dl.dropboxusercontent.com/s/w4nplj4ysoi7mul/Barakamon.json",
+			"tags": ["minimalist", "themed", "lightweight", "table layout"],
+			"date": "2017-04-20"
+		},
+		{
 			"name": "Berserk",
 			"author": "5cm",
 			"image": "https://i.imgur.com/8LY5zeU.jpg",
