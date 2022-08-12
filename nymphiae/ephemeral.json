@@ -3,7 +3,7 @@
 	"data": {
 		"name": "ephemeral",
 		"author": "nymphiae",
-		"css": "@\\import \"https://malscraper.azurewebsites.net/covers/all/anime/presets/datatitleafter\";\n@\\import \"https://malscraper.azurewebsites.net/covers/all/manga/presets/datatitleafter\";\n@\\import \"https://dl.dropboxusercontent.com/s/czfzgkxgd6n2pmw/ephemeral-final.css\";\n\n/* BEYOND THIS POINT -- *\\\n| Valerio Lyndon's Fixes |\n| These extras were not  |\n| authored by nymphiae   |\n| and any issues caused  |\n| are not her fault.     |\n\\* -------------------- */\n\n/* Fix icons */\nbody [class^=\"fa\"] {\n\tfont-family: \"FontAwesome 6 Pro\", \"FontAwesome 6\", FontAwesome !important;\n}\n\n/* Fix weird search icon positioning */\n.status-menu-container .search-container #search-button {\n\ttop: 5px;\n}",
+		"css": "https://yuiafterdark.github.io/nymphiae/ephemeral/ephemeral.css",
 		"type": "modern",
 		"help": "https://myanimelist.net/forum/?topicid=1765282",
 		"columns": {
