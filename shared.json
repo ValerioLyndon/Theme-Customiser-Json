@@ -4,100 +4,100 @@
 		{
 			"name": "Minimal Dashboard",
 			"author": "5cm",
-			"image": "https://i.imgur.com/GWvXB5J.jpg",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Dashboard.jpg",
 			"type": "modern",
-			"url": "https://dl.dropboxusercontent.com/s/7zduv6xu8z8blmx/dashboard.json",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Dashboard.json",
 			"tags": ["table layout", "lightweight"],
 			"date": "2020-07-28"
 		},
 		{
 			"name": "Shelter Style Refresh - Line Ver.",
 			"author": "Takana no Hana",
-			"image": "https://i.imgur.com/ftY7xB3.jpg",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Takana%20no%20Hana/Shelter%20Style%20Refresh%20Line.jpg",
 			"type": "modern",
-			"url": "https://dl.dropboxusercontent.com/s/o9czudz2gx3mdix/ShelterStyleRefresh-Line.json",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Takana%20no%20Hana/Shelter%20Style%20Refresh%20Line.json",
 			"tags": ["highly customisable", "table layout", "beginner-friendly"],
 			"date": "2022-07-07"
 		},
 		{
 			"name": "Shelter Style Refresh - Grid Ver.",
 			"author": "Takana no Hana",
-			"image": "https://i.imgur.com/0hx0GDH.jpg",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Takana%20no%20Hana/Shelter%20Style%20Refresh%20Grid.jpg",
 			"type": "modern",
-			"url": "https://dl.dropboxusercontent.com/s/13q49br56kxgvlr/ShelterStyleRefresh-Grid.json",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Takana%20no%20Hana/Shelter%20Style%20Refresh%20Grid.json",
 			"tags": ["highly customisable", "cover layout", "beginner-friendly", "heavyweight"],
 			"date": "2022-07-21"
 		},
 		{
 			"name": "GochiUsa Refresh",
 			"author": "Takana no Hana",
-			"image": "https://i.imgur.com/dT9wA2N.jpg",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Takana%20no%20Hana/GochiUsa%20Refresh.jpg",
 			"type": "modern",
 			"supports": ["animelist"],
-			"url": "https://dl.dropboxusercontent.com/s/r3hx2ugbkwsy1y7/GochiUsa%20Refresh.json",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Takana%20no%20Hana/GochiUsa%20Refresh.json",
 			"tags": ["themed", "table layout"],
 			"date": "2019-09-08"
 		},
 		{
 			"name": "ephemeral",
 			"author": "nymphiae",
-			"image": "https://i.imgur.com/bDyc57W.jpg",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/ephemeral.jpg",
 			"type": "modern",
-			"url": "https://dl.dropboxusercontent.com/s/5o5wks0v9b2k3fl/ephemeral.json",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/ephemeral.json",
 			"tags": ["minimalist", "table layout", "beginner-friendly"],
 			"date": "2019-02-04"
 		},
 		{
 			"name": "Barakamon",
 			"author": "5cm",
-			"image": "https://i.imgur.com/InAWE4M.jpg",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Barakamon.jpg",
 			"type": "classic",
-			"url": "https://dl.dropboxusercontent.com/s/w4nplj4ysoi7mul/Barakamon.json",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Barakamon.json",
 			"tags": ["minimalist", "themed", "lightweight", "table layout"],
 			"date": "2017-04-20"
 		},
 		{
 			"name": "Berserk",
 			"author": "5cm",
-			"image": "https://i.imgur.com/8LY5zeU.jpg",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Berserk.jpg",
 			"type": "classic",
-			"url": "https://dl.dropboxusercontent.com/s/6j7ihqfl655gvo2/Berserk.json",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Berserk.json",
 			"tags": ["minimalist", "themed", "lightweight", "table layout"],
 			"date": "2019-08-02"
 		},
 		{
 			"name": "Code Geass",
 			"author": "5cm",
-			"image": "https://i.imgur.com/GJaVJeC.jpg",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Code%20Geass.jpg",
 			"type": "classic",
-			"url": "https://dl.dropboxusercontent.com/s/doqorykpjyyzb5k/Code%20Geass.json",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Code%20Geass.json",
 			"tags": ["minimalist", "themed", "lightweight", "table layout"],
 			"date": "2019-01-16"
 		},
 		{
 			"name": "Symphogear XV",
 			"author": "5cm",
-			"image": "https://i.imgur.com/Lfbc65f.jpg",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Symphogear%20XV.jpg",
 			"type": "classic",
-			"url": "https://dl.dropboxusercontent.com/s/52sj6ssokmupj9x/Symphogear%20XV.json",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Symphogear%20XV.json",
 			"tags": ["themed", "lightweight", "table layout"],
 			"date": "2019-10-17"
 		},
 		{
 			"name": "Sailor Moon",
 			"author": "5cm",
-			"image": "https://i.imgur.com/WFOgwQW.jpg",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Sailor%20Moon.jpg",
 			"type": "modern",
-			"url": "https://dl.dropboxusercontent.com/s/g5cab9aqa9ihm78/Sailor%20Moon.json",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Sailor%20Moon.json",
 			"tags": ["minimalist", "themed", "lightweight", "table layout"],
 			"date": "2019-02-23"
 		},
 		{
 			"name": "minimalist sidebar",
 			"author": "nymphiae",
-			"image": "https://i.imgur.com/z9ykK61.jpg",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/minimalist%20sidebar.jpg",
 			"type": "classic",
-			"url": "https://dl.dropboxusercontent.com/s/xeb40vpdvvspqd0/minimalist%20sidebar.json",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/minimalist%20sidebar.json",
 			"tags": ["minimalist", "lightweight", "table layout"],
 			"date": "2014-05-07"
 		}
