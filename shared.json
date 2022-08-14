@@ -100,6 +100,14 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/minimalist%20sidebar.json",
 			"tags": ["minimalist", "lightweight", "table layout"],
 			"date": "2014-05-07"
+		},
+		{
+			"name": "purple and cyan",
+			"author": "nymphiae",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/purple%20and%20cyan.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/purple%20and%20cyan.json",
+			"tags": ["minimalist", "lightweight", "table layout"]
 		}
 	]
 }

@@ -1,0 +1,22 @@
+{
+	"json_version": 0.2,
+	"data": {
+		"name": "purple and cyan",
+		"author": "nymphiae",
+		"type": "classic",
+		"css": "https://yuiafterdark.github.io/nymphiae/purple%20and%20cyan/purple%20and%20cyan.css",
+		"options": {
+			"username": {
+				"name": "List Title",
+				"description": "This will enable an extra list header that displays some custom text. You can put your name or any other text here.",
+				"type": "text/content",
+				"replacements": [["/*content: \"nymphiae\";*/", "content: {{{insert}}};"]]
+			},
+			"picture": {
+				"name": "Side Picture",
+				"type": "text/image_url",
+				"replacements": [["url(https://dl.dropboxusercontent.com/s/odtdyci6j1v6nze/mukkun.png)", "{{{insert}}} center / cover"]]
+			}
+		}
+	}
+}
