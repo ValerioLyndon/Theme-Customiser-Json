@@ -45,6 +45,30 @@
 				"replacements": [["--right-render: url(http://i.imgur.com/MO8goKt.png)", "--right-render: {{{insert}}}"]],
 				"default": "http://i.imgur.com/MO8goKt.png"
 			},
+			"left-render-size": {
+				"name": "Left Character Image Size",
+				"type": "text/value/background-size",
+				"replacements": [["--left-render-size: contain", "--left-render-size: {{{insert}}}"]],
+				"default": "contain"
+			},
+			"right-render-size": {
+				"name": "Right Character Image Size",
+				"type": "text/value/background-size",
+				"replacements": [["--right-render-size: contain", "--right-render-size: {{{insert}}}"]],
+				"default": "contain"
+			},
+			"left-render-pos": {
+				"name": "Left Character Image Alignment",
+				"type": "text/value/background-position",
+				"replacements": [["--left-render-pos: center bottom", "--left-render-pos: {{{insert}}}"]],
+				"default": "center bottom"
+			},
+			"right-render-pos": {
+				"name": "Right Character Image Alignment",
+				"type": "text/value/background-position",
+				"replacements": [["--right-render-pos: center bottom", "--right-render-pos: {{{insert}}}"]],
+				"default": "center bottom"
+			},
 			"filter-background": {
 				"name": "Filter Background Image",
 				"type": "text/image_url",
@@ -135,89 +159,29 @@
 						"type": "text/image_url",
 						"replacements": [["}", "\t--right-render: {{{insert}}};\n}"]]
 					},
-					"filter-background": {
-						"name": "Filter Background Image",
-						"type": "text/image_url",
-						"replacements": [["}", "\t--filter-background: {{{insert}}};\n}"]]
+					"left-render-size": {
+						"name": "Left Character Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["}", "\t--left-render-size: {{{insert}}}\n}"]],
+						"default": "contain"
 					},
-					"quote": {
-						"name": "Quote Text",
-						"type": "text/content",
-						"replacements": [["}", "\t--banner-quote: {{{insert}}};\n}"]]
+					"right-render-size": {
+						"name": "Right Character Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["}", "\t--right-render-size: {{{insert}}}\n}"]],
+						"default": "contain"
 					},
-					"banner-fade-multiplier": {
-						"name": "Banner Fade Multiplier",
-						"description": "Modifies the banner fade effect. Higher = more fade. Min 0 & recommended max 1.",
-						"type": "text",
-						"replacements": [["}", "\t--banner-fade-multiplier: {{{insert}}};\n}"]]
+					"left-render-pos": {
+						"name": "Left Character Image Alignment",
+						"type": "text/value/background-position",
+						"replacements": [["}", "\t--left-render-pos: {{{insert}}}\n}"]],
+						"default": "center bottom"
 					},
-					"banner-opacity": {
-						"name": "Banner Opacity",
-						"description": "Similar to the banner fade, however this control the opacity of the entire image. Can be used in tandem.",
-						"type": "text/value/opacity",
-						"replacements": [["}", "\t--banner-opacity: {{{insert}}};\n}"]]
-					},
-					"banner-height": {
-						"name": "Banner Height",
-						"description": "Recommended minimum of 35px.",
-						"type": "text/size",
-						"replacements": [["}", "\t--banner-height: {{{insert}}};\n}"]]
-					},
-					"cursor": {
-						"name": "Cursor",
-						"description": "An image URL for a custom cursor.",
-						"type": "text/image_url",
-						"replacements": [["}", "\t--cursor: {{{insert}}};\n}"]]
-					},
-					"cursor-pos": {
-						"name": "Cursor Position",
-						"description": "Change the amount the cursor is offset from its default placement. Useful for when cursor images have a lot of white space on the edges.",
-						"type": "text/value/cursor",
-						"replacements": [["}", "\t--cursor-offset: {{{insert}}};\n}"]]
-					},
-					"cursor-link": {
-						"name": "Cursor for Links",
-						"description": "This cursor will display while hovering over links.",
-						"type": "text/image_url",
-						"replacements": [["}", "\t--cursor-link: {{{insert}}};\n}"]]
-					},
-					"cursor-link-pos": {
-						"name": "Cursor Position for Links",
-						"description": "This will have no effect if you have not added a URL in the \"Cursor for Links\" option.",
-						"type": "text/value/cursor",
-						"replacements": [["}", "\t--cursor-link-offset: {{{insert}}};\n}"]]
-					}
-				}
-			},
-			"all-anime": {
-				"name": "Per-Category Styling (All Anime)",
-				"description": "Style your page differently while viewing the All Anime page.",
-				"css": {"bottom": "body[data-query*='\"status\":7'] {\n}"},
-				"options": {
-					"avatar": {
-						"name": "Avatar Image",
-						"type": "text/image_url",
-						"replacements": [["}", "\t--banner-avatar: {{{insert}}};\n}"]]
-					},
-					"background": {
-						"name": "Background Image",
-						"type": "text/image_url",
-						"replacements": [["}", "\t--background: {{{insert}}};\n}"]]
-					},
-					"banner": {
-						"name": "Banner Image",
-						"type": "text/image_url",
-						"replacements": [["}", "\t--banner: {{{insert}}};\n}"]]
-					},
-					"left-render": {
-						"name": "Left Character Image",
-						"type": "text/image_url",
-						"replacements": [["}", "\t--left-render: {{{insert}}};\n}"]]
-					},
-					"right-render": {
-						"name": "Right Character Image",
-						"type": "text/image_url",
-						"replacements": [["}", "\t--right-render: {{{insert}}};\n}"]]
+					"right-render-pos": {
+						"name": "Right Character Image Alignment",
+						"type": "text/value/background-position",
+						"replacements": [["}", "\t--right-render-pos: {{{insert}}}\n}"]],
+						"default": "center bottom"
 					},
 					"filter-background": {
 						"name": "Filter Background Image",
@@ -303,6 +267,30 @@
 						"type": "text/image_url",
 						"replacements": [["}", "\t--right-render: {{{insert}}};\n}"]]
 					},
+					"left-render-size": {
+						"name": "Left Character Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["}", "\t--left-render-size: {{{insert}}}\n}"]],
+						"default": "contain"
+					},
+					"right-render-size": {
+						"name": "Right Character Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["}", "\t--right-render-size: {{{insert}}}\n}"]],
+						"default": "contain"
+					},
+					"left-render-pos": {
+						"name": "Left Character Image Alignment",
+						"type": "text/value/background-position",
+						"replacements": [["}", "\t--left-render-pos: {{{insert}}}\n}"]],
+						"default": "center bottom"
+					},
+					"right-render-pos": {
+						"name": "Right Character Image Alignment",
+						"type": "text/value/background-position",
+						"replacements": [["}", "\t--right-render-pos: {{{insert}}}\n}"]],
+						"default": "center bottom"
+					},
 					"filter-background": {
 						"name": "Filter Background Image",
 						"type": "text/image_url",
@@ -386,6 +374,30 @@
 						"name": "Right Character Image",
 						"type": "text/image_url",
 						"replacements": [["}", "\t--right-render: {{{insert}}};\n}"]]
+					},
+					"left-render-size": {
+						"name": "Left Character Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["}", "\t--left-render-size: {{{insert}}}\n}"]],
+						"default": "contain"
+					},
+					"right-render-size": {
+						"name": "Right Character Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["}", "\t--right-render-size: {{{insert}}}\n}"]],
+						"default": "contain"
+					},
+					"left-render-pos": {
+						"name": "Left Character Image Alignment",
+						"type": "text/value/background-position",
+						"replacements": [["}", "\t--left-render-pos: {{{insert}}}\n}"]],
+						"default": "center bottom"
+					},
+					"right-render-pos": {
+						"name": "Right Character Image Alignment",
+						"type": "text/value/background-position",
+						"replacements": [["}", "\t--right-render-pos: {{{insert}}}\n}"]],
+						"default": "center bottom"
 					},
 					"filter-background": {
 						"name": "Filter Background Image",
@@ -471,6 +483,30 @@
 						"type": "text/image_url",
 						"replacements": [["}", "\t--right-render: {{{insert}}};\n}"]]
 					},
+					"left-render-size": {
+						"name": "Left Character Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["}", "\t--left-render-size: {{{insert}}}\n}"]],
+						"default": "contain"
+					},
+					"right-render-size": {
+						"name": "Right Character Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["}", "\t--right-render-size: {{{insert}}}\n}"]],
+						"default": "contain"
+					},
+					"left-render-pos": {
+						"name": "Left Character Image Alignment",
+						"type": "text/value/background-position",
+						"replacements": [["}", "\t--left-render-pos: {{{insert}}}\n}"]],
+						"default": "center bottom"
+					},
+					"right-render-pos": {
+						"name": "Right Character Image Alignment",
+						"type": "text/value/background-position",
+						"replacements": [["}", "\t--right-render-pos: {{{insert}}}\n}"]],
+						"default": "center bottom"
+					},
 					"filter-background": {
 						"name": "Filter Background Image",
 						"type": "text/image_url",
@@ -555,6 +591,30 @@
 						"type": "text/image_url",
 						"replacements": [["}", "\t--right-render: {{{insert}}};\n}"]]
 					},
+					"left-render-size": {
+						"name": "Left Character Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["}", "\t--left-render-size: {{{insert}}}\n}"]],
+						"default": "contain"
+					},
+					"right-render-size": {
+						"name": "Right Character Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["}", "\t--right-render-size: {{{insert}}}\n}"]],
+						"default": "contain"
+					},
+					"left-render-pos": {
+						"name": "Left Character Image Alignment",
+						"type": "text/value/background-position",
+						"replacements": [["}", "\t--left-render-pos: {{{insert}}}\n}"]],
+						"default": "center bottom"
+					},
+					"right-render-pos": {
+						"name": "Right Character Image Alignment",
+						"type": "text/value/background-position",
+						"replacements": [["}", "\t--right-render-pos: {{{insert}}}\n}"]],
+						"default": "center bottom"
+					},
 					"filter-background": {
 						"name": "Filter Background Image",
 						"type": "text/image_url",
@@ -638,6 +698,30 @@
 						"name": "Right Character Image",
 						"type": "text/image_url",
 						"replacements": [["}", "\t--right-render: {{{insert}}};\n}"]]
+					},
+					"left-render-size": {
+						"name": "Left Character Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["}", "\t--left-render-size: {{{insert}}}\n}"]],
+						"default": "contain"
+					},
+					"right-render-size": {
+						"name": "Right Character Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["}", "\t--right-render-size: {{{insert}}}\n}"]],
+						"default": "contain"
+					},
+					"left-render-pos": {
+						"name": "Left Character Image Alignment",
+						"type": "text/value/background-position",
+						"replacements": [["}", "\t--left-render-pos: {{{insert}}}\n}"]],
+						"default": "center bottom"
+					},
+					"right-render-pos": {
+						"name": "Right Character Image Alignment",
+						"type": "text/value/background-position",
+						"replacements": [["}", "\t--right-render-pos: {{{insert}}}\n}"]],
+						"default": "center bottom"
 					},
 					"filter-background": {
 						"name": "Filter Background Image",

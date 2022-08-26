@@ -21,7 +21,7 @@
 		"options": {
 			"username": {
 				"name": "Your MAL Username",
-				"description": "Must be entered exactly as it appears on MyAnimeList. This is not required, but will reduce the impact on page load times from the pop-up images.",
+				"description": "Must be entered exactly as it appears on MyAnimeList. This is not required, but will reduce the impact on page load times from the HD images.",
 				"type": "text",
 				"replacements": [
 					["all/anime/presets", "anime/{{{insert}}}/presets"],
@@ -56,6 +56,30 @@
 				"type": "text/image_url",
 				"replacements": [["--right-render: url(https://i.imgur.com/kOR31IF.png)", "--right-render: {{{insert}}}"]],
 				"default": "https://i.imgur.com/kOR31IF.png"
+			},
+			"left-render-size": {
+				"name": "Left Character Image Size",
+				"type": "text/value/background-size",
+				"replacements": [["--left-render-size: contain", "--left-render-size: {{{insert}}}"]],
+				"default": "contain"
+			},
+			"right-render-size": {
+				"name": "Right Character Image Size",
+				"type": "text/value/background-size",
+				"replacements": [["--right-render-size: contain", "--right-render-size: {{{insert}}}"]],
+				"default": "contain"
+			},
+			"left-render-pos": {
+				"name": "Left Character Image Alignment",
+				"type": "text/value/background-position",
+				"replacements": [["--left-render-pos: center bottom", "--left-render-pos: {{{insert}}}"]],
+				"default": "center bottom"
+			},
+			"right-render-pos": {
+				"name": "Right Character Image Alignment",
+				"type": "text/value/background-position",
+				"replacements": [["--right-render-pos: center bottom", "--right-render-pos: {{{insert}}}"]],
+				"default": "center bottom"
 			},
 			"filter-background": {
 				"name": "Filter Background Image",
@@ -205,7 +229,7 @@
 			"all-anime": {
 				"name": "Per-Category Styling (All Anime)",
 				"description": "Style your page differently while viewing the All Anime page.",
-				"css": {"bottom": "body[data-query*='\"status\":7'] {\n}"},
+				"css": {"bottom": "body[data-query*='\"status\":7'] {\n}/**/"},
 				"options": {
 					"avatar": {
 						"name": "Avatar Image",
@@ -231,6 +255,30 @@
 						"name": "Right Character Image",
 						"type": "text/image_url",
 						"replacements": [["}", "\t--right-render: {{{insert}}};\n}"]]
+					},
+					"left-render-size": {
+						"name": "Left Character Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["}", "\t--left-render-size: {{{insert}}}\n}"]],
+						"default": "contain"
+					},
+					"right-render-size": {
+						"name": "Right Character Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["}", "\t--right-render-size: {{{insert}}}\n}"]],
+						"default": "contain"
+					},
+					"left-render-pos": {
+						"name": "Left Character Image Alignment",
+						"type": "text/value/background-position",
+						"replacements": [["}", "\t--left-render-pos: {{{insert}}}\n}"]],
+						"default": "center bottom"
+					},
+					"right-render-pos": {
+						"name": "Right Character Image Alignment",
+						"type": "text/value/background-position",
+						"replacements": [["}", "\t--right-render-pos: {{{insert}}}\n}"]],
+						"default": "center bottom"
 					},
 					"filter-background": {
 						"name": "Filter Background Image",
@@ -283,150 +331,6 @@
 						"description": "This will have no effect if you have not added a URL in the \"Cursor for Links\" option.",
 						"type": "text/value/cursor",
 						"replacements": [["}", "\t--cursor-link-offset: {{{insert}}};\n}"]]
-					}
-				}
-			},
-			"all-anime": {
-				"name": "Per-Category Styling (All Anime)",
-				"description": "Style your page differently while viewing the All Anime page.",
-				"css": {"bottom": "body[data-query*='\"status\":7'] {\n}"},
-				"options": {
-					"avatar": {
-						"name": "Avatar Image",
-						"type": "text/image_url",
-						"replacements": [["}", "\t--banner-avatar: {{{insert}}};\n}"]]
-					},
-					"background": {
-						"name": "Background Image",
-						"type": "text/image_url",
-						"replacements": [["}", "\t--background: {{{insert}}};\n}"]]
-					},
-					"banner": {
-						"name": "Banner Image",
-						"type": "text/image_url",
-						"replacements": [["}", "\t--banner: {{{insert}}};\n}"]]
-					},
-					"left-render": {
-						"name": "Left Character Image",
-						"type": "text/image_url",
-						"replacements": [["}", "\t--left-render: {{{insert}}};\n}"]]
-					},
-					"right-render": {
-						"name": "Right Character Image",
-						"type": "text/image_url",
-						"replacements": [["}", "\t--right-render: {{{insert}}};\n}"]]
-					},
-					"filter-background": {
-						"name": "Filter Background Image",
-						"type": "text/image_url",
-						"replacements": [["}", "\t--filter-background: {{{insert}}};\n}"]]
-					},
-					"quote": {
-						"name": "Quote Text",
-						"type": "text/content",
-						"replacements": [["}", "\t--banner-quote: {{{insert}}};\n}"]]
-					},
-					"banner-fade-multiplier": {
-						"name": "Banner Fade Multiplier",
-						"description": "Modifies the banner fade effect. Higher = more fade. Min 0 & recommended max 1.",
-						"type": "text",
-						"replacements": [["}", "\t--banner-fade-multiplier: {{{insert}}};\n}"]]
-					},
-					"banner-opacity": {
-						"name": "Banner Opacity",
-						"description": "Similar to the banner fade, however this control the opacity of the entire image. Can be used in tandem.",
-						"type": "text/value/opacity",
-						"replacements": [["}", "\t--banner-opacity: {{{insert}}};\n}"]]
-					},
-					"banner-height": {
-						"name": "Banner Height",
-						"description": "Recommended minimum of 35px.",
-						"type": "text/size",
-						"replacements": [["}", "\t--banner-height: {{{insert}}};\n}"]]
-					},
-					"cursor": {
-						"name": "Cursor",
-						"description": "An image URL for a custom cursor.",
-						"type": "text/image_url",
-						"replacements": [["}", "\t--cursor: {{{insert}}};\n}"]]
-					},
-					"cursor-pos": {
-						"name": "Cursor Position",
-						"description": "Change the amount the cursor is offset from its default placement. Useful for when cursor images have a lot of white space on the edges.",
-						"type": "text/value/cursor",
-						"replacements": [["}", "\t--cursor-offset: {{{insert}}};\n}"]]
-					},
-					"cursor-link": {
-						"name": "Cursor for Links",
-						"description": "This cursor will display while hovering over links.",
-						"type": "text/image_url",
-						"replacements": [["}", "\t--cursor-link: {{{insert}}};\n}"]]
-					},
-					"cursor-link-pos": {
-						"name": "Cursor Position for Links",
-						"description": "This will have no effect if you have not added a URL in the \"Cursor for Links\" option.",
-						"type": "text/value/cursor",
-						"replacements": [["}", "\t--cursor-link-offset: {{{insert}}};\n}"]]
-					},
-					"menu-all": {
-						"name": "Category Menu - All Anime",
-						"type": "text/image_url",
-						"replacements": [["}", "\t--menu-all: {{{insert}}};\n}"]]
-					},
-					"menu-all-sel": {
-						"name": "Category Menu - All Anime (Selected)",
-						"type": "text/image_url",
-						"replacements": [["}", "\t--menu-all-sel: {{{insert}}};\n}"]]
-					},
-					"menu-current": {
-						"name": "Category Menu - Current",
-						"type": "text/image_url",
-						"replacements": [["}", "\t--menu-current: {{{insert}}};\n}"]]
-					},
-					"menu-current-sel": {
-						"name": "Category Menu - Current (Selected)",
-						"type": "text/image_url",
-						"replacements": [["}", "\t--menu-current-sel: {{{insert}}};\n}"]]
-					},
-					"menu-completed": {
-						"name": "Category Menu - Completed",
-						"type": "text/image_url",
-						"replacements": [["}", "\t--menu-completed: {{{insert}}};\n}"]]
-					},
-					"menu-completed-sel": {
-						"name": "Category Menu - Completed (Selected)",
-						"type": "text/image_url",
-						"replacements": [["}", "\t--menu-completed-sel: {{{insert}}};\n}"]]
-					},
-					"menu-onhold": {
-						"name": "Category Menu - On Hold",
-						"type": "text/image_url",
-						"replacements": [["}", "\t--menu-onhold: {{{insert}}};\n}"]]
-					},
-					"menu-onhold-sel": {
-						"name": "Category Menu - On Hold (Selected)",
-						"type": "text/image_url",
-						"replacements": [["}", "\t--menu-onhold-sel: {{{insert}}};\n}"]]
-					},
-					"menu-dropped": {
-						"name": "Category Menu - Dropped",
-						"type": "text/image_url",
-						"replacements": [["}", "\t--menu-dropped: {{{insert}}};\n}"]]
-					},
-					"menu-dropped-sel": {
-						"name": "Category Menu - Dropped (Selected)",
-						"type": "text/image_url",
-						"replacements": [["}", "\t--menu-dropped-sel: {{{insert}}};\n}"]]
-					},
-					"menu-planned": {
-						"name": "Category Menu - Planned",
-						"type": "text/image_url",
-						"replacements": [["}", "\t--menu-planned: {{{insert}}};\n}"]]
-					},
-					"menu-planned-sel": {
-						"name": "Category Menu - Planned (Selected)",
-						"type": "text/image_url",
-						"replacements": [["}", "\t--menu-planned-sel: {{{insert}}};\n}"]]
 					}
 				}
 			},
@@ -459,6 +363,30 @@
 						"name": "Right Character Image",
 						"type": "text/image_url",
 						"replacements": [["}", "\t--right-render: {{{insert}}};\n}"]]
+					},
+					"left-render-size": {
+						"name": "Left Character Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["}", "\t--left-render-size: {{{insert}}}\n}"]],
+						"default": "contain"
+					},
+					"right-render-size": {
+						"name": "Right Character Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["}", "\t--right-render-size: {{{insert}}}\n}"]],
+						"default": "contain"
+					},
+					"left-render-pos": {
+						"name": "Left Character Image Alignment",
+						"type": "text/value/background-position",
+						"replacements": [["}", "\t--left-render-pos: {{{insert}}}\n}"]],
+						"default": "center bottom"
+					},
+					"right-render-pos": {
+						"name": "Right Character Image Alignment",
+						"type": "text/value/background-position",
+						"replacements": [["}", "\t--right-render-pos: {{{insert}}}\n}"]],
+						"default": "center bottom"
 					},
 					"filter-background": {
 						"name": "Filter Background Image",
@@ -604,6 +532,30 @@
 						"type": "text/image_url",
 						"replacements": [["}", "\t--right-render: {{{insert}}};\n}"]]
 					},
+					"left-render-size": {
+						"name": "Left Character Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["}", "\t--left-render-size: {{{insert}}}\n}"]],
+						"default": "contain"
+					},
+					"right-render-size": {
+						"name": "Right Character Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["}", "\t--right-render-size: {{{insert}}}\n}"]],
+						"default": "contain"
+					},
+					"left-render-pos": {
+						"name": "Left Character Image Alignment",
+						"type": "text/value/background-position",
+						"replacements": [["}", "\t--left-render-pos: {{{insert}}}\n}"]],
+						"default": "center bottom"
+					},
+					"right-render-pos": {
+						"name": "Right Character Image Alignment",
+						"type": "text/value/background-position",
+						"replacements": [["}", "\t--right-render-pos: {{{insert}}}\n}"]],
+						"default": "center bottom"
+					},
 					"filter-background": {
 						"name": "Filter Background Image",
 						"type": "text/image_url",
@@ -747,6 +699,30 @@
 						"name": "Right Character Image",
 						"type": "text/image_url",
 						"replacements": [["}", "\t--right-render: {{{insert}}};\n}"]]
+					},
+					"left-render-size": {
+						"name": "Left Character Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["}", "\t--left-render-size: {{{insert}}}\n}"]],
+						"default": "contain"
+					},
+					"right-render-size": {
+						"name": "Right Character Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["}", "\t--right-render-size: {{{insert}}}\n}"]],
+						"default": "contain"
+					},
+					"left-render-pos": {
+						"name": "Left Character Image Alignment",
+						"type": "text/value/background-position",
+						"replacements": [["}", "\t--left-render-pos: {{{insert}}}\n}"]],
+						"default": "center bottom"
+					},
+					"right-render-pos": {
+						"name": "Right Character Image Alignment",
+						"type": "text/value/background-position",
+						"replacements": [["}", "\t--right-render-pos: {{{insert}}}\n}"]],
+						"default": "center bottom"
 					},
 					"filter-background": {
 						"name": "Filter Background Image",
@@ -892,6 +868,30 @@
 						"type": "text/image_url",
 						"replacements": [["}", "\t--right-render: {{{insert}}};\n}"]]
 					},
+					"left-render-size": {
+						"name": "Left Character Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["}", "\t--left-render-size: {{{insert}}}\n}"]],
+						"default": "contain"
+					},
+					"right-render-size": {
+						"name": "Right Character Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["}", "\t--right-render-size: {{{insert}}}\n}"]],
+						"default": "contain"
+					},
+					"left-render-pos": {
+						"name": "Left Character Image Alignment",
+						"type": "text/value/background-position",
+						"replacements": [["}", "\t--left-render-pos: {{{insert}}}\n}"]],
+						"default": "center bottom"
+					},
+					"right-render-pos": {
+						"name": "Right Character Image Alignment",
+						"type": "text/value/background-position",
+						"replacements": [["}", "\t--right-render-pos: {{{insert}}}\n}"]],
+						"default": "center bottom"
+					},
 					"filter-background": {
 						"name": "Filter Background Image",
 						"type": "text/image_url",
@@ -1035,6 +1035,30 @@
 						"name": "Right Character Image",
 						"type": "text/image_url",
 						"replacements": [["}", "\t--right-render: {{{insert}}};\n}"]]
+					},
+					"left-render-size": {
+						"name": "Left Character Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["}", "\t--left-render-size: {{{insert}}}\n}"]],
+						"default": "contain"
+					},
+					"right-render-size": {
+						"name": "Right Character Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["}", "\t--right-render-size: {{{insert}}}\n}"]],
+						"default": "contain"
+					},
+					"left-render-pos": {
+						"name": "Left Character Image Alignment",
+						"type": "text/value/background-position",
+						"replacements": [["}", "\t--left-render-pos: {{{insert}}}\n}"]],
+						"default": "center bottom"
+					},
+					"right-render-pos": {
+						"name": "Right Character Image Alignment",
+						"type": "text/value/background-position",
+						"replacements": [["}", "\t--right-render-pos: {{{insert}}}\n}"]],
+						"default": "center bottom"
 					},
 					"filter-background": {
 						"name": "Filter Background Image",
