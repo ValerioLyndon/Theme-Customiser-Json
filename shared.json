@@ -133,6 +133,14 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/endless%20river.json",
 			"tags": ["minimalist", "lightweight", "table layout"]
+		},
+		{
+			"name": "window style",
+			"author": "nymphiae",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/window%20style.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/window%20style.json",
+			"tags": ["minimalist", "lightweight", "table layout"]
 		}
 	]
 }

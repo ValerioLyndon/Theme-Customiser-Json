@@ -1,0 +1,18 @@
+{
+	"json_version": 0.2,
+	"data": {
+		"name": "window style",
+		"author": "nymphiae",
+		"type": "classic",
+		"help": "https://myanimelist.net/forum/?topicid=1370768",
+		"css": "https://yuiafterdark.github.io/nymphiae/window%20style/window%20style.css",
+		"category": 1,
+		"options": {
+			"picture": {
+				"name": "Side Picture",
+				"type": "text/image_url",
+				"replacements": [["url(https://dl.dropboxusercontent.com/s/anaxjtn3yiphli8/anime_icon_by_meteora94-violet.png);", "{{{insert}}};\nbackground-size: cover;"]]
+			}
+		}
+	}
+}
