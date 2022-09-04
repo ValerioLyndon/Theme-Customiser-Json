@@ -157,6 +157,14 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/eren.json",
 			"tags": ["lightweight", "themed", "table layout"]
+		},
+		{
+			"name": "sugawara koushi",
+			"author": "nymphiae",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/sugawara%20koushi.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/sugawara%20koushi.json",
+			"tags": ["lightweight", "themed", "table layout"]
 		}
 	]
 }

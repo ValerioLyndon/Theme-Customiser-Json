@@ -1,0 +1,22 @@
+{
+	"json_version": 0.2,
+	"data": {
+		"name": "eren",
+		"author": "nymphiae",
+		"type": "classic",
+		"css": "https://yuiafterdark.github.io/nymphiae/sugawara%20koushi/sugawara%20koushi.css",
+		"options": {
+			"picture": {
+				"name": "Side Picture",
+				"type": "text/image_url",
+				"replacements": [["url(https://dl.dropboxusercontent.com/s/ptu7vb3kkv3ysat/koushi.png) !important;", "{{{insert}}} !important;\nbackground-size: cover;\nbackground-position: center;"]]
+			},
+			"name": {
+				"name": "Name on Picture",
+				"type": "textarea/content",
+				"replacements": [["\"koushi sugawara;\"", "{{{insert}}}"]],
+				"default": "koushi sugawara;"
+			}
+		}
+	}
+}
