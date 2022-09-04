@@ -7,6 +7,8 @@
 		"css": "https://yuiafterdark.github.io/Takana-no-Hana/GochiUsa%20Refresh/GochiUsa%20Refresh.css",
 		"help": "https://myanimelist.net/forum/?topicid=1524727",
 		"supports": ["animelist"],
+		"cover": false,
+		"category": 1,
 		"columns": {
 			"animelist": {
 				"Numbers": true,
@@ -16,10 +18,6 @@
 				"Tags": true,
 				"Image": true
 			}
-		},
-		"preview": {
-			"cover": false,
-			"category": 1
 		},
 		"options": {
 			"username": {

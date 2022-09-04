@@ -15,6 +15,23 @@
 				"Image": true
 			}
 		},
+		"preview": {
+			"columns": {
+				"mode": "blacklist",
+				"animelist": {
+					"Image": true,
+					"Score": true,
+					"Episodes": true,
+					"Rated": true
+				},
+				"mangalist": {
+					"Image": true,
+					"Score": true,
+					"Chapters": true,
+					"Volumes": true
+				}
+			}
+		},
 		"mods": {
 			"hd-images": {
 				"name": "High-resolution Pop-up Images",
