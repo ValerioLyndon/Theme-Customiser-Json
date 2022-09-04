@@ -1,7 +1,7 @@
 {
 	"json_version": 0.2,
 	"data": {
-		"name": "eren",
+		"name": "sugawara koushi",
 		"author": "nymphiae",
 		"type": "classic",
 		"css": "https://yuiafterdark.github.io/nymphiae/sugawara%20koushi/sugawara%20koushi.css",
@@ -14,7 +14,7 @@
 			"name": {
 				"name": "Name on Picture",
 				"type": "textarea/content",
-				"replacements": [["\"koushi sugawara;\"", "{{{insert}}}"]],
+				"replacements": [["\"koushi sugawara;\" !important;", "{{{insert}}};\nwhite-space: pre-wrap;"]],
 				"default": "koushi sugawara;"
 			}
 		}
