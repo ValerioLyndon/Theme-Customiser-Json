@@ -1,0 +1,56 @@
+{
+	"json_version": 0.2,
+	"data": {
+		"name": "Anilist-style",
+		"author": "Ruri",
+		"type": "modern",
+		"css": "https://yuiafterdark.github.io/Ruri/Anilist-style/Anilist-style.css",
+		"help": "https://myanimelist.net/forum/?topicid=1594324",
+		"columns": {
+			"animelist": {
+				"Score": true,
+				"Type": true,
+				"Episodes": true,
+				"Tags": true,
+				"Image": true
+			},
+			"mangalist": {
+				"Score": true,
+				"Type": true,
+				"Chapters": true,
+				"Tags": true,
+				"Image": true
+			}
+		},
+		"options":  {
+			"cover-shadow": {
+				"name": "Cover Shadow Intensity",
+				"type": "range",
+				"min": 0,
+				"max": 2,
+				"step": 0.01,
+				"default": 1,
+				"replacements": [["--cover-shadow-intensity: 1;", "--cover-shadow-intensity: {{{insert}}};"]]
+			}
+		},
+		"mods": {
+			"dark": {
+				"name": "Dark Mode",
+				"css": {"bottom": "https://yuiafterdark.github.io/Ruri/Anilist-style/mods/Dark.css"}
+			},
+			"favorite": {
+				"name": "Favorite Tags",
+				"css": {"bottom": "https://yuiafterdark.github.io/Ruri/Anilist-style/mods/favorite%20tags.css"},
+				"options": {
+					"tag": {
+						"name": "Choose Tag",
+						"description": "You can optionally change which tag is chosen as your favourite tag. The default is \"*\", but maybe you use \"Favourite\" or \"♥\"? You can choose that! Be sure to input the [url=https://github.com/ValerioLyndon/MAL-Public-List-Designs/wiki/Add-your-own-coloured-tags.#getting-the-tag-in-url-format]URL-formatted version of the tag[/url].",
+						"type": "text",
+						"replacements": [["=*\"", "={{{insert}}}\""]],
+						"default": "*"
+					}
+				}
+			}
+		}
+	}
+}

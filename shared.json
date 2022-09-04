@@ -93,6 +93,15 @@
 			"date": "2019-02-23"
 		},
 		{
+			"name": "Anilist-style",
+			"author": "Ruri",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Ruri/Anilist-style.jpg",
+			"type": "modern",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Ruri/Anilist-style.json",
+			"tags": ["cover layout"],
+			"date": "2017-02-22"
+		},
+		{
 			"name": "minimalist sidebar",
 			"author": "nymphiae",
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/minimalist%20sidebar.jpg",
