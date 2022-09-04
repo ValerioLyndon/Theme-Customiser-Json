@@ -1,0 +1,9 @@
+{
+	"json_version": 0.2,
+	"data": {
+		"name": "monokuro",
+		"author": "nymphiae",
+		"type": "classic",
+		"css": "https://yuiafterdark.github.io/nymphiae/monokuro/monokuro.css"
+	}
+}

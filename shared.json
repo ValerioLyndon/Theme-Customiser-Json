@@ -141,6 +141,14 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/window%20style.json",
 			"tags": ["minimalist", "lightweight", "table layout"]
+		},
+		{
+			"name": "monokuro",
+			"author": "nymphiae",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/monokuro.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/monokuro.json",
+			"tags": ["minimalist", "lightweight", "table layout"]
 		}
 	]
 }
