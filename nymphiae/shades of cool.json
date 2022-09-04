@@ -1,0 +1,16 @@
+{
+	"json_version": 0.2,
+	"data": {
+		"name": "shades of cool",
+		"author": "nymphiae",
+		"type": "classic",
+		"css": "https://yuiafterdark.github.io/nymphiae/shades%20of%20cool/shades%20of%20cool.css",
+		"options": {
+			"picture": {
+				"name": "Side Picture",
+				"type": "text/image_url",
+				"replacements": [["url(https://dl.dropboxusercontent.com/s/b3srwc4isy613jr/kaito.png);", "{{{insert}}};\nbackground-size: cover"]]
+			}
+		}
+	}
+}

@@ -117,6 +117,14 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/purple%20and%20cyan.json",
 			"tags": ["minimalist", "lightweight", "table layout"]
+		},
+		{
+			"name": "shades of cool",
+			"author": "nymphiae",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/shades%20of%20cool.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/shades%20of%20cool.json",
+			"tags": ["minimalist", "lightweight", "table layout"]
 		}
 	]
 }
