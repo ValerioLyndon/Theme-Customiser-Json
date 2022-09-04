@@ -8,7 +8,7 @@
 		"mods": {
 			"banner": {
 				"name": "Custom Banner",
-				"css": {"bottom": "ttps://yuiafterdark.github.io/nymphiae/eren/mods/banner.css"},
+				"css": {"bottom": "https://yuiafterdark.github.io/nymphiae/eren/mods/banner.css"},
 				"options": {
 					"image": {
 						"name": "Image",
@@ -18,7 +18,8 @@
 					"height": {
 						"name": "Height",
 						"type": "text/size",
-						"replacements": [["--height: 200px;", "--height: {{{insert}}};"]]
+						"replacements": [["--height: 300px;", "--height: {{{insert}}};"]],
+						"default": "300px"
 					}
 				}
 			}
