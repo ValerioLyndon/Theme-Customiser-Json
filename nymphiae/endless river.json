@@ -10,7 +10,7 @@
 			"picture": {
 				"name": "Side Picture",
 				"type": "text/image_url",
-				"replacements": [["url(https://i.imgur.com/AYXheL4.png) !important;", "{{{insert}}} !important;\nbackground-size: cover"]]
+				"replacements": [["url(https://i.imgur.com/AYXheL4.png) !important;", "{{{insert}}} !important;\nbackground-size: cover;"]]
 			}
 		}
 	}

@@ -9,7 +9,7 @@
 			"picture": {
 				"name": "Side Picture",
 				"type": "text/image_url",
-				"replacements": [["url(https://dl.dropboxusercontent.com/s/b3srwc4isy613jr/kaito.png);", "{{{insert}}};\nbackground-size: cover"]]
+				"replacements": [["url(https://dl.dropboxusercontent.com/s/b3srwc4isy613jr/kaito.png);", "{{{insert}}};\nbackground-size: cover;"]]
 			}
 		}
 	}
