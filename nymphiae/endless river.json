@@ -1,0 +1,17 @@
+{
+	"json_version": 0.2,
+	"data": {
+		"name": "endless river",
+		"author": "nymphiae",
+		"type": "classic",
+		"help": "https://myanimelist.net/forum/?topicid=1749176",
+		"css": "https://yuiafterdark.github.io/nymphiae/endless%20river/endless%20river.css",
+		"options": {
+			"picture": {
+				"name": "Side Picture",
+				"type": "text/image_url",
+				"replacements": [["url(https://i.imgur.com/AYXheL4.png) !important;", "{{{insert}}} !important;\nbackground-size: cover"]]
+			}
+		}
+	}
+}

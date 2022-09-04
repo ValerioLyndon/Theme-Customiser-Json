@@ -125,6 +125,14 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/shades%20of%20cool.json",
 			"tags": ["minimalist", "lightweight", "table layout"]
+		},
+		{
+			"name": "endless river",
+			"author": "nymphiae",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/endless%20river.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/endless%20river.json",
+			"tags": ["minimalist", "lightweight", "table layout"]
 		}
 	]
 }
