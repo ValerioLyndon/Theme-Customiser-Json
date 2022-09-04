@@ -10,12 +10,14 @@
 			"animelist": {
 				"Image": true,
 				"Score": true,
-				"Episodes": true
+				"Episodes": true,
+				"notes": false
 			},
 			"mangalist": {
 				"Image": true,
 				"Score": true,
-				"Volumes": true
+				"Volumes": true,
+				"notes": false
 			}
 		},
 		"options": {

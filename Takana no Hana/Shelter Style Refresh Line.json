@@ -5,6 +5,15 @@
 		"author": "Takana no Hana",
 		"css": "https://yuiafterdark.github.io/Takana-no-Hana/Shelter%20Style%20Refresh/Line.css",
 		"type": "modern",
+		"columns": {
+			"mode": "greylist",
+			"animelist": {
+				"notes": false
+			},
+			"mangalist": {
+				"notes": false
+			}
+		},
 		"options": {
 			"username": {
 				"name": "Your MAL Username",
