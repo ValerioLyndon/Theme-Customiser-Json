@@ -1,0 +1,16 @@
+{
+	"json_version": 0.2,
+	"data": {
+		"name": "light variant 1",
+		"author": "nymphiae",
+		"type": "classic",
+		"css": "https://yuiafterdark.github.io/nymphiae/light/variant-1.css",
+		"options": {
+			"picture": {
+				"name": "Side Picture",
+				"type": "text/image_url",
+				"replacements": [["url(https://dl.dropboxusercontent.com/s/owo8qhizz1xhbcz/chitoge.png)", "{{{insert}}}"]]
+			}
+		}
+	}
+}

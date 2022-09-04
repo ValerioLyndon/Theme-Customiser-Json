@@ -165,6 +165,22 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/sugawara%20koushi.json",
 			"tags": ["lightweight", "themed", "table layout"]
+		},
+		{
+			"name": "light variant 1",
+			"author": "nymphiae",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/light%20var-1.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/light%20var-1.json",
+			"tags": ["minimalist", "lightweight", "table layout"]
+		},
+		{
+			"name": "light variant 2",
+			"author": "nymphiae",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/light%20var-2.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/light%20var-2.json",
+			"tags": ["minimalist", "lightweight", "table layout"]
 		}
 	]
 }

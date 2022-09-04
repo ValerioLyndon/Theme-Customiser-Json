@@ -1,0 +1,16 @@
+{
+	"json_version": 0.2,
+	"data": {
+		"name": "light variant 2",
+		"author": "nymphiae",
+		"type": "classic",
+		"css": "https://yuiafterdark.github.io/nymphiae/light/variant-2.css",
+		"options": {
+			"picture": {
+				"name": "Side Picture",
+				"type": "text/image_url",
+				"replacements": [["url(https://dl.dropboxusercontent.com/s/rall1l5a1ievnj8/sylveon-nont.gif)", "{{{insert}}}"]]
+			}
+		}
+	}
+}
