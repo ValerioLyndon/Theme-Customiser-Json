@@ -1,0 +1,27 @@
+{
+	"json_version": 0.2,
+	"data": {
+		"name": "eren",
+		"author": "nymphiae",
+		"type": "classic",
+		"css": "https://yuiafterdark.github.io/nymphiae/eren/eren.css",
+		"mods": {
+			"banner": {
+				"name": "Custom Banner",
+				"css": {"bottom": "ttps://yuiafterdark.github.io/nymphiae/eren/mods/banner.css"},
+				"options": {
+					"image": {
+						"name": "Image",
+						"type": "text/image_url",
+						"replacements": [["url(https://dl.dropboxusercontent.com/s/vs1qtohvi2skijo/eren.png)", "{{{insert}}}"]]
+					},
+					"height": {
+						"name": "Height",
+						"type": "text/size",
+						"replacements": [["--height: 200px;", "--height: {{{insert}}};"]]
+					}
+				}
+			}
+		}
+	}
+}

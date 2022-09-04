@@ -149,6 +149,14 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/monokuro.json",
 			"tags": ["minimalist", "lightweight", "table layout"]
+		},
+		{
+			"name": "eren",
+			"author": "nymphiae",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/eren.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/eren.json",
+			"tags": ["lightweight", "themed", "table layout"]
 		}
 	]
 }
