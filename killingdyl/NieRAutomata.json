@@ -1,0 +1,80 @@
+{
+	"json_version": 0.2,
+	"data": {
+		"name": "NieR Automata Menu",
+		"author": "killingdyl",
+		"type": "modern",
+		"help": "https://myanimelist.net/forum/?topicid=1609104",
+		"css": "https://yuiafterdark.github.io/killingdyl/NieRAutomata/NieRAutomata.css",
+		"columns": {
+			"mode": "greylist",
+			"animelist": {
+				"Notes": false
+			},
+			"mangalist": {
+				"Notes": false
+			}
+		},
+		"preview": {
+			"columns": {
+				"mode": "greylist",
+				"animelist": {
+					"Image": true,
+					"Notes": false,
+					"Tags": false,
+					"Studios": false,
+					"Licensors": false,
+					"Storage": false
+				},
+				"mangalist": {
+					"Image": true,
+					"Notes": false,
+					"Tags": false,
+					"Magazine": false,
+					"Retail Manga": false
+				}
+			}
+		},
+		"mods": {
+			"name": {
+				"name": "Replace Name",
+				"description": "Replace the \"your\" text with your name or any other text.",
+				"css": {"bottom": "https://yuiafterdark.github.io/killingdyl/NieRAutomata/mods/name.css"},
+				"options": {
+					"text": {
+						"name": "Your Name",
+						"type": "text/content",
+						"replacements": [["'Your Name Here'", "{{{insert}}}"]],
+						"default": "Your Name Here"
+					}
+				}
+			},
+			"user-menu": {
+				"name": "Re-implement User Menu",
+				"description": "Adds back the menu with user options such as links to your profile and animelist. [i]Mod by Valerio Lyndon.[/i]",
+				"css": {"bottom": "https://yuiafterdark.github.io/killingdyl/NieRAutomata/mods/user%20menu.css"}
+			},
+			"better-images": {
+				"name": "Improved Image Display",
+				"description": "Makes images fit better within the list rows. [i]Mod by Valerio Lyndon.[/i]",
+				"css": {"bottom": "https://yuiafterdark.github.io/killingdyl/NieRAutomata/mods/image%20support%20small.css"},
+				"options": {
+					"variant": {
+						"name": "Image Size",
+						"type": "select",
+						"selections": {
+							"small": {
+								"label": "Small",
+								"replacements": [["",""]]
+							},
+							"large": {
+								"label": "Large",
+								"replacements": [["RegExp/[\\s\\S]*","https://yuiafterdark.github.io/killingdyl/NieRAutomata/mods/image%20support%20large.css"]]
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
