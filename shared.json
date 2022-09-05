@@ -116,7 +116,8 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/purple%20and%20cyan.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/purple%20and%20cyan.json",
-			"tags": ["minimalist", "lightweight", "table layout"]
+			"tags": ["minimalist", "lightweight", "table layout"],
+			"date": "2015-05-30"
 		},
 		{
 			"name": "shades of cool",
@@ -124,7 +125,8 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/shades%20of%20cool.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/shades%20of%20cool.json",
-			"tags": ["minimalist", "lightweight", "table layout"]
+			"tags": ["minimalist", "lightweight", "table layout"],
+			"date": "2014-08-29"
 		},
 		{
 			"name": "endless river",
@@ -132,15 +134,17 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/endless%20river.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/endless%20river.json",
-			"tags": ["minimalist", "lightweight", "table layout"]
+			"tags": ["minimalist", "lightweight", "table layout"],
+			"date": "2017-01-10"
 		},
 		{
-			"name": "window style",
+			"name": "w i n d o w",
 			"author": "nymphiae",
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/window%20style.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/window%20style.json",
-			"tags": ["minimalist", "lightweight", "table layout"]
+			"tags": ["minimalist", "lightweight", "table layout"],
+			"date": "2015-04-08"
 		},
 		{
 			"name": "monokuro",
@@ -148,7 +152,8 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/monokuro.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/monokuro.json",
-			"tags": ["minimalist", "lightweight", "table layout"]
+			"tags": ["minimalist", "lightweight", "table layout"],
+			"date": "2016-01-11"
 		},
 		{
 			"name": "eren",
@@ -164,7 +169,8 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/sugawara%20koushi.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/sugawara%20koushi.json",
-			"tags": ["lightweight", "themed", "table layout"]
+			"tags": ["lightweight", "themed", "table layout"],
+			"date": "2015-05-30"
 		},
 		{
 			"name": "light variant 1",
@@ -172,7 +178,8 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/light%20var-1.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/light%20var-1.json",
-			"tags": ["minimalist", "lightweight", "table layout"]
+			"tags": ["minimalist", "lightweight", "table layout"],
+			"date": "2015-08-31"
 		},
 		{
 			"name": "light variant 2",
@@ -180,7 +187,8 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/light%20var-2.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/light%20var-2.json",
-			"tags": ["minimalist", "lightweight", "table layout"]
+			"tags": ["minimalist", "lightweight", "table layout"],
+			"date": "2015-08-31"
 		}
 	]
 }
