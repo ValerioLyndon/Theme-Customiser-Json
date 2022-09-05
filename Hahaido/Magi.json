@@ -1,0 +1,25 @@
+{
+	"json_version": 0.2,
+	"data": {
+		"name": "Magi",
+		"author": "Hahaido",
+		"type": "modern",
+		"help": "https://myanimelist.net/forum/?topicid=1603344",
+		"style": [1],
+		"css": "https://yuiafterdark.github.io/Hahaido/Magi/Magi.css",
+		"columns": {
+			"animelist": {
+				"Numbers": true,
+				"Image": true,
+				"Score": true,
+				"Episodes": true
+			},
+			"mangalist": {
+				"Numbers": true,
+				"Image": true,
+				"Score": true,
+				"Chapters": true
+			}
+		}
+	}
+}
