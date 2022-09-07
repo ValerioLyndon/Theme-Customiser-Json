@@ -29,6 +29,27 @@
 					"Chapters": true,
 					"Volumes": true
 				}
+			},
+			"cover": false
+		},
+		"options": {
+			"background": {
+				"name": "Background Image",
+				"type": "text/image_url",
+				"replacements": [["url(https://i.imgur.com/aoFpxkK.jpg)","{{{insert}}}"]],
+				"default": "https://i.imgur.com/aoFpxkK.jpg"
+			},
+			"side-image": {
+				"name": "Side Image",
+				"type": "text/image_url",
+				"replacements": [["url(https://i.imgur.com/L3i5SP8.png)","{{{insert}}}"]],
+				"default": "https://i.imgur.com/L3i5SP8.png"
+			},
+			"side-image-size": {
+				"name": "Side Image Size",
+				"description": "Does your image not fit? Change the sizing here. Recommended sizes: \"contain\", \"cover\", or any pixel (px) sizes below 300x480 ex. \"300px 480px\" or \"300px auto\".",
+				"type": "text/value/background-size",
+			"replacements": [["RegExp/.header:before[^}]*url\\(([^)]*)\\)[^}]*}",".header::before {\n  content: '';\n  background: url($1) center top / {{{insert}}} no-repeat;\n  width: 300px; height: 480px;\n  display: block;\n}"]]
 			}
 		},
 		"mods": {
