@@ -5,7 +5,7 @@
 		"author": "5cm",
 		"type": "modern",
 		"css": "https://yuiafterdark.github.io/5cm/Sailor%20Moon/Sailor%20Moon.css",
-		"help": "https://myanimelist.net/forum/?topicid=1099375&show=350#msg57006432",
+		"help": "https://myanimelist.net/forum/?topicid=1863392",
 		"columns": {
 			"mode": "greylist",
 			"animelist": {
@@ -17,7 +17,6 @@
 		},
 		"preview": {
 			"columns": {
-				"mode": "blacklist",
 				"animelist": {
 					"Image": true,
 					"Score": true,
