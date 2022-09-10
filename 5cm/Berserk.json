@@ -5,6 +5,184 @@
 		"author": "5cm",
 		"type": "classic",
 		"css": "https://yuiafterdark.github.io/5cm/Berserk/Berserk.css",
-		"help": "https://myanimelist.net/forum/?topicid=1099375&show=350#msg58098377"
+		"help": "https://myanimelist.net/forum/?topicid=1099375&show=350#msg58098377",
+		"preview": {
+			"columns": {
+				"animelist": {
+					"Numbers": true,
+					"Score": true,
+					"Type": true,
+					"Episodes": true,
+					"Days": true,
+					"Rated": true
+				},
+				"mangalist": {
+					"Numbers": true,
+					"Score": true,
+					"Type": true,
+					"Chapters": true,
+					"Volumes": true,
+					"Days": true
+				}
+			}
+		},
+		"mods": {
+			"restyle": {
+				"name": "Custom Images & Colours",
+				"css": {"bottom": "https://yuiafterdark.github.io/5cm/Berserk/mods/Restyle.css"},
+				"options": {
+					"c-background": {
+						"name": "Background Colour",
+						"type": "color",
+						"replacements": [["--c-background: black", "--c-background: {{{insert}}}"]],
+						"default": "black"
+					},
+					"c-background-overlay": {
+						"name": "Background Overlay Colour",
+						"type": "color",
+						"replacements": [["--c-background-overlay: rgba(0,0,0,0.55)", "--c-background-overlay: {{{insert}}}"]],
+						"default": "rgba(0,0,0,0.55)"
+					},
+					"c-text": {
+						"name": "Text Colour",
+						"type": "color",
+						"replacements": [["--c-text: #bbb", "--c-text: {{{insert}}}"]],
+						"default": "#bbb"
+					},
+					"c-text-hover-1": {
+						"name": "Text Colour (hover state 1)",
+						"type": "color",
+						"replacements": [["--c-text-hover-1: white", "--c-text-hover-1: {{{insert}}}"]],
+						"default": "white"
+					},
+					"c-text-hover-2": {
+						"name": "Text Colour (hover state 2)",
+						"type": "color",
+						"replacements": [["--c-text-hover-2: #dd0000", "--c-text-hover-2: {{{insert}}}"]],
+						"default": "#dd0000"
+					},
+					"c-banner": {
+						"name": "Banner Background Colour",
+						"type": "color",
+						"replacements": [["--c-banner: #bb1414", "--c-banner: {{{insert}}}"]],
+						"default": "#bb1414"
+					},
+					"c-banner-text": {
+						"name": "Banner Text Colour",
+						"type": "color",
+						"replacements": [["--c-banner-text: white", "--c-banner-text: {{{insert}}}"]],
+						"default": "white"
+					},
+					"c-category-text": {
+						"name": "Category Text Colour",
+						"type": "color",
+						"replacements": [["--c-category-text: #999", "--c-category-text: {{{insert}}}"]],
+						"default": "#999"
+					},
+					"i-background": {
+						"name": "Background Image",
+						"type": "text/image_url",
+						"replacements": [["--i-background: url(https://i.imgur.com/jLswMpF.png)", "--i-background: {{{insert}}}"]],
+						"default": "https://i.imgur.com/jLswMpF.png"
+					},
+					"i-current": {
+						"name": "Watching/Reading Image",
+						"type": "text/image_url",
+						"replacements": [["--i-current: url(https://i.imgur.com/7F5lzry.png)", "--i-current: {{{insert}}}"]],
+						"default": "https://i.imgur.com/7F5lzry.png"
+					},
+					"i-current-pos": {
+						"name": "Watching/Reading Image Position",
+						"type": "text/value/background-position",
+						"replacements": [["--i-current-pos: calc(50% + 180px) -4%", "--i-current-pos: {{{insert}}}"]],
+						"default": "calc(50% + 180px) -4%"
+					},
+					"i-current-size": {
+						"name": "Watching/Reading Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["--i-current-size: 600px", "--i-current-size: {{{insert}}}"]],
+						"default": "600px"
+					},
+					"i-completed": {
+						"name": "Completed Image",
+						"type": "text/image_url",
+						"replacements": [["--i-completed: url(https://i.imgur.com/z4rKke2.jpg)", "--i-completed: {{{insert}}}"]],
+						"default": "https://i.imgur.com/z4rKke2.jpg"
+					},
+					"i-completed-pos": {
+						"name": "Completed Image Position",
+						"type": "text/value/background-position",
+						"replacements": [["--i-completed-pos: 50% 10%", "--i-completed-pos: {{{insert}}}"]],
+						"default": "50% 10%"
+					},
+					"i-completed-size": {
+						"name": "Completed Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["--i-completed-size: 800px", "--i-completed-size: {{{insert}}}"]],
+						"default": "800px"
+					},
+					"i-onhold": {
+						"name": "On Hold Image",
+						"type": "text/image_url",
+						"replacements": [["--i-onhold: url(https://i.imgur.com/lXrnxun.jpg)", "--i-onhold: {{{insert}}}"]],
+						"default": "https://i.imgur.com/lXrnxun.jpg"
+					},
+					"i-onhold-pos": {
+						"name": "On Hold Image Position",
+						"type": "text/value/background-position",
+						"replacements": [["--i-onhold-pos: calc(50% - 250px) 15%", "--i-onhold-pos: {{{insert}}}"]],
+						"default": "calc(50% - 250px) 15%"
+					},
+					"i-onhold-size": {
+						"name": "On Hold Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["--i-onhold-size: 800px", "--i-onhold-size: {{{insert}}}"]],
+						"default": "800px"
+					},
+					"i-dropped": {
+						"name": "Dropped Image",
+						"type": "text/image_url",
+						"replacements": [["--i-dropped: url(https://i.imgur.com/LoGNTOy.png)", "--i-dropped: {{{insert}}}"]],
+						"default": "https://i.imgur.com/LoGNTOy.png"
+					},
+					"i-dropped-pos": {
+						"name": "Dropped Image Position",
+						"type": "text/value/background-position",
+						"replacements": [["--i-dropped-pos: calc(50% + 300px) 50%", "--i-dropped-pos: {{{insert}}}"]],
+						"default": "calc(50% + 300px) 50%"
+					},
+					"i-dropped-size": {
+						"name": "Dropped Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["--i-dropped-size: 500px", "--i-dropped-size: {{{insert}}}"]],
+						"default": "500px"
+					},
+					"i-planned": {
+						"name": "Planned Image",
+						"type": "text/image_url",
+						"replacements": [["--i-planned: url(https://i.imgur.com/mkjtxgo.png)", "--i-planned: {{{insert}}}"]],
+						"default": "https://i.imgur.com/mkjtxgo.png"
+					},
+					"i-planned-pos": {
+						"name": "Planned Image Position",
+						"type": "text/value/background-position",
+						"replacements": [["--i-planned-pos: 50% 100%", "--i-planned-pos: {{{insert}}}"]],
+						"default": "50% 100%"
+					},
+					"i-planned-size": {
+						"name": "Planned Image Size",
+						"type": "text/value/background-size",
+						"replacements": [["--i-planned-size: 280px", "--i-planned-size: {{{insert}}}"]],
+						"default": "280px"
+					},
+					"i-row-decor": {
+						"name": "Row Hover Image",
+						"type": "text/image_url",
+						"replacements": [["--i-row-decor: url(https://i.imgur.com/0XR5pdp.png)", "--i-row-decor: {{{insert}}}"]],
+						"default": "https://i.imgur.com/0XR5pdp.png"
+					}
+				}
+			}
+		}
 	}
 }
