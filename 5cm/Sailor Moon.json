@@ -18,12 +18,14 @@
 		"preview": {
 			"columns": {
 				"animelist": {
+					"Numbers": true,
 					"Image": true,
 					"Score": true,
 					"Episodes": true,
 					"Rated": true
 				},
 				"mangalist": {
+					"Numbers": true,
 					"Image": true,
 					"Score": true,
 					"Chapters": true,
@@ -102,6 +104,98 @@
 						"type": "text/value/background-image",
 						"replacements": [["linear-gradient(to bottom, transparent 33%, #7fc1a5cc)", "{{{insert}}}"]],
 						"default": "linear-gradient(to bottom, transparent 33%, #7fc1a5cc)"
+					}
+				}
+			},
+			"restyle": {
+				"name": "Re-style Theme",
+				"description": "Use your own colours to personalise the theme even more.",
+				"css": {"bottom": "https://yuiafterdark.github.io/5cm/Sailor%20Moon/mods/Restyle.css"},
+				"options": {
+					"background": {
+						"name": "Background",
+						"type": "color",
+						"replacements": [["#dfd1e0","{{{insert}}}"]],
+						"default": "#dfd1e0"
+					},
+					"text-regular": {
+						"name": "Regular Text",
+						"type": "color",
+						"replacements": [["#ccc","{{{insert}}}"]],
+						"default": "#ccc"
+					},
+					"text-bright": {
+						"name": "Bright Text",
+						"type": "color",
+						"replacements": [["#fff","{{{insert}}}"]],
+						"default": "#fff"
+					},
+					"text-number": {
+						"name": "Number Text",
+						"type": "color",
+						"replacements": [["rgba(0,0,0,.3)","{{{insert}}}"]],
+						"default": "rgba(0,0,0,.3)"
+					},
+					"text-footer": {
+						"name": "Footer Text",
+						"type": "color",
+						"replacements": [["rgba(0,0,0,.6)","{{{insert}}}"]],
+						"default": "rgba(0,0,0,.6)"
+					},
+					"category-dropdown-texxt": {
+						"name": "Category Dropdown Text",
+						"type": "color",
+						"replacements": [["rgba(67,72,104,.7)","{{{insert}}}"]],
+						"default": "rgba(67,72,104,.7)"
+					},
+					"category-dropdown-background": {
+						"name": "Category Dropdown Background",
+						"type": "color",
+						"replacements": [["rgba(255,255,255,.2)","{{{insert}}}"]],
+						"default": "rgba(255,255,255,.2)"
+					},
+					"category-selected-text": {
+						"name": "Selected Category Text & Border",
+						"type": "color",
+						"replacements": [["#e8e8e8","{{{insert}}}"]],
+						"default": "#e8e8e8"
+					},
+					"category-selected-background": {
+						"name": "Selected Category Background",
+						"type": "color",
+						"replacements": [["rgba(92,99,145,.2)","{{{insert}}}"]],
+						"default": "rgba(92,99,145,.2)"
+					},
+					"list-row": {
+						"name": "List Row Background",
+						"type": "color",
+						"replacements": [["RegExp/2n\\+1[^}]+","2n+1) {\n\tbackground: {{{insert}}};\n"]],
+						"default": "rgba(0,0,0,.2)"
+					},
+					"list-row-hover": {
+						"name": "List Row (Hover state)",
+						"description": "Applied [i]on top[/i] of the other background.",
+						"type": "color",
+						"replacements": [["rgba(0,0,0,.1)","{{{insert}}}"]],
+						"default": "rgba(0,0,0,.1)"
+					},
+					"content-status": {
+						"name": "Airing Status Background",
+						"type": "color",
+						"replacements": [["RegExp/.content-status[^}]+",".content-status {\n\tbackground: {{{insert}}};\n"]],
+						"default": "rgba(0,0,0,.2)"
+					},
+					"image-shadow": {
+						"name": "Image Shadow",
+						"type": "color",
+						"replacements": [["rgba(0,0,0,.4)","{{{insert}}}"]],
+						"default": "rgba(0,0,0,.4)"
+					},
+					"streaming-popup": {
+						"name": "Streaming Popup Background",
+						"type": "color",
+						"replacements": [["#8783b366","{{{insert}}}"]],
+						"default": "#8783b366"
 					}
 				}
 			}
