@@ -49,7 +49,7 @@
 				"name": "Side Image Size",
 				"description": "Does your image not fit? Change the sizing here. Recommended sizes: \"contain\", \"cover\", or any pixel (px) sizes below 300x480 ex. \"300px 480px\" or \"300px auto\".",
 				"type": "text/value/background-size",
-			"replacements": [["RegExp/.header:before[^}]*url\\(([^)]*)\\)[^}]*}",".header::before {\n  content: '';\n  background: url($1) center top / {{{insert}}} no-repeat;\n  width: 300px; height: 480px;\n  display: block;\n}"]]
+				"replacements": [["RegExp/.header:before[^}]*?(url\\([^)]*\\)|~.*?~|none)[^}]*?}",".header::before {\n  content: '';\n  background: $1 center top / {{{insert}}} no-repeat;\n  width: 300px; height: 480px;\n  display: block;\n}"]]
 			}
 		},
 		"mods": {
@@ -69,6 +69,39 @@
 							["all/anime/presets", "anime/{{{insert}}}/presets"],
 							["all/manga/presets", "manga/{{{insert}}}/presets"]
 						]
+					}
+				}
+			},
+			"restore-more-info": {
+				"name": "Restore More Info",
+				"description": "Re-enables the more info button and table section.\n[i]Mod by lifeiscrazy.[/i]",
+				"css": {"bottom": "https://yuiafterdark.github.io/5cm/Sailor%20Moon/mods/Restore%20More%20Info.css"}
+			},
+			"blend-background": {
+				"name": "Blend Background Image",
+				"description": "Blends the background image with the background colour. Use in tandem with a custom background colour or the faded background for extra effect.",
+				"css": {"bottom": "https://yuiafterdark.github.io/5cm/Sailor%20Moon/mods/Blend%20Background.css"},
+				"options": {
+					"mode": {
+						"name": "Blend Mode",
+						"description": "Choose which blend mode to use. Default is \"hard-light\" which should serve 95% of purposes just fine.",
+						"type": "text/value/background-blend-mode",
+						"replacements": [["hard-light", "{{{insert}}}"]],
+						"default": "hard-light"
+					}
+				}
+			},
+			"fade-background": {
+				"name": "Fade Background Image",
+				"description": "Adds a faded gradient of your desired colour over top of the background image.",
+				"css": {"bottom": "https://yuiafterdark.github.io/5cm/Sailor%20Moon/mods/Fade%20Background.css"},
+				"options": {
+					"gradient": {
+						"name": "Gradient",
+						"description": "Customise the gradient fade. For help with gradients, try [url=https://cssgradient.io/]CSS Gradient.io[/url].",
+						"type": "text/value/background-image",
+						"replacements": [["linear-gradient(to bottom, transparent 33%, #7fc1a5cc)", "{{{insert}}}"]],
+						"default": "linear-gradient(to bottom, transparent 33%, #7fc1a5cc)"
 					}
 				}
 			}
