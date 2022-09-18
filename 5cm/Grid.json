@@ -37,6 +37,33 @@
 			},
 			"cover": false
 		},
+		"options": {
+			"theme": {
+				"name": "Theme",
+				"description": "Choose from some pre-selected sets of images, colours, and visual tweaks! You can still set your own options afterwards, but some themes may work better or worse with other modifications.",
+				"type": "select",
+				"selections": {
+					"original": {
+						"label": "Kakuriyo no Yadomeshi by 5cm",
+						"replacements": ["",""]
+					},
+					"aot": {
+						"label": "Attack on Titan by Shishio-kun",
+						"replacements": [
+							[
+								"RegExp/(\\/\\* Theme[^/]*?\\/)[\\s\\S]*$",
+								"$1\n\n"
+							],
+							[
+								"RegExp/$",
+								"https://yuiafterdark.github.io/5cm/Grid/themes/Attack%20on%20Titan.css"
+							]
+						]
+					}
+				},
+				"default": "original"
+			}
+		},
 		"mods": {
 			"hd-images": {
 				"name": "High-resolution Images",
