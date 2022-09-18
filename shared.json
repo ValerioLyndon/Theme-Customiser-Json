@@ -16,7 +16,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Grid.jpg",
 			"type": "modern",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Grid.json",
-			"tags": ["table layout", "lightweight"],
+			"tags": ["grid layout", "themed", "Kakuriyo no Yadomeshi", "Attack on Titan"],
 			"date": "2022-09-13"
 		},
 		{
@@ -44,7 +44,7 @@
 			"type": "modern",
 			"supports": ["animelist"],
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Takana%20no%20Hana/GochiUsa%20Refresh.json",
-			"tags": ["themed", "table layout"],
+			"tags": ["themed", "table layout", "Gochuumon wa Usagi Desu ka?", "Is the Order a Rabbit?"],
 			"date": "2019-09-08"
 		},
 		{
@@ -62,7 +62,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Barakamon.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Barakamon.json",
-			"tags": ["minimalist", "themed", "lightweight", "table layout"],
+			"tags": ["minimalist", "themed", "lightweight", "table layout", "Barakamon"],
 			"date": "2017-04-20"
 		},
 		{
@@ -71,7 +71,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Berserk.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Berserk.json",
-			"tags": ["minimalist", "themed", "lightweight", "table layout"],
+			"tags": ["minimalist", "themed", "lightweight", "table layout", "Berserk"],
 			"date": "2019-08-02"
 		},
 		{
@@ -80,7 +80,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Code%20Geass.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Code%20Geass.json",
-			"tags": ["minimalist", "themed", "lightweight", "table layout"],
+			"tags": ["minimalist", "themed", "lightweight", "table layout", "Code Geass"],
 			"date": "2019-01-16"
 		},
 		{
@@ -89,7 +89,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Symphogear%20XV.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Symphogear%20XV.json",
-			"tags": ["themed", "lightweight", "table layout"],
+			"tags": ["themed", "lightweight", "table layout", "Senki Zesshou Symphogear XV"],
 			"date": "2019-10-17"
 		},
 		{
@@ -98,7 +98,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Sailor%20Moon.jpg",
 			"type": "modern",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Sailor%20Moon.json",
-			"tags": ["highly customisable", "minimalist", "themed", "lightweight", "table layout"],
+			"tags": ["highly customisable", "minimalist", "themed", "lightweight", "table layout", "Bishoujo Senshi Sailor Moon"],
 			"date": "2019-02-23"
 		},
 		{
@@ -170,7 +170,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/eren.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/eren.json",
-			"tags": ["lightweight", "themed", "table layout"]
+			"tags": ["lightweight", "themed", "table layout", "Attack on Titan"]
 		},
 		{
 			"name": "sugawara koushi",
@@ -178,7 +178,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/sugawara%20koushi.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/sugawara%20koushi.json",
-			"tags": ["lightweight", "themed", "table layout"],
+			"tags": ["lightweight", "themed", "table layout", "Haikyuu!!"],
 			"date": "2015-05-30"
 		},
 		{
@@ -205,7 +205,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Magi.jpg",
 			"type": "modern",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Magi.json",
-			"tags": ["themed", "card layout"],
+			"tags": ["themed", "card layout", "Magi"],
 			"date": "2016-04-06"
 		},
 		{
@@ -214,7 +214,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/killingdyl/NieRAutomata.jpg",
 			"type": "modern",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/killingdyl/NieRAutomata.json",
-			"tags": ["themed", "table layout"],
+			"tags": ["themed", "table layout", "NieR Automata"],
 			"date": "2017-04-22"
 		}
 	]
