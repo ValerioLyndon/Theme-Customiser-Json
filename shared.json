@@ -11,6 +11,15 @@
 			"date": "2020-07-28"
 		},
 		{
+			"name": "Grid Refresh",
+			"author": "5cm",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Grid.jpg",
+			"type": "modern",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Grid.json",
+			"tags": ["table layout", "lightweight"],
+			"date": "2022-09-13"
+		},
+		{
 			"name": "Shelter Style Refresh Line",
 			"author": "Takana no Hana",
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Takana%20no%20Hana/Shelter%20Style%20Refresh%20Line.jpg",

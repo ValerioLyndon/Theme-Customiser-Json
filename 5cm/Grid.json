@@ -1,0 +1,59 @@
+{
+	"json_version": 0.2,
+	"data": {
+		"name": "Grid Refresh",
+		"author": "5cm",
+		"type": "modern",
+		"css": "https://yuiafterdark.github.io/5cm/Grid/Grid.css",
+		"help": "https://myanimelist.net/forum/?topicid=1640096#msg56466319",
+		"columns": {
+			"animelist": {
+				"Image": true,
+				"Episodes": true,
+				"Score": true,
+				"Type": true
+			},
+			"mangalist": {
+				"Image": true,
+				"Chapters": true,
+				"Score": true,
+				"Type": true
+			}
+		},
+		"preview": {
+			"columns": {
+				"animelist": {
+					"Image": true,
+					"Episodes": true,
+					"Score": true,
+					"Type": true
+				},
+				"mangalist": {
+					"Image": true,
+					"Chapters": true,
+					"Score": true,
+					"Type": true
+				}
+			},
+			"cover": false
+		},
+		"mods": {
+			"hd-images": {
+				"name": "High-resolution Images",
+				"description": "If you want higher resolution images, this will enable them. [b]Will increase page load times[/b].",
+				"css": {"import": "@\\import \"https://malscraper.azurewebsites.net/covers/all/anime/presets/dataimagelink\";\n@\\import \"https://malscraper.azurewebsites.net/covers/all/manga/presets/dataimagelink\";"},
+				"options": {
+					"username": {
+						"name": "Your MyAnimeList Username",
+						"description": "Must be entered exactly as it appears on MyAnimeList. This is not required, but will reduce the impact on page load times.",
+						"type": "text",
+						"replacements": [
+							["all/anime/presets", "anime/{{{insert}}}/presets"],
+							["all/manga/presets", "manga/{{{insert}}}/presets"]
+						]
+					}
+				}
+			}
+		}
+	}
+}
