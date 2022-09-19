@@ -1,5 +1,5 @@
 {
-	"json_version": 0.2,
+	"json_version": 0.3,
 	"themes": [
 		{
 			"name": "Minimal Dashboard",
@@ -7,7 +7,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Dashboard.jpg",
 			"type": "modern",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Dashboard.json",
-			"tags": ["table layout", "lightweight"],
+			"tags": {"layout": ["table"], "other": ["lightweight"]},
 			"date": "2020-07-28"
 		},
 		{
@@ -16,7 +16,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Grid.jpg",
 			"type": "modern",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Grid.json",
-			"tags": ["grid layout", "themed", "Kakuriyo no Yadomeshi", "Attack on Titan"],
+			"tags": {"layout": ["cover"], "source": ["Kakuriyo no Yadomeshi", "Attack on Titan", "Shingeki no Kyojin"], "other": ["based on anime"]},
 			"date": "2022-09-13"
 		},
 		{
@@ -25,7 +25,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Takana%20no%20Hana/Shelter%20Style%20Refresh%20Line.jpg",
 			"type": "modern",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Takana%20no%20Hana/Shelter%20Style%20Refresh%20Line.json",
-			"tags": ["highly customisable", "table layout", "beginner-friendly"],
+			"tags": {"layout": ["table"], "source": ["Kimi no Na Wa", "Your Name"], "other": ["highly customisable", "beginner-friendly", "based on anime"]},
 			"date": "2022-07-07"
 		},
 		{
@@ -34,7 +34,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Takana%20no%20Hana/Shelter%20Style%20Refresh%20Grid.jpg",
 			"type": "modern",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Takana%20no%20Hana/Shelter%20Style%20Refresh%20Grid.json",
-			"tags": ["highly customisable", "cover layout", "beginner-friendly", "heavyweight"],
+			"tags": {"layout": ["cover"], "other": ["highly customisable", "beginner-friendly", "heavyweight"]},
 			"date": "2022-07-21"
 		},
 		{
@@ -44,7 +44,7 @@
 			"type": "modern",
 			"supports": ["animelist"],
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Takana%20no%20Hana/GochiUsa%20Refresh.json",
-			"tags": ["themed", "table layout", "Gochuumon wa Usagi Desu ka?", "Is the Order a Rabbit?"],
+			"tags": {"layout": ["table"], "source": ["Gochuumon wa Usagi Desu ka?", "Is the Order a Rabbit?"], "other": ["based on anime"]},
 			"date": "2019-09-08"
 		},
 		{
@@ -53,7 +53,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/ephemeral.jpg",
 			"type": "modern",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/ephemeral.json",
-			"tags": ["minimalist", "table layout", "beginner-friendly"],
+			"tags": {"layout": ["table"], "source": [], "other": ["minimalist", "beginner-friendly"]},
 			"date": "2019-02-04"
 		},
 		{
@@ -62,7 +62,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Barakamon.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Barakamon.json",
-			"tags": ["minimalist", "themed", "lightweight", "table layout", "Barakamon"],
+			"tags": {"layout": ["table"], "source": ["Barakamon"], "other": ["minimalist", "based on anime", "lightweight"]},
 			"date": "2017-04-20"
 		},
 		{
@@ -71,7 +71,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Berserk.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Berserk.json",
-			"tags": ["minimalist", "themed", "lightweight", "table layout", "Berserk"],
+			"tags": {"layout": ["table"], "source": ["Berserk"], "other": ["minimalist", "based on anime", "lightweight"]},
 			"date": "2019-08-02"
 		},
 		{
@@ -80,7 +80,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Code%20Geass.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Code%20Geass.json",
-			"tags": ["minimalist", "themed", "lightweight", "table layout", "Code Geass"],
+			"tags": {"layout": ["table"], "source": ["Code Geass"], "other": ["minimalist", "based on anime", "lightweight"]},
 			"date": "2019-01-16"
 		},
 		{
@@ -89,7 +89,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Symphogear%20XV.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Symphogear%20XV.json",
-			"tags": ["themed", "lightweight", "table layout", "Senki Zesshou Symphogear XV"],
+			"tags": {"layout": ["table"], "source": ["Senki Zesshou Symphogear XV"], "other": ["based on anime", "lightweight"]},
 			"date": "2019-10-17"
 		},
 		{
@@ -98,7 +98,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Sailor%20Moon.jpg",
 			"type": "modern",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Sailor%20Moon.json",
-			"tags": ["highly customisable", "minimalist", "themed", "lightweight", "table layout", "Bishoujo Senshi Sailor Moon"],
+			"tags": {"layout": ["table"], "source": ["Bishoujo Senshi Sailor Moon"], "other": ["highly customisable", "minimalist", "based on anime", "lightweight"]},
 			"date": "2019-02-23"
 		},
 		{
@@ -107,7 +107,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Ruri/Anilist-style.jpg",
 			"type": "modern",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Ruri/Anilist-style.json",
-			"tags": ["cover layout"],
+			"tags": {"layout": ["cover"]},
 			"date": "2017-02-22"
 		},
 		{
@@ -116,7 +116,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/minimalist%20sidebar.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/minimalist%20sidebar.json",
-			"tags": ["minimalist", "lightweight", "table layout"],
+			"tags": {"layout": ["table"], "other": ["minimalist", "lightweight"]},
 			"date": "2014-05-07"
 		},
 		{
@@ -125,7 +125,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/purple%20and%20cyan.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/purple%20and%20cyan.json",
-			"tags": ["minimalist", "lightweight", "table layout"],
+			"tags": {"layout": ["table"], "other": ["minimalist", "lightweight"]},
 			"date": "2015-05-30"
 		},
 		{
@@ -134,7 +134,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/shades%20of%20cool.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/shades%20of%20cool.json",
-			"tags": ["minimalist", "lightweight", "table layout"],
+			"tags": {"layout": ["table"], "other": ["minimalist", "lightweight"]},
 			"date": "2014-08-29"
 		},
 		{
@@ -143,7 +143,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/endless%20river.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/endless%20river.json",
-			"tags": ["minimalist", "lightweight", "table layout"],
+			"tags": {"layout": ["table"], "other": ["minimalist", "lightweight"]},
 			"date": "2017-01-10"
 		},
 		{
@@ -152,7 +152,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/window%20style.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/window%20style.json",
-			"tags": ["minimalist", "lightweight", "table layout"],
+			"tags": {"layout": ["table"], "other": ["minimalist", "lightweight"]},
 			"date": "2015-04-08"
 		},
 		{
@@ -161,7 +161,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/monokuro.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/monokuro.json",
-			"tags": ["minimalist", "lightweight", "table layout"],
+			"tags": {"layout": ["table"], "other": ["minimalist", "lightweight"]},
 			"date": "2016-01-11"
 		},
 		{
@@ -170,7 +170,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/eren.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/eren.json",
-			"tags": ["lightweight", "themed", "table layout", "Attack on Titan"]
+			"tags": {"layout": ["table"], "source": ["Attack on Titan"], "other": ["lightweight", "based on anime"]}
 		},
 		{
 			"name": "sugawara koushi",
@@ -178,7 +178,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/sugawara%20koushi.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/sugawara%20koushi.json",
-			"tags": ["lightweight", "themed", "table layout", "Haikyuu!!"],
+			"tags": {"layout": ["table"], "source": ["Haikyuu!!"], "other": ["lightweight", "based on anime"]},
 			"date": "2015-05-30"
 		},
 		{
@@ -187,7 +187,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/light%20var-1.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/light%20var-1.json",
-			"tags": ["minimalist", "lightweight", "table layout"],
+			"tags": {"layout": ["table"], "other": ["minimalist", "lightweight"]},
 			"date": "2015-08-31"
 		},
 		{
@@ -196,7 +196,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/light%20var-2.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/light%20var-2.json",
-			"tags": ["minimalist", "lightweight", "table layout"],
+			"tags": {"layout": ["table"], "other": ["minimalist", "lightweight"]},
 			"date": "2015-08-31"
 		},
 		{
@@ -205,7 +205,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Magi.jpg",
 			"type": "modern",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Magi.json",
-			"tags": ["themed", "card layout", "Magi"],
+			"tags": {"layout": ["card"], "source": ["Magi"], "other": ["based on anime"]},
 			"date": "2016-04-06"
 		},
 		{
@@ -214,7 +214,7 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/killingdyl/NieRAutomata.jpg",
 			"type": "modern",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/killingdyl/NieRAutomata.json",
-			"tags": ["themed", "table layout", "NieR Automata"],
+			"tags": {"layout": ["table"], "source": ["NieR Automata"], "other": ["based on game"]},
 			"date": "2017-04-22"
 		}
 	]
