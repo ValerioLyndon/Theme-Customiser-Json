@@ -209,6 +209,15 @@
 			"date": "2016-04-06"
 		},
 		{
+			"name": "Haikyuu!",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Haikyuu.jpg",
+			"type": "modern",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Haikyuu.json",
+			"tags": {"layout": ["table"], "source": ["Haikyuu!"], "other": ["based on anime"]},
+			"date": "2017-03-31"
+		},
+		{
 			"name": "NieR Automata Menu",
 			"author": "killingdyl",
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/killingdyl/NieRAutomata.jpg",
