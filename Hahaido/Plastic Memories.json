@@ -1,0 +1,33 @@
+{
+	"json_version": 0.3,
+	"data": {
+		"name": "Plastic Memories",
+		"author": "Hahaido",
+		"type": "classic",
+		"help": "https://myanimelist.net/forum/?topicid=1465951",
+		"css": "https://yuiafterdark.github.io/Hahaido/Plastic%20Memories/Plastic%20Memories.css",
+		"columns": {
+			"animelist": {
+				"Numbers": true,
+				"Score": true,
+				"Episodes": true
+			},
+			"mangalist": {
+				"Numbers": true,
+				"Score": true,
+				"Chapters": true
+			}
+		},
+		"options": {
+			"username": {
+				"name": "Your MAL Username",
+				"description": "Must be entered exactly as it appears on MyAnimeList. This is not required, but will speed up page load times by optimising the cover generator for your list.",
+				"type": "text",
+				"replacements": [
+					["all/anime/presets", "anime/{{{insert}}}/presets"],
+					["all/manga/presets", "manga/{{{insert}}}/presets"]
+				]
+			}
+		}
+	}
+}

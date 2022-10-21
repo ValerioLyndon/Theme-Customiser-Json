@@ -218,6 +218,15 @@
 			"date": "2017-03-31"
 		},
 		{
+			"name": "Plastic Memories",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Plastic%20Memories.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Plastic%20Memories.json",
+			"tags": {"layout": ["card"], "source": ["Plastic Memories"], "other": ["based on anime"]},
+			"date": "2015-12-26"
+		},
+		{
 			"name": "NieR Automata Menu",
 			"author": "killingdyl",
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/killingdyl/NieRAutomata.jpg",
