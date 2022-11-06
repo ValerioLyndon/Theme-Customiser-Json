@@ -8,9 +8,11 @@
 		"columns": {
 			"mode": "greylist",
 			"animelist": {
+				"Image": true,
 				"notes": false
 			},
 			"mangalist": {
+				"Image": true,
 				"notes": false
 			}
 		},
@@ -138,6 +140,139 @@
 			}
 		},
 		"mods": {
+			"dark": {
+				"name": "Dark Mode / Custom Colours",
+				"description": "Turn the colours darker. Also has options for you to make your own colour choices. Does not change the default images nor your own choices.",
+				"css": {"bottom": "https://yuiafterdark.github.io/Takana-no-Hana/Shelter%20Style%20Refresh/mods/Dark%20Line.css"},
+				"options": {
+					"--menu-background-color": {
+						"name": "Menu Background",
+						"description": "The category bar background.",
+						"type": "color",
+						"replacements": [["--menu-background-color: rgba(0,0,0,.88);", "--menu-background-color: {{{insert}}};"]],
+						"default": "rgba(0,0,0,.88)"
+					},
+					"--list-background-color-1": {
+						"name": "List Background",
+						"type": "color",
+						"replacements": [["--list-background-color-1: rgba(0,0,0,.6);", "--list-background-color-1: {{{insert}}};"]],
+						"default": "rgba(0rgba(0,0,0,.6)"
+					},
+					"--list-background-color-2": {
+						"name": "List Background - Highlights",
+						"description": "Used for row highlights",
+						"type": "color",
+						"replacements": [["--list-background-color-2: rgba(0,0,0,.67);", "--list-background-color-2: {{{insert}}};"]],
+						"default": "rgba(0,0,0,.67)"
+					},
+					"--nav-dropdown-background-color": {
+						"name": "Nav Dropdown Background",
+						"type": "color",
+						"replacements": [["--nav-dropdown-background-color: rgba(0,0,0,.88);", "--nav-dropdown-background-color: {{{insert}}};"]],
+						"default": "rgba(0,0,0,.88)"
+					},
+					"--filter-button-background-color": {
+						"name": "Filter Menu Button Background",
+						"type": "color",
+						"replacements": [["--filter-button-background-color: rgba(0,0,0,0.8);", "--filter-button-background-color: {{{insert}}};"]],
+						"default": "rgba(0,0,0,0.8)"
+					},
+					"--input-background-color": {
+						"name": "Input Background",
+						"description": "Various text or other user inputs.",
+						"type": "color",
+						"replacements": [["--input-background-color: rgba(0,0,0,.75);", "--input-background-color: {{{insert}}};"]],
+						"default": "rgba(0,0,0,.75)"
+					},
+					"--hover-background-color": {
+						"name": "Hover Background",
+						"description": "An additional overlay colour used while hovering certain header items with your mouse.",
+						"type": "color",
+						"replacements": [["--hover-background-color: rgba(0,0,0,.75);", "--hover-background-color: {{{insert}}};"]],
+						"default": "rgba(0,0,0,.75)"
+					},
+					"--text-color-primary": {
+						"name": "Primary Text",
+						"type": "color",
+						"replacements": [["--text-color-primary: #eee;", "--text-color-primary: {{{insert}}};"]],
+						"default": "#eee"
+					},
+					"--text-color-header": {
+						"name": "Header Text",
+						"type": "color",
+						"replacements": [["--text-color-header: #eee;", "--text-color-header: {{{insert}}};"]],
+						"default": "#eee"
+					},
+					"--text-color-alt": {
+						"name": "Alternate Text",
+						"type": "color",
+						"replacements": [["--text-color-alt: #aaa;", "--text-color-alt: {{{insert}}};"]],
+						"default": "#aaa"
+					},
+					"--text-color-soft": {
+						"name": "Soft Text",
+						"type": "color",
+						"replacements": [["--text-color-soft: #9b9b9b;", "--text-color-soft: {{{insert}}};"]],
+						"default": "#9b9b9b"
+					},
+					"--text-color-stark": {
+						"name": "Stark Text",
+						"type": "color",
+						"replacements": [["--text-color-stark: #fff;", "--text-color-stark: {{{insert}}};"]],
+						"default": "#fff"
+					},
+					"--text-color-filter-menu": {
+						"name": "Filter Menu Text",
+						"type": "color",
+						"replacements": [["--text-color-filter-menu: rgba(255,255,255,0.8);", "--text-color-filter-menu: {{{insert}}};"]],
+						"default": "rgba(255,255,255,0.8)"
+					},
+					"--border": {
+						"name": "Border",
+						"type": "color",
+						"replacements": [["--border: #121212;", "--border: {{{insert}}};"]],
+						"default": "#121212"
+					},
+					"--border-soft": {
+						"name": "Soft Border",
+						"type": "color",
+						"replacements": [["--border-soft: rgba(0,0,0,0.5);", "--border-soft: {{{insert}}};"]],
+						"default": "rgba(0,0,0,0.5)"
+					},
+					"--scroll-background": {
+						"name": "Scroll Bar Background",
+						"type": "color",
+						"replacements": [["--scroll-background: #000;", "--scroll-background: {{{insert}}};"]],
+						"default": "#000"
+					},
+					"--scroll-bar": {
+						"name": "Scroll Bar Thumb",
+						"type": "color",
+						"replacements": [["--scroll-bar: #9b9b9b;", "--scroll-bar: {{{insert}}};"]],
+						"default": "#9b9b9b"
+					},
+					"--footer-text-color": {
+						"name": "Footer Text",
+						"type": "color",
+						"replacements": [["--footer-text-color: #9caed9;", "--footer-text-color: {{{insert}}};"]],
+						"default": "#9caed9"
+					},
+					"--darkening-color": {
+						"name": "Darkening Color",
+						"description": "Primarily used for the footer.",
+						"type": "color",
+						"replacements": [["--darkening-color: rgba(0,0,0,0.6);", "--darkening-color: {{{insert}}};"]],
+						"default": "rgba(0,0,0,0.6)"
+					},
+					"--shadow-status": {
+						"name": "Content Status Shadow",
+						"description": "Used for the Rewatching/Airing status.\nShadows are styled as such:\n<x distance> <y distance> <blur> <spread (optional)> <colour>",
+						"type": "textarea/value/box-shadow",
+						"replacements": [["RegExp/--shadow-status:[^;]+;", "--shadow-status: {{{insert}}};"]],
+						"default": "0px 0px 2px #1a1aff,\n0px 0px 1px #1a1aff,\n1px 1px 7px #1a1aff"
+					}
+				}
+			},
 			"all-anime": {
 				"name": "Per-Category Styling (All Anime)",
 				"description": "Style your page differently while viewing the All Anime page.",
