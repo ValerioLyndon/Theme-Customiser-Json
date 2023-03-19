@@ -4,8 +4,6 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
-<a href="../">...</a>
-
 <table>
 	<thead>
 		<tr>
@@ -14,6 +12,12 @@ layout: default
 			<th>Modified</th>
 		</tr>
 	</thead>
+
+	<tbody>
+		<tr>
+			<td colspan="3"><a href="../">...</a></td>
+		</tr>
+	</tbody>
 	
 	<tbody>
 	{% for dir in site.static_files %}
