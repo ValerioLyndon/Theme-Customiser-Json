@@ -25,7 +25,9 @@ layout: default
 			{% assign parts = dir.path | remove_first: dirname | split: "/" %}
 			{% if parts.size == 2 %}
 			<tr>
-				<td colspan="3"><a href="{{ dir.path }}">{{ parts[0] }}/</a></td>
+				<td><a href="{{ dir.path }}">{{ parts[0] }}/</a></td>
+				<td>&lt;dir&gt;</td>
+				<td></td>
 			</tr>
 			{% endif %}
 		{% endif %}
