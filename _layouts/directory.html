@@ -13,13 +13,17 @@ layout: default
 		<th>Modified</th>
 	</thead>
 	
-	{% for file in site.static_files %}
-		{% if file.path contains page.dir and file.basename != "index" %}
+	{% assign dirname = page.dir %}
+{% for file in site.static_files %}
+  {% if file.path contains dirname and file.path != dirname %}
+    {% assign parts = file.path | remove_first: dirname | split: "/" %}
+    {% if parts.size == 1 %}
 			<tbody>
 				<tr><a href="{{ file.path }}">{{ file.basename }}</a></tr>
 				<tr>{{ file.extname }}</tr>
 				<tr>{{ file.modified_time }}</tr>
 			</tbody>
-		{% endif %}
-	{% endfor %}
+		 {% endif %}
+  {% endif %}
+{% endfor %}
 </table>
