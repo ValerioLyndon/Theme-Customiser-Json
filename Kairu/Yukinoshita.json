@@ -1,0 +1,25 @@
+{
+	"json_version": 0.3,
+	"data": {
+		"name": "Yukinoshita",
+		"author": "_Kairu_",
+		"type": "classic",
+		"supports": ["animelist"],
+		"css": "https://yuiafterdark.github.io/_Kairu_/Oregairu%20-%20Yukinoshita/v3.css",
+		"help": "https://myanimelist.net/forum/?topicid=393503&show=250#msg45123770",
+		"options": {
+			"username": {
+				"name": "Your MyAnimeList Username",
+				"description": "Must be entered exactly as it appears on MyAnimeList. This is not required, but will reduce the impact on page load times.",
+				"type": "text",
+				"replacements": [["all/anime/presets", "anime/{{{insert}}}/presets"]]
+			},
+			"background": {
+				"name": "Background Image",
+				"type": "text/image_url",
+				"replacements": [["url(http://i.imgur.com/o61aLKw.png)","{{{insert}}}"]],
+				"default": "http://i.imgur.com/o61aLKw.png"
+			}
+		}
+	}
+}
