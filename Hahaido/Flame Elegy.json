@@ -1,0 +1,67 @@
+{
+	"json_version": 0.3,
+	"data": {
+		"name": "Flame Elegy",
+		"author": "Hahaido",
+		"type": "modern",
+		"help": "https://myanimelist.net/forum/?topicid=2037331",
+		"css": "https://yuiafterdark.github.io/Hahaido/Flame%20Elegy/Flame%20Elegy.css",
+		"cover": true,
+		"columns": {
+			"mode": "greylist",
+			"animelist": {
+				"Notes": false
+			},
+			"mangalist": {
+				"Notes": false
+			}
+		},
+		"preview": {
+			"columns": {
+				"mode": "blacklist",
+				"animelist": {
+					"Image": true,
+					"Notes": false
+				},
+				"mangalist": {
+					"Image": true,
+					"Notes": false
+				}
+			}
+		},
+		"options": {
+			"banner-preset": {
+				"name": "Preset Banner Images",
+				"type": "select",
+				"selections": {
+					"1": {
+						"label": "Takemichi Hanagaki",
+						"replacements": []
+					},
+					"2": {
+						"label": "Manjirou Sano",
+						"replacements": [["RegExp/(.cover-block .image-container {[^}]+background-image:)[^;]+", "$1url(https://cdn.myanimelist.net/resources/list_design/TokyoRevengers_credit_01/2_1_Hahaido.png)"]]
+					},
+					"3": {
+						"label": "Ken Ryuuguuji",
+						"replacements": [["RegExp/(.cover-block .image-container {[^}]+background-image:)[^;]+", "$1url(https://cdn.myanimelist.net/resources/list_design/TokyoRevengers_credit_01/4_1_Hahaido.png)"]]
+					},
+					"4": {
+						"label": "Keisuke Baji",
+						"replacements": [["RegExp/(.cover-block .image-container {[^}]+background-image:)[^;]+", "$1url(https://cdn.myanimelist.net/resources/list_design/TokyoRevengers_credit_01/5_1_Hahaido.png)"]]
+					},
+					"5": {
+						"label": "Takemichi Hanagaki Adult",
+						"replacements": [["RegExp/(.cover-block .image-container {[^}]+background-image:)[^;]+", "$1url(https://cdn.myanimelist.net/resources/list_design/TokyoRevengers_credit_01/3_1_Hahaido.png)"]]
+					}
+				},
+				"default": "1"
+			},
+			"banner-custom": {
+				"name": "Custom Banner Image",
+				"type": "text/image_url",
+				"replacements": [["RegExp/(.cover-block .image-container {[^}]+background-image:)[^;]+", "$1{{{insert}}}"]]
+			}
+		}
+	}
+}

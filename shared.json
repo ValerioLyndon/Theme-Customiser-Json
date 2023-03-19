@@ -209,6 +209,15 @@
 			"date": "2016-04-06"
 		},
 		{
+			"name": "Flame Elegy",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Flame%20Elegy.jpg",
+			"type": "modern",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Flame%20Elegy.json",
+			"tags": {"layout": ["card"], "source": ["Tokyo Revengers"], "other": ["based on anime"]},
+			"date": "2022-07-22"
+		},
+		{
 			"name": "Haikyuu!",
 			"author": "Hahaido",
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Haikyuu.jpg",
