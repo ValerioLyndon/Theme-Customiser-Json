@@ -7,23 +7,27 @@ layout: default
 <a href="../">...</a>
 
 <table>
-	<tr>
-		<th>Filename</th>
-		<th>Ext</th>
-		<th>Modified</th>
-	</tr>
+	<thead>
+		<tr>
+			<th>Filename</th>
+			<th>Ext</th>
+			<th>Modified</th>
+		</tr>
+	</thead>
 	
+	<tbody>
 	{% assign dirname = page.dir %}
-{% for file in site.static_files %}
-  {% if file.path contains dirname and file.path != dirname %}
-    {% assign parts = file.path | remove_first: dirname | split: "/" %}
-    {% if parts.size == 1 %}
-			<tr>
-				<td><a href="{{ file.path }}">{{ file.basename }}</a></td>
-				<td>{{ file.extname }}</td>
-				<td>{{ file.modified_time }}</td>
-			</r>
-		 {% endif %}
-  {% endif %}
-{% endfor %}
+		{% for file in site.static_files %}
+			{% if file.path contains dirname and file.path != dirname %}
+				{% assign parts = file.path | remove_first: dirname | split: "/" %}
+				{% if parts.size == 1 %}
+					<tr>
+						<td><a href="{{ file.path }}">{{ file.basename }}</a></td>
+						<td>{{ file.extname }}</td>
+						<td>{{ file.modified_time }}</td>
+					</tr>
+				{% endif %}
+		{% endif %}
+	{% endfor %}
+	</tbody>
 </table>
