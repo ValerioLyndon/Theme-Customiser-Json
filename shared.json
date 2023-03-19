@@ -243,6 +243,16 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/killingdyl/NieRAutomata.json",
 			"tags": {"layout": ["table"], "source": ["NieR Automata"], "other": ["based on game"]},
 			"date": "2017-04-22"
+		},
+		{
+			"name": "Yukinoshita",
+			"author": "_Kairu",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/_Kairu_/Yukinoshita.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/_Kairu_/Yukinoshita.json",
+			"supports": ["animelist"],
+			"tags": {"layout": ["table"], "source": ["Oregairu"], "other": ["based on anime", "minimalist", "animated"]},
+			"date": "2017-01-31"
 		}
 	]
 }
