@@ -4,10 +4,22 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
-<ul>
-{% for file in site.static_files %}
-  {% if file.path contains page.dir and file.basename != "index" %}
-    <li><a href="{{ file.path }}">{{ file.basename }}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
+<a href="../">...</a>
+
+<table>
+	<thead>
+		<th>Filename</th>
+		<th>Ext</th>
+		<th>Modified</th>
+	</thead>
+	
+	{% for file in site.static_files %}
+		{% if file.path contains page.dir and file.basename != "index" %}
+			<tbody>
+				<tr><a href="{{ file.path }}">{{ file.basename }}</a></tr>
+				<tr>{{ file.extname }}</tr>
+				<tr>{{ file.modified_time }}</tr>
+			</tbody>
+		{% endif %}
+	{% endfor %}
+</table>
