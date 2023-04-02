@@ -27,6 +27,23 @@
 					["all/anime/presets", "anime/{{{insert}}}/presets"],
 					["all/manga/presets", "manga/{{{insert}}}/presets"]
 				]
+			},
+			"background": {
+				"name": "Background Image",
+				"type": "text/image_url",
+				"default": "https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwKPt8OAXx49-DkuKZexmsJPa-3akmpQqOwFuK6S5cIwv",
+				"replacements": [
+					["RegExp/(body[^{]+{[^}]+)url\\([^)]+\\)", "$1{{{insert}}}"],
+					["RegExp/(body[^{]+{[^}]+background-position:)[^;]+;", "$1center;\nbackground-size: cover;"]
+				]
+			},
+			"character": {
+				"name": "Character Image",
+				"type": "text/image_url",
+				"default": "https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwM9I_ES_e3TJKcERdDUJNGw",
+				"replacements": [
+					["RegExp/(#inlineContent::?after[^{]+{[^}]+)url\\([^)]+\\)", "$1{{{insert}}} center bottom / contain"]
+				]
 			}
 		}
 	}
