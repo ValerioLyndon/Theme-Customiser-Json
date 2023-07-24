@@ -51,7 +51,7 @@
 				"name": "Side Image Size",
 				"description": "Does your image not fit? Change the sizing here. Recommended sizes: \"contain\", \"cover\", or any pixel (px) sizes below 300x480 ex. \"300px 480px\" or \"300px auto\".",
 				"type": "text/value/background-size",
-				"replacements": [["RegExp/.header:before[^}]*?(url\\([^)]*\\)|~.*?~|none)[^}]*?}",".header::before {\n  content: '';\n  background: $1 center top / {{{insert}}} no-repeat;\n  width: 300px; height: 480px;\n  display: block;\n}"]]
+				"replacements": [["RegExp/.header:before[^}]*?content:([^;]+)",".header::before {\n  content: '';\n  background:$1 center top / {{{insert}}} no-repeat;\n  width: 300px; height: 480px;\n"]]
 			}
 		},
 		"mods": {
