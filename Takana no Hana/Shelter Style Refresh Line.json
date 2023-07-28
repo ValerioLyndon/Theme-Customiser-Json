@@ -102,7 +102,10 @@
 			"banner-opacity": {
 				"name": "Banner Opacity",
 				"description": "Similar to the banner fade, however this control the opacity of the entire image. Can be used in tandem.",
-				"type": "text/value/opacity",
+				"type": "range",
+				"min": 0,
+				"max": 1,
+				"step": 0.01,
 				"replacements": [["--banner-opacity: 1", "--banner-opacity: {{{insert}}}"]],
 				"default": "1"
 			},
@@ -346,7 +349,10 @@
 					"banner-opacity": {
 						"name": "Banner Opacity",
 						"description": "Similar to the banner fade, however this control the opacity of the entire image. Can be used in tandem.",
-						"type": "text/value/opacity",
+						"type": "range",
+						"min": 0,
+						"max": 1,
+						"step": 0.01,
 						"replacements": [["}", "\t--banner-opacity: {{{insert}}};\n}"]]
 					},
 					"banner-height": {
@@ -454,7 +460,10 @@
 					"banner-opacity": {
 						"name": "Banner Opacity",
 						"description": "Similar to the banner fade, however this control the opacity of the entire image. Can be used in tandem.",
-						"type": "text/value/opacity",
+						"type": "range",
+						"min": 0,
+						"max": 1,
+						"step": 0.01,
 						"replacements": [["}", "\t--banner-opacity: {{{insert}}};\n}"]]
 					},
 					"banner-height": {
@@ -562,7 +571,10 @@
 					"banner-opacity": {
 						"name": "Banner Opacity",
 						"description": "Similar to the banner fade, however this control the opacity of the entire image. Can be used in tandem.",
-						"type": "text/value/opacity",
+						"type": "range",
+						"min": 0,
+						"max": 1,
+						"step": 0.01,
 						"replacements": [["}", "\t--banner-opacity: {{{insert}}};\n}"]]
 					},
 					"banner-height": {
@@ -670,7 +682,10 @@
 					"banner-opacity": {
 						"name": "Banner Opacity",
 						"description": "Similar to the banner fade, however this control the opacity of the entire image. Can be used in tandem.",
-						"type": "text/value/opacity",
+						"type": "range",
+						"min": 0,
+						"max": 1,
+						"step": 0.01,
 						"replacements": [["}", "\t--banner-opacity: {{{insert}}};\n}"]]
 					},
 					"banner-height": {
@@ -778,7 +793,10 @@
 					"banner-opacity": {
 						"name": "Banner Opacity",
 						"description": "Similar to the banner fade, however this control the opacity of the entire image. Can be used in tandem.",
-						"type": "text/value/opacity",
+						"type": "range",
+						"min": 0,
+						"max": 1,
+						"step": 0.01,
 						"replacements": [["}", "\t--banner-opacity: {{{insert}}};\n}"]]
 					},
 					"banner-height": {
@@ -886,7 +904,10 @@
 					"banner-opacity": {
 						"name": "Banner Opacity",
 						"description": "Similar to the banner fade, however this control the opacity of the entire image. Can be used in tandem.",
-						"type": "text/value/opacity",
+						"type": "range",
+						"min": 0,
+						"max": 1,
+						"step": 0.01,
 						"replacements": [["}", "\t--banner-opacity: {{{insert}}};\n}"]]
 					},
 					"banner-height": {
