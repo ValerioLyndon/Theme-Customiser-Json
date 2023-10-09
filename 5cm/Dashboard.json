@@ -6,6 +6,7 @@
 		"css": "https://yuiafterdark.github.io/5cm/Dashboard/Dashboard.css",
 		"type": "modern",
 		"help": "https://myanimelist.net/forum/?topicid=1862835",
+		"style": [1],
 		"preview": {
 			"cover": false,
 			"background": false
