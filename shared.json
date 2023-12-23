@@ -209,6 +209,15 @@
 			"date": "2016-04-06"
 		},
 		{
+			"name": "Re:Zero",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/ReZero.jpg",
+			"type": "modern",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/ReZero.json",
+			"tags": {"layout": ["table"], "source": ["Re:Zero"], "other": ["based on anime"]},
+			"date": "2016-04-06"
+		},
+		{
 			"name": "Flame Elegy",
 			"author": "Hahaido",
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Flame%20Elegy.jpg",
