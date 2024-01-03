@@ -24,7 +24,7 @@
 		"options": {
 			"username": {
 				"name": "Your MAL Username",
-				"description": "Must be entered exactly as it appears on MyAnimeList. This is not required, but will speed up page load times by optimising the cover generator for your list.",
+				"description": "Must be entered exactly as it appears on MyAnimeList. While not required, this will reduce the page load impact by more than 95% for most users.",
 				"type": "text",
 				"replacements": [
 					["all/anime/presets", "anime/{{{insert}}}/presets"],

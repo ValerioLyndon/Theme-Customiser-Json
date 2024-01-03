@@ -19,7 +19,7 @@
 		"options": {
 			"username": {
 				"name": "Your MAL Username",
-				"description": "Must be entered exactly as it appears on MyAnimeList. This is not required, but will reduce the impact on page load times from the pop-up images.",
+				"description": "Must be entered exactly as it appears on MyAnimeList. While not required, this will reduce the page load impact from the pop-up images by more than 95% for most users..",
 				"type": "text",
 				"replacements": [
 					["all/anime/presets", "anime/{{{insert}}}/presets"],
