@@ -8,7 +8,8 @@
 			"type": "modern",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Dashboard.json",
 			"tags": {"layout": ["table"], "other": ["lightweight"]},
-			"date": "2020-07-28"
+			"date": "2020-07-28",
+			"date_added": "2022-06-22"
 		},
 		{
 			"name": "Grid Refresh",
@@ -17,7 +18,8 @@
 			"type": "modern",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Grid.json",
 			"tags": {"layout": ["cover"], "source": ["Kakuriyo no Yadomeshi", "Attack on Titan", "Shingeki no Kyojin"], "other": ["based on anime"]},
-			"date": "2022-09-13"
+			"date": "2022-09-13",
+			"date_added": "2022-09-17"
 		},
 		{
 			"name": "Shelter Style Refresh Line",
@@ -26,7 +28,8 @@
 			"type": "modern",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Takana%20no%20Hana/Shelter%20Style%20Refresh%20Line.json",
 			"tags": {"layout": ["table"], "source": ["Kimi no Na Wa", "Your Name"], "other": ["highly customisable", "beginner-friendly", "based on anime"]},
-			"date": "2022-07-07"
+			"date": "2022-07-07",
+			"date_added": "2022-07-21"
 		},
 		{
 			"name": "Shelter Style Refresh Grid",
@@ -35,7 +38,8 @@
 			"type": "modern",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Takana%20no%20Hana/Shelter%20Style%20Refresh%20Grid.json",
 			"tags": {"layout": ["cover"], "other": ["highly customisable", "beginner-friendly", "heavyweight"]},
-			"date": "2022-07-21"
+			"date": "2022-07-21",
+			"date_added": "2022-07-21"
 		},
 		{
 			"name": "GochiUsa Refresh",
@@ -45,7 +49,8 @@
 			"supports": ["animelist"],
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Takana%20no%20Hana/GochiUsa%20Refresh.json",
 			"tags": {"layout": ["table"], "source": ["Gochuumon wa Usagi Desu ka?", "Is the Order a Rabbit?"], "other": ["based on anime"]},
-			"date": "2019-09-08"
+			"date": "2019-09-08",
+			"date_added": "2022-07-26"
 		},
 		{
 			"name": "ephemeral",
@@ -54,7 +59,8 @@
 			"type": "modern",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/ephemeral.json",
 			"tags": {"layout": ["table"], "source": [], "other": ["minimalist", "beginner-friendly"]},
-			"date": "2019-02-04"
+			"date": "2019-02-04",
+			"date_added": "2022-07-13"
 		},
 		{
 			"name": "Barakamon",
@@ -63,7 +69,8 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Barakamon.json",
 			"tags": {"layout": ["table"], "source": ["Barakamon"], "other": ["minimalist", "based on anime", "lightweight"]},
-			"date": "2017-04-20"
+			"date": "2017-04-20",
+			"date_added": "2022-07-28"
 		},
 		{
 			"name": "Berserk",
@@ -72,7 +79,8 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Berserk.json",
 			"tags": {"layout": ["table"], "source": ["Berserk"], "other": ["minimalist", "based on anime", "lightweight"]},
-			"date": "2019-08-02"
+			"date": "2019-08-02",
+			"date_added": "2022-07-21"
 		},
 		{
 			"name": "Code Geass",
@@ -81,7 +89,8 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Code%20Geass.json",
 			"tags": {"layout": ["table"], "source": ["Code Geass"], "other": ["minimalist", "based on anime", "lightweight"]},
-			"date": "2019-01-16"
+			"date": "2019-01-16",
+			"date_added": "2022-07-21"
 		},
 		{
 			"name": "Symphogear XV",
@@ -90,7 +99,8 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Symphogear%20XV.json",
 			"tags": {"layout": ["table"], "source": ["Senki Zesshou Symphogear XV"], "other": ["based on anime", "lightweight"]},
-			"date": "2019-10-17"
+			"date": "2019-10-17",
+			"date_added": "2022-07-23"
 		},
 		{
 			"name": "Sailor Moon",
@@ -99,7 +109,8 @@
 			"type": "modern",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Sailor%20Moon.json",
 			"tags": {"layout": ["table"], "source": ["Bishoujo Senshi Sailor Moon"], "other": ["highly customisable", "minimalist", "based on anime", "lightweight"]},
-			"date": "2019-02-23"
+			"date": "2019-02-23",
+			"date_added": "2022-07-23"
 		},
 		{
 			"name": "Anilist-style",
@@ -108,7 +119,8 @@
 			"type": "modern",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Ruri/Anilist-style.json",
 			"tags": {"layout": ["cover"]},
-			"date": "2017-02-22"
+			"date": "2017-02-22",
+			"date_added": "2022-09-04"
 		},
 		{
 			"name": "minimalist sidebar",
@@ -117,7 +129,8 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/minimalist%20sidebar.json",
 			"tags": {"layout": ["table"], "other": ["minimalist", "lightweight"]},
-			"date": "2014-05-07"
+			"date": "2014-05-07",
+			"date_added": "2022-07-21"
 		},
 		{
 			"name": "purple and cyan",
@@ -126,7 +139,8 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/purple%20and%20cyan.json",
 			"tags": {"layout": ["table"], "other": ["minimalist", "lightweight"]},
-			"date": "2015-05-30"
+			"date": "2015-05-30",
+			"date_added": "2022-08-13"
 		},
 		{
 			"name": "shades of cool",
@@ -135,7 +149,8 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/shades%20of%20cool.json",
 			"tags": {"layout": ["table"], "other": ["minimalist", "lightweight"]},
-			"date": "2014-08-29"
+			"date": "2014-08-29",
+			"date_added": "2022-09-04"
 		},
 		{
 			"name": "endless river",
@@ -144,7 +159,8 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/endless%20river.json",
 			"tags": {"layout": ["table"], "other": ["minimalist", "lightweight"]},
-			"date": "2017-01-10"
+			"date": "2017-01-10",
+			"date_added": "2022-09-04"
 		},
 		{
 			"name": "w i n d o w",
@@ -153,7 +169,8 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/window%20style.json",
 			"tags": {"layout": ["table"], "other": ["minimalist", "lightweight"]},
-			"date": "2015-04-08"
+			"date": "2015-04-08",
+			"date_added": "2022-09-04"
 		},
 		{
 			"name": "monokuro",
@@ -162,7 +179,8 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/monokuro.json",
 			"tags": {"layout": ["table"], "other": ["minimalist", "lightweight"]},
-			"date": "2016-01-11"
+			"date": "2016-01-11",
+			"date_added": "2022-09-04"
 		},
 		{
 			"name": "eren",
@@ -170,7 +188,8 @@
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/eren.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/eren.json",
-			"tags": {"layout": ["table"], "source": ["Attack on Titan"], "other": ["lightweight", "based on anime"]}
+			"tags": {"layout": ["table"], "source": ["Attack on Titan"], "other": ["lightweight", "based on anime"]},
+			"date_added": "2022-09-04"
 		},
 		{
 			"name": "sugawara koushi",
@@ -179,7 +198,8 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/sugawara%20koushi.json",
 			"tags": {"layout": ["table"], "source": ["Haikyuu!"], "other": ["lightweight", "based on anime"]},
-			"date": "2015-05-30"
+			"date": "2015-05-30",
+			"date_added": "2022-09-04"
 		},
 		{
 			"name": "light variant 1",
@@ -188,7 +208,8 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/light%20var-1.json",
 			"tags": {"layout": ["table"], "other": ["minimalist", "lightweight"]},
-			"date": "2015-08-31"
+			"date": "2015-08-31",
+			"date_added": "2022-09-04"
 		},
 		{
 			"name": "light variant 2",
@@ -197,7 +218,8 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/nymphiae/light%20var-2.json",
 			"tags": {"layout": ["table"], "other": ["minimalist", "lightweight"]},
-			"date": "2015-08-31"
+			"date": "2015-08-31",
+			"date_added": "2022-09-04"
 		},
 		{
 			"name": "Magi",
@@ -206,7 +228,8 @@
 			"type": "modern",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Magi.json",
 			"tags": {"layout": ["card"], "source": ["Magi"], "other": ["based on anime"]},
-			"date": "2016-04-06"
+			"date": "2016-04-06",
+			"date_added": "2022-09-04"
 		},
 		{
 			"name": "Re:Zero",
@@ -215,7 +238,8 @@
 			"type": "modern",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/ReZero.json",
 			"tags": {"layout": ["table"], "source": ["Re:Zero"], "other": ["based on anime"]},
-			"date": "2016-04-06"
+			"date": "2016-04-06",
+			"date_added": "2023-12-22"
 		},
 		{
 			"name": "Flame Elegy",
@@ -224,7 +248,8 @@
 			"type": "modern",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Flame%20Elegy.json",
 			"tags": {"layout": ["card"], "source": ["Tokyo Revengers"], "other": ["based on anime"]},
-			"date": "2022-07-22"
+			"date": "2022-07-22",
+			"date_added": "2023-03-18"
 		},
 		{
 			"name": "Haikyuu!",
@@ -233,7 +258,8 @@
 			"type": "modern",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Haikyuu.json",
 			"tags": {"layout": ["table"], "source": ["Haikyuu!"], "other": ["based on anime"]},
-			"date": "2017-03-31"
+			"date": "2017-03-31",
+			"date_added": "2022-10-02"
 		},
 		{
 			"name": "Plastic Memories",
@@ -242,7 +268,8 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Plastic%20Memories.json",
 			"tags": {"layout": ["card"], "source": ["Plastic Memories"], "other": ["based on anime"]},
-			"date": "2015-12-26"
+			"date": "2015-12-26",
+			"date_added": "2022-10-20"
 		},
 		{
 			"name": "NieR Automata Menu",
@@ -251,7 +278,8 @@
 			"type": "modern",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/killingdyl/NieRAutomata.json",
 			"tags": {"layout": ["table"], "source": ["NieR Automata"], "other": ["based on game"]},
-			"date": "2017-04-22"
+			"date": "2017-04-22",
+			"date_added": "2022-09-04"
 		},
 		{
 			"name": "Yukinoshita",
@@ -261,7 +289,8 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Kairu/Yukinoshita.json",
 			"supports": ["animelist"],
 			"tags": {"layout": ["table"], "source": ["Oregairu"], "other": ["based on anime", "minimalist", "animated"]},
-			"date": "2017-01-31"
+			"date": "2017-01-31",
+			"date_added": "2023-03-19"
 		}
 	]
 }
