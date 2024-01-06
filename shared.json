@@ -347,6 +347,15 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Durarara.json",
 			"tags": {"layout": ["table"], "source": ["Durarara"], "other": ["based on anime", "animated"]},
 			"date_added": "2024-01-06"
+		},
+		{
+			"name": "Eva",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Eva.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Eva.json",
+			"tags": {"layout": ["table"], "source": ["Neon Genesis Evangelion"], "other": ["based on anime"]},
+			"date_added": "2024-01-06"
 		}
 	]
 }
