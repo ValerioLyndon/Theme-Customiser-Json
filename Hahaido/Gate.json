@@ -1,0 +1,24 @@
+{
+	"json_version": 0.3,
+	"data": {
+		"name": "Gate",
+		"author": "Hahaido",
+		"type": "classic",
+		"help": "https://myanimelist.net/forum/?topicid=1465938",
+		"supports": ["animelist"],
+		"css": "https://yuiafterdark.github.io/Hahaido/Gate/Gate.css",
+		"columns": {
+			"mode": "whitelist",
+			"animelist": {
+				"Numbers": true,
+				"Score": true,
+				"Episodes": true
+			},
+			"mangalist": {
+				"Numbers": true,
+				"Score": true,
+				"Chapters": true
+			}
+		}
+	}
+}
