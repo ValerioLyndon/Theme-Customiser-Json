@@ -1,0 +1,25 @@
+{
+	"json_version": 0.3,
+	"data": {
+		"name": "Gintama",
+		"author": "Hahaido",
+		"type": "modern",
+		"help": "https://myanimelist.net/forum/?topicid=1735778",
+		"style": [1],
+		"cover": false,
+		"css": "https://yuiafterdark.github.io/Hahaido/Gintama/Gintama.css",
+		"columns": {
+			"mode": "whitelist",
+			"animelist": {
+				"Numbers": true,
+				"Score": true,
+				"Episodes": true
+			},
+			"mangalist": {
+				"Numbers": true,
+				"Score": true,
+				"Chapters": true
+			}
+		}
+	}
+}
