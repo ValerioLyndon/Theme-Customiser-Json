@@ -375,6 +375,15 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Gate.json",
 			"tags": {"layout": ["table"], "source": ["GATE"], "other": ["based on anime", "animated"]},
 			"date_added": "2024-01-06"
+		},
+		{
+			"name": "Ghost in the Shell",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Ghost%20in%20the%20Shell.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Ghost%20in%20the%20Shell.json",
+			"tags": {"layout": ["table"], "source": ["Ghost in the Shell"], "other": ["based on anime"]},
+			"date_added": "2024-01-06"
 		}
 	]
 }
