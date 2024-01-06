@@ -1,0 +1,23 @@
+{
+	"json_version": 0.3,
+	"data": {
+		"name": "DanMachi",
+		"author": "Hahaido",
+		"type": "classic",
+		"help": "https://myanimelist.net/forum/?topicid=1465950",
+		"css": "https://yuiafterdark.github.io/Hahaido/DanMachi/DanMachi.css",
+		"columns": {
+			"mode": "whitelist",
+			"animelist": {
+				"Numbers": true,
+				"Score": true,
+				"Episodes": true
+			},
+			"mangalist": {
+				"Numbers": true,
+				"Score": true,
+				"Chapters": true
+			}
+		}
+	}
+}
