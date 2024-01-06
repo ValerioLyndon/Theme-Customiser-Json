@@ -393,6 +393,15 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Gintama.json",
 			"tags": {"layout": ["table"], "source": ["Gintama"], "other": ["based on anime"]},
 			"date_added": "2024-01-06"
+		},
+		{
+			"name": "Guilty Crown",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Guilty%20Crown.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Guilty%20Crown.json",
+			"tags": {"layout": ["table"], "source": ["Guilty Crown"], "other": ["based on anime", "animated"]},
+			"date_added": "2024-01-06"
 		}
 	]
 }
