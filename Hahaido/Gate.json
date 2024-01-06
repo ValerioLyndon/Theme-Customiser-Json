@@ -19,6 +19,22 @@
 				"Score": true,
 				"Chapters": true
 			}
+		},
+		"options": {
+			"theme": {
+				"name": "Theme",
+				"type": "select",
+				"selections": {
+					"ruri": {
+						"label": "Ruri",
+						"replacements": []
+					},
+					"tuka": {
+						"label": "Tuka",
+						"replacements": [["RegExp/\\/\\* Character \\*\\/[\\s\\S]*#ff9c00;\\s*}","https://yuiafterdark.github.io/Hahaido/Gate/mods/Tuka.css"]]
+					}
+				}
+			}
 		}
 	}
 }
