@@ -1,0 +1,23 @@
+{
+	"json_version": 0.3,
+	"data": {
+		"name": "Fate",
+		"author": "Hahaido",
+		"type": "classic",
+		"help": "https://myanimelist.net/forum/?topicid=1466033",
+		"css": "https://yuiafterdark.github.io/Hahaido/Fate/Fate.css",
+		"columns": {
+			"mode": "whitelist",
+			"animelist": {
+				"Numbers": true,
+				"Score": true,
+				"Episodes": true
+			},
+			"mangalist": {
+				"Numbers": true,
+				"Score": true,
+				"Chapters": true
+			}
+		}
+	}
+}

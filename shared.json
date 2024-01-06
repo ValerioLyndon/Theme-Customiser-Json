@@ -356,6 +356,15 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Eva.json",
 			"tags": {"layout": ["table"], "source": ["Neon Genesis Evangelion"], "other": ["based on anime"]},
 			"date_added": "2024-01-06"
+		},
+		{
+			"name": "Fate",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Fate.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Fate.json",
+			"tags": {"layout": ["table"], "source": ["Fate"], "other": ["based on anime", "based on game", "minimalist", "lightweight"]},
+			"date_added": "2024-01-06"
 		}
 	]
 }
