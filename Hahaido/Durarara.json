@@ -13,11 +13,6 @@
 				"Numbers": true,
 				"Score": true,
 				"Episodes": true
-			},
-			"mangalist": {
-				"Numbers": true,
-				"Score": true,
-				"Chapters": true
 			}
 		},
 		"options": {
