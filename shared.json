@@ -301,6 +301,15 @@
 			"tags": {"layout": ["table"], "source": ["Akame ga Kill"], "other": ["based on anime", "animated"]},
 			"date": "2016-04-06",
 			"date_added": "2024-01-04"
+		},
+		{
+			"name": "Charlotte",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Charlotte.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Charlotte.json",
+			"tags": {"layout": ["card"], "source": ["Charlotte"], "other": ["based on anime"]},
+			"date_added": "2024-01-06"
 		}
 	]
 }
