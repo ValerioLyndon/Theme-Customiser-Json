@@ -6,7 +6,6 @@
 		"type": "classic",
 		"help": "https://myanimelist.net/forum/?topicid=1335075",
 		"css": "https://yuiafterdark.github.io/Hahaido/Akame%20ga%20Kill/Akame%20ga%20Kill.css",
-		"cover": true,
 		"columns": {
 			"mode": "whitelist",
 			"animelist": {
@@ -18,21 +17,6 @@
 				"Numbers": true,
 				"Score": true,
 				"Chapters": true
-			}
-		},
-		"preview": {
-			"columns": {
-				"mode": "whitelist",
-				"animelist": {
-					"Numbers": true,
-					"Score": true,
-					"Episodes": true
-				},
-				"mangalist": {
-					"Numbers": true,
-					"Score": true,
-					"Chapters": true
-				}
 			}
 		},
 		"options": {
