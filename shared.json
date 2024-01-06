@@ -328,6 +328,15 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Darker%20than%20Black.json",
 			"tags": {"layout": ["table"], "source": ["Darker than Black"], "other": ["based on anime"]},
 			"date_added": "2024-01-06"
+		},
+		{
+			"name": "Doll",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Doll.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Doll.json",
+			"tags": {"layout": ["table"], "source": ["Unbreakable Machine-Doll", "Machine-Doll wa Kizutsukanai"], "other": ["based on anime", "ecchi", "animated"]},
+			"date_added": "2024-01-06"
 		}
 	]
 }
