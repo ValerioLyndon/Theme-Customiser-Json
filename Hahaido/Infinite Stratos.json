@@ -1,0 +1,19 @@
+{
+	"json_version": 0.3,
+	"data": {
+		"name": "InfiniteStratos",
+		"author": "Hahaido",
+		"type": "classic",
+		"supports": ["animelist"],
+		"help": "https://myanimelist.net/forum/?topicid=1466028",
+		"css": "https://yuiafterdark.github.io/Hahaido/Infinite%20Stratos/Infinite%20Stratos.css",
+		"columns": {
+			"mode": "whitelist",
+			"animelist": {
+				"Numbers": true,
+				"Score": true,
+				"Episodes": true
+			}
+		}
+	}
+}
