@@ -337,6 +337,16 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Doll.json",
 			"tags": {"layout": ["table"], "source": ["Unbreakable Machine-Doll", "Machine-Doll wa Kizutsukanai"], "other": ["based on anime", "ecchi", "animated"]},
 			"date_added": "2024-01-06"
+		},
+		{
+			"name": "Durarara",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Durarara.jpg",
+			"type": "classic",
+			"supports": ["animelist"],
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Durarara.json",
+			"tags": {"layout": ["table"], "source": ["Durarara"], "other": ["based on anime", "animated"]},
+			"date_added": "2024-01-06"
 		}
 	]
 }
