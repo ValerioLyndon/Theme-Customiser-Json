@@ -319,6 +319,15 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/DanMachi.json",
 			"tags": {"layout": ["table"], "source": ["DanMachi"], "other": ["based on anime", "ecchi"]},
 			"date_added": "2024-01-06"
+		},
+		{
+			"name": "Darker than Black",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Darker%20than%20Black.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Darker%20than%20Black.json",
+			"tags": {"layout": ["table"], "source": ["Darker than Black"], "other": ["based on anime"]},
+			"date_added": "2024-01-06"
 		}
 	]
 }
