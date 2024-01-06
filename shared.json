@@ -412,6 +412,16 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Hitsugi%20no%20Chaika.json",
 			"tags": {"layout": ["table"], "source": ["Hitsugi no Chaika", "Chaiki: The Coffin Princess"], "other": ["based on anime"]},
 			"date_added": "2024-01-06"
+		},
+		{
+			"name": "Index",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Index.jpg",
+			"type": "classic",
+			"supports": ["animelist"],
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Index.json",
+			"tags": {"layout": ["table"], "source": ["Toaru Kagaku no Railgun", "A Certain Scientific Railgun"], "other": ["based on anime"]},
+			"date_added": "2024-01-06"
 		}
 	]
 }
