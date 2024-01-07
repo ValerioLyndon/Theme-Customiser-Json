@@ -18,16 +18,20 @@
 		"options": {
 			"list": {
 				"name": "List Type",
-				"description": "Select whether you are installing this on your anime or manga list. This is required for the cover images to work.",
+				"description": "Select whether you are installing this on your anime or manga list. While not required, this will reduce the page load impact by 20-80%.",
 				"type": "select",
 				"selections": {
+					"both": {
+						"label": "Both (unoptimised)",
+						"replacements": []
+					},
 					"anime": {
 						"label": "Animelist",
-						"replacements": []
+						"replacements": [["RegExp/@\\\\import \"https:\\/\\/malscraper\\.azurewebsites\\.net\\/[^\\\"]*\\/manga\\/[^\\\"]*?\";\\n", ""]]
 					},
 					"manga": {
 						"label": "Mangalist",
-						"replacements": [["/anime/", "/manga/"]]
+						"replacements": [["RegExp/@\\\\import \"https:\\/\\/malscraper\\.azurewebsites\\.net\\/[^\\\"]*\\/anime\\/[^\\\"]*?\";\\n", ""]]
 					}
 				}
 			},
