@@ -496,6 +496,15 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Kokoro%20Connect.json",
 			"tags": {"layout": ["card"], "source": ["Kokoro Connect"], "other": ["based on anime"]},
 			"date_added": "2024-01-06"
+		},
+		{
+			"name": "Don't say lazy",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/K-On!.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/K-On!.json",
+			"tags": {"layout": ["table"], "source": ["K-On!"], "other": ["based on anime"]},
+			"date_added": "2024-01-06"
 		}
 	]
 }
