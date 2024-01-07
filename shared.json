@@ -515,6 +515,16 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/K-On!.json",
 			"tags": {"layout": ["table"], "source": ["Kore wa Zombie desu ka?", "Is This a Zombie?"], "other": ["based on anime"]},
 			"date_added": "2024-01-06"
+		},
+		{
+			"name": "Let's light the play!",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Kuroko%20no%20Basket.jpg",
+			"type": "classic",
+			"supports": ["animelist"],
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Kuroko%20no%20Basket.json",
+			"tags": {"layout": ["table"], "source": ["Kuroko no Basket", "Kuroko's Basketball"], "other": ["based on anime", "animated"]},
+			"date_added": "2024-01-06"
 		}
 	]
 }
