@@ -1,0 +1,45 @@
+{
+	"json_version": 0.3,
+	"data": {
+		"name": "The moonlight of your soul",
+		"author": "Hahaido",
+		"type": "classic",
+		"supports": ["animelist"],
+		"help": "https://myanimelist.net/forum/?topicid=517419",
+		"css": "https://yuiafterdark.github.io/Hahaido/Kore%20wa%20Zombie%20Desu%20ka/Kore%20wa%20Zombie%20Desu%20ka.css",
+		"columns": {
+			"mode": "whitelist",
+			"animelist": {
+				"Numbers": true,
+				"Score": true,
+				"Episodes": true
+			}
+		},
+		"options": {
+			"list": {
+				"name": "List Type",
+				"description": "Select whether you are installing this on your anime or manga list. This is required for the cover images to work.",
+				"type": "select",
+				"selections": {
+					"anime": {
+						"label": "Animelist",
+						"replacements": []
+					},
+					"manga": {
+						"label": "Mangalist",
+						"replacements": [["/anime/", "/manga/"]]
+					}
+				}
+			},
+			"username": {
+				"name": "Your MyAnimeList Username",
+				"description": "Must be entered exactly as it appears on MyAnimeList. While not required, this will reduce the page load impact from the cover images by more than 95% for most users.",
+				"type": "text",
+				"replacements": [
+					["all/anime/presets", "anime/{{{insert}}}/presets"],
+					["all/manga/presets", "manga/{{{insert}}}/presets"]
+				]
+			}
+		}
+	}
+}

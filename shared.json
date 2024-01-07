@@ -505,6 +505,16 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/K-On!.json",
 			"tags": {"layout": ["table"], "source": ["K-On!"], "other": ["based on anime"]},
 			"date_added": "2024-01-06"
+		},
+		{
+			"name": "The moonlight of your soul",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/K-On!.jpg",
+			"type": "classic",
+			"supports": ["animelist"],
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/K-On!.json",
+			"tags": {"layout": ["table"], "source": ["Kore wa Zombie desu ka?"], "other": ["based on anime"]},
+			"date_added": "2024-01-06"
 		}
 	]
 }
