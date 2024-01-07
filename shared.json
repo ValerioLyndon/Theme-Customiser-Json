@@ -534,6 +534,15 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Kuroshitsuji.json",
 			"tags": {"layout": ["cover"], "source": ["Kuroshitsuji", "Black Butler", "Umineko no Naku Koro ni", "Umineko: When They Cry"], "other": ["based on anime"]},
 			"date_added": "2024-01-06"
+		},
+		{
+			"name": "Lineage",
+			"author": "SylakentH & Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Lineage.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Lineage.json",
+			"tags": {"layout": ["table"], "source": ["Lineage"], "other": ["based on game"]},
+			"date_added": "2024-01-06"
 		}
 	]
 }

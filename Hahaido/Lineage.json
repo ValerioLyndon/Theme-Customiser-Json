@@ -1,0 +1,99 @@
+{
+	"json_version": 0.3,
+	"data": {
+		"name": "Lineage",
+		"author": "SylakentH & Hahaido",
+		"type": "classic",
+		"help": "https://myanimelist.net/forum/?topicid=1074387",
+		"css": "https://yuiafterdark.github.io/Hahaido/Lineage/Lineage.css",
+		"columns": {
+			"mode": "whitelist",
+			"animelist": {
+				"Numbers": true,
+				"Score": true,
+				"Type": true,
+				"Episodes": true
+			},
+			"mangalist": {
+				"Numbers": true,
+				"Score": true,
+				"Type": true,
+				"Chapters": true
+			}
+		},
+		"options": {
+			"character-1": {
+				"name": "Character (Watching/Reading)",
+				"type": "text/image_url",
+				"replacements": [["url(https://cdn.imgchest.com/files/myd5cerdw94.png)", "{{{insert}}}"]],
+				"default": "https://cdn.imgchest.com/files/myd5cerdw94.png"
+			},
+			"background-1": {
+				"name": "Background (Watching/Reading)",
+				"type": "text/image_url",
+				"replacements": [["url(https://cdn.imgchest.com/files/pyq9c3eojm4.jpg)", "{{{insert}}}"]],
+				"default": "https://cdn.imgchest.com/files/pyq9c3eojm4.jpg"
+			},
+			"character-2": {
+				"name": "Character (Completed)",
+				"type": "text/image_url",
+				"replacements": [["url(https://cdn.imgchest.com/files/w7pjcqwpvp7.png)", "{{{insert}}}"]],
+				"default": "https://cdn.imgchest.com/files/w7pjcqwpvp7.png"
+			},
+			"background-2": {
+				"name": "Background (Completed)",
+				"type": "text/image_url",
+				"replacements": [["url(https://cdn.imgchest.com/files/p7bwckdnlq7.jpg)", "{{{insert}}}"]],
+				"default": "https://cdn.imgchest.com/files/p7bwckdnlq7.jpg"
+			},
+			"character-3": {
+				"name": "Character (On Hold)",
+				"type": "text/image_url",
+				"replacements": [["url(https://cdn.imgchest.com/files/84jdcvjq6q4.png)", "{{{insert}}}"]],
+				"default": "https://cdn.imgchest.com/files/84jdcvjq6q4.png"
+			},
+			"background-3": {
+				"name": "Background (On Hold)",
+				"type": "text/image_url",
+				"replacements": [["url(https://cdn.imgchest.com/files/l7lxcpdoxb7.jpg)", "{{{insert}}}"]],
+				"default": "https://cdn.imgchest.com/files/l7lxcpdoxb7.jpg"
+			},
+			"character-4": {
+				"name": "Character (Dropped)",
+				"type": "text/image_url",
+				"replacements": [["url(https://cdn.imgchest.com/files/g4z9cvwlzd7.png)", "{{{insert}}}"]],
+				"default": "https://cdn.imgchest.com/files/g4z9cvwlzd7.png"
+			},
+			"background-4": {
+				"name": "Background (Dropped)",
+				"type": "text/image_url",
+				"replacements": [["url(https://cdn.imgchest.com/files/wye3c2d5q34.jpg)", "{{{insert}}}"]],
+				"default": "https://cdn.imgchest.com/files/wye3c2d5q34.jpg"
+			},
+			"character-6": {
+				"name": "Character (Planning)",
+				"type": "text/image_url",
+				"replacements": [["url(https://cdn.imgchest.com/files/p7bwckdn2z7.png)", "{{{insert}}}"]],
+				"default": "https://cdn.imgchest.com/files/p7bwckdn2z7.png"
+			},
+			"background-6": {
+				"name": "Background (Planning)",
+				"type": "text/image_url",
+				"replacements": [["url(https://cdn.imgchest.com/files/l4nec8m6lq4.jpg)", "{{{insert}}}"]],
+				"default": "https://cdn.imgchest.com/files/l4nec8m6lq4.jpg"
+			},
+			"character-7": {
+				"name": "Character (All Entries)",
+				"type": "text/image_url",
+				"replacements": [["url(https://cdn.imgchest.com/files/w7pjcqwpwv7.png)", "{{{insert}}}"]],
+				"default": "https://cdn.imgchest.com/files/w7pjcqwpwv7.png"
+			},
+			"background-7": {
+				"name": "Background (All Entries)",
+				"type": "text/image_url",
+				"replacements": [["url(https://cdn.imgchest.com/files/p7bwckdndz7.jpg)", "{{{insert}}}"]],
+				"default": "https://cdn.imgchest.com/files/p7bwckdndz7.jpg"
+			}
+		}
+	}
+}
