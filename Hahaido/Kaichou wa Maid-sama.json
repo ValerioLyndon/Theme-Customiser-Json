@@ -1,0 +1,73 @@
+{
+	"json_version": 0.3,
+	"data": {
+		"name": "Sweets of Maid Latte",
+		"author": "Hahaido",
+		"type": "classic",
+		"help": "https://myanimelist.net/forum/?topicid=515005",
+		"css": "https://yuiafterdark.github.io/Hahaido/Kaichou%20wa%20Maid-sama/Kaichou%20wa%20Maid-sama.css",
+		"columns": {
+			"mode": "whitelist",
+			"animelist": {
+				"Numbers": true,
+				"Score": true,
+				"Episodes": true
+			},
+			"mangalist": {
+				"Numbers": true,
+				"Score": true,
+				"Chapters": true
+			}
+		},
+		"preview": {
+			"columns": {
+				"mode": "whitelist",
+				"animelist": {
+					"Numbers": true,
+					"Score": true,
+					"Episodes": true,
+					"Tags": true
+				},
+				"mangalist": {
+					"Numbers": true,
+					"Score": true,
+					"Chapters": true,
+					"Tags": true
+				}
+			}
+		},
+		"options": {
+			"list": {
+				"name": "List Type",
+				"description": "Select whether you are installing this on your anime or manga list. This is required for the cover images to work.",
+				"type": "select",
+				"selections": {
+					"anime": {
+						"label": "Animelist",
+						"replacements": []
+					},
+					"manga": {
+						"label": "Mangalist",
+						"replacements": [["/anime/", "/manga/"]]
+					}
+				}
+			},
+			"username": {
+				"name": "Your MyAnimeList Username",
+				"description": "Must be entered exactly as it appears on MyAnimeList. While not required, this will reduce the page load impact from the cover images by more than 95% for most users.",
+				"type": "text",
+				"replacements": [
+					["all/anime/presets", "anime/{{{insert}}}/presets"],
+					["all/manga/presets", "manga/{{{insert}}}/presets"]
+				]
+			}
+		},
+		"mods": {
+			"tags": {
+				"name": "Tag Support / Hover Tags",
+				"description": "Add tag support using this mod by Hahaido. [b]If you deviate from the recommended columns in any way other than enabling Tags then this addon will break.[/b]",
+				"css": {"bottom": "https://yuiafterdark.github.io/Hahaido/Kaichou%20wa%20Maid-sama/mods/Reviews.css"}
+			}
+		}
+	}
+}

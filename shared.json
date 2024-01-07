@@ -460,6 +460,15 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Boku%20wa%20Tomodachi%20ga%20Sukunai.json",
 			"tags": {"layout": ["table"], "source": ["Boku wa Tomodachi ga Sukunai", "Haganai: I don't have many friends"], "other": ["based on anime"]},
 			"date_added": "2024-01-06"
+		},
+		{
+			"name": "Sweets of Maid Latte",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Kaichou%20wa%20Maid-sama.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Kaichou%20wa%20Maid-sama.json",
+			"tags": {"layout": ["table"], "source": ["Kaichou wa Maid-sama"], "other": ["based on anime"]},
+			"date_added": "2024-01-06"
 		}
 	]
 }
