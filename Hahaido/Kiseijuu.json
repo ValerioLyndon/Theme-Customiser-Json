@@ -1,0 +1,50 @@
+{
+	"json_version": 0.3,
+	"data": {
+		"name": "Look within",
+		"author": "Hahaido",
+		"type": "classic",
+		"help": "https://myanimelist.net/forum/?topicid=1465959",
+		"css": "https://yuiafterdark.github.io/Hahaido/Kiseijuu/Kiseijuu.css",
+		"columns": {
+			"mode": "whitelist",
+			"animelist": {
+				"Numbers": true,
+				"Score": true,
+				"Episodes": true
+			},
+			"mangalist": {
+				"Numbers": true,
+				"Score": true,
+				"Chapters": true
+			}
+		},
+		"mods": {
+			"text": {
+				"name": "High Contrast Text",
+				"description": "For those that find the default a bit faint.\n[i]Mod by Valerio Lyndon.[/i]",
+				"css": {"bottom": "https://yuiafterdark.github.io/Hahaido/Kiseijuu/mods/ContrastingText.css"},
+				"options": {
+					"primary": {
+						"name": "Primary Text",
+						"type": "color",
+						"replacements": [["#000000", "{{{insert}}}"]],
+						"default": "#000000"
+					},
+					"secondary": {
+						"name": "Secondary Text",
+						"type": "color",
+						"replacements": [["#020202", "{{{insert}}}"]],
+						"default": "#020202"
+					},
+					"border": {
+						"name": "Border Text",
+						"type": "color",
+						"replacements": [["#080808", "{{{insert}}}"]],
+						"default": "#080808"
+					}
+				}
+			}
+		}
+	}
+}
