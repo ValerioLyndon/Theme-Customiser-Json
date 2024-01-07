@@ -441,6 +441,16 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Ano%20Hana.json",
 			"tags": {"layout": ["table"], "source": ["Anohana: The Flower We Saw That Day", "Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai."], "other": ["based on anime", "animated"]},
 			"date_added": "2024-01-06"
+		},
+		{
+			"name": "Ano Natsu de Matteru",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Ano%20Natsu%20de%20Matteru.jpg",
+			"type": "classic",
+			"supports": ["animelist"],
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Ano%20Natsu%20de%20Matteru.json",
+			"tags": {"layout": ["table"], "source": ["Ano Natsu de Matteru", "Waiting in the Summer"], "other": ["based on anime"]},
+			"date_added": "2024-01-06"
 		}
 	]
 }
