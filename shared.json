@@ -513,7 +513,7 @@
 			"type": "classic",
 			"supports": ["animelist"],
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/K-On!.json",
-			"tags": {"layout": ["table"], "source": ["Kore wa Zombie desu ka?"], "other": ["based on anime"]},
+			"tags": {"layout": ["table"], "source": ["Kore wa Zombie desu ka?", "Is This a Zombie?"], "other": ["based on anime"]},
 			"date_added": "2024-01-06"
 		}
 	]
