@@ -18,6 +18,26 @@
 				"Score": true,
 				"Chapters": true
 			}
+		},
+		"options": {
+			"theme": {
+				"name": "Theme",
+				"type": "select",
+				"selections": {
+					"hestia": {
+						"label": "Hestia",
+						"replacements": []
+					},
+					"ais": {
+						"label": "Ais",
+						"replacements": [["RegExp/\\/\\* Hestia \\*\\/[\\s\\S]*$","https://yuiafterdark.github.io/Hahaido/DanMachi/themes/Ais.css"]]
+					},
+					"lili": {
+						"label": "Lili",
+						"replacements": [["RegExp/\\/\\* Hestia \\*\\/[\\s\\S]*$$","https://yuiafterdark.github.io/Hahaido/DanMachi/themes/Lili.css"]]
+					}
+				}
+			}
 		}
 	}
 }
