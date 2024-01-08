@@ -552,6 +552,15 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Mirai%20Nikki.json",
 			"tags": {"layout": ["table"], "source": ["Mirai Nikki", "The Future Diary"], "other": ["based on anime"]},
 			"date_added": "2024-01-07"
+		},
+		{
+			"name": "Feelings covered in bamboo branches",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Naruto.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Naruto.json",
+			"tags": {"layout": ["table"], "source": ["Naruto"], "other": ["based on anime"]},
+			"date_added": "2024-01-07"
 		}
 	]
 }
