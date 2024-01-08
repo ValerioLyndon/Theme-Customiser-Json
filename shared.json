@@ -662,6 +662,15 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Shingeki%20no%20Kyojin.json",
 			"tags": {"layout": ["table"], "source": ["Shingeki no Kyojin", "Attack on Titan"], "other": ["based on anime"]},
 			"date_added": "2024-01-07"
+		},
+		{
+			"name": "The universe right outside the window",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Space.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Space.json",
+			"tags": {"layout": ["table"]},
+			"date_added": "2024-01-07"
 		}
 	]
 }
