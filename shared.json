@@ -680,6 +680,16 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Steins;Gate.json",
 			"tags": {"layout": ["table"], "source": ["Steins;Gate"], "other": ["based on anime", "animated"]},
 			"date_added": "2024-01-07"
+		},
+		{
+			"name": "Eat or be eaten",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Tokyo%20Ghoul.jpg",
+			"type": "classic",
+			"supports": ["animelist"],
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Tokyo%20Ghoul.json",
+			"tags": {"layout": ["table"], "source": ["Tokyo Ghoul"], "other": ["based on anime"]},
+			"date_added": "2024-01-07"
 		}
 	]
 }

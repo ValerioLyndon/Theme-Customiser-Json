@@ -1,0 +1,19 @@
+{
+	"json_version": 0.3,
+	"data": {
+		"name": "Eat or be eaten",
+		"author": "Hahaido",
+		"type": "classic",
+		"supports": ["animelist"],
+		"help": "https://myanimelist.net/forum/?topicid=1280229",
+		"css": "https://yuiafterdark.github.io/Hahaido/Tokyo%20Ghoul/Tokyo%20Ghoul.css",
+		"columns": {
+			"mode": "whitelist",
+			"animelist": {
+				"Numbers": true,
+				"Score": true,
+				"Episodes": true
+			}
+		}
+	}
+}
