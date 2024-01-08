@@ -653,6 +653,15 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Shigatsu%20wa%20Kimi%20no%20Uso.json",
 			"tags": {"layout": ["table"], "source": ["Shigatsu wa Kimi no Uso", "Your Lie in April"], "other": ["based on anime"]},
 			"date_added": "2024-01-07"
+		},
+		{
+			"name": "Everyone's choice",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Shingeki%20no%20Kyojin.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Shingeki%20no%20Kyojin.json",
+			"tags": {"layout": ["table"], "source": ["Shingeki no Kyojin", "Attack on Titan"], "other": ["based on anime"]},
+			"date_added": "2024-01-07"
 		}
 	]
 }
