@@ -598,6 +598,16 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/One%20Piece.json",
 			"tags": {"layout": ["table"], "source": ["One Piece"], "other": ["based on anime"]},
 			"date_added": "2024-01-07"
+		},
+		{
+			"name": "One Punch Man",
+			"author": "Hahaido",
+			"supports": ["animelist"],
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/One%20Punch%20Man.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/One%20Punch%20Man.json",
+			"tags": {"layout": ["table"], "source": ["One Punch Man"], "other": ["based on anime"]},
+			"date_added": "2024-01-07"
 		}
 	]
 }
