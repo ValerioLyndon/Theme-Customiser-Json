@@ -717,6 +717,15 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Vampire%20Knight.json",
 			"tags": {"layout": ["unique"], "source": ["Vampire Knight"], "other": ["based on anime", "animated"]},
 			"date_added": "2024-01-07"
+		},
+		{
+			"name": "Autumn Mix",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Vocaloids.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Vocaloids.json",
+			"tags": {"layout": ["unique"], "source": ["Vocaloid"]},
+			"date_added": "2024-01-07"
 		}
 	]
 }
