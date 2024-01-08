@@ -726,6 +726,15 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Vocaloids.json",
 			"tags": {"layout": ["unique"], "source": ["Vocaloid"]},
 			"date_added": "2024-01-07"
+		},
+		{
+			"name": "Wishes of the heart",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/xxxHOLiC.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/xxxHOLiC.json",
+			"tags": {"layout": ["unique"], "source": ["xxxHOLiC"], "other": ["based on anime"]},
+			"date_added": "2024-01-07"
 		}
 	]
 }
