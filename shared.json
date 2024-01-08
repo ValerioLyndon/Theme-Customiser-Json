@@ -608,6 +608,15 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/One%20Punch%20Man.json",
 			"tags": {"layout": ["table"], "source": ["One Punch Man"], "other": ["based on anime"]},
 			"date_added": "2024-01-07"
+		},
+		{
+			"name": "Akasha Arts",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Persona%204.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Persona%204.json",
+			"tags": {"layout": ["table"], "source": ["Persona 4"], "other": ["based on game"]},
+			"date_added": "2024-01-07"
 		}
 	]
 }

@@ -1,0 +1,19 @@
+{
+	"json_version": 0.3,
+	"data": {
+		"name": "Akasha Arts",
+		"author": "Hahaido",
+		"type": "classic",
+		"help": "https://myanimelist.net/forum/?topicid=1466030",
+		"css": "https://yuiafterdark.github.io/Hahaido/Persona%204/Persona%204.css",
+		"columns": {
+			"mode": "whitelist",
+			"animelist": {
+				"Score": true
+			},
+			"mangalist": {
+				"Score": true
+			}
+		}
+	}
+}
