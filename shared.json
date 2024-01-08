@@ -543,6 +543,15 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Lineage.json",
 			"tags": {"layout": ["table"], "source": ["Lineage"], "other": ["based on game"]},
 			"date_added": "2024-01-06"
+		},
+		{
+			"name": "My lovely diary",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Mirai%20Nikki.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Mirai%20Nikki.json",
+			"tags": {"layout": ["table"], "source": ["Mirai Nikki", "The Future Diary"], "other": ["based on anime"]},
+			"date_added": "2024-01-07"
 		}
 	]
 }
