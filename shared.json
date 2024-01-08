@@ -589,6 +589,15 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Nozaki-kun.json",
 			"tags": {"layout": ["table"], "source": ["Gekkan Shoujo Nozaki-kun", "Monthly Girls' Nozaki-kun"], "other": ["based on anime"]},
 			"date_added": "2024-01-07"
+		},
+		{
+			"name": "My Nakama",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/One%20Piece.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/One%20Piece.json",
+			"tags": {"layout": ["table"], "source": ["One Piece"], "other": ["based on anime"]},
+			"date_added": "2024-01-07"
 		}
 	]
 }
