@@ -570,6 +570,16 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Non%20Non%20Biyori.json",
 			"tags": {"layout": ["table"], "source": ["Non Non Biyori"], "other": ["based on anime"]},
 			"date_added": "2024-01-07"
+		},
+		{
+			"name": "Noragami",
+			"author": "Hahaido",
+			"supports": ["animelist"],
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Noragami.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Noragami.json",
+			"tags": {"layout": ["unique"], "source": ["Noragami"], "other": ["based on anime"]},
+			"date_added": "2024-01-07"
 		}
 	]
 }
