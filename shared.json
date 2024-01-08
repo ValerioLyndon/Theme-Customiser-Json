@@ -617,6 +617,15 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Persona%204.json",
 			"tags": {"layout": ["table"], "source": ["Persona 4"], "other": ["based on game"]},
 			"date_added": "2024-01-07"
+		},
+		{
+			"name": "Kostbare Tochter",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Rozen%20Maiden.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Rozen%20Maiden.json",
+			"tags": {"layout": ["table"], "source": ["Rozen Maiden"], "other": ["based on anime"]},
+			"date_added": "2024-01-07"
 		}
 	]
 }

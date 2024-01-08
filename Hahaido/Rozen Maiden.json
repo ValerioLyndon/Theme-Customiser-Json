@@ -1,0 +1,23 @@
+{
+	"json_version": 0.3,
+	"data": {
+		"name": "Kostbare Tochter",
+		"author": "Hahaido",
+		"type": "classic",
+		"help": "https://myanimelist.net/forum/?topicid=1465955",
+		"css": "https://yuiafterdark.github.io/Hahaido/Rozen%20Maiden/Rozen%20Maiden.css",
+		"columns": {
+			"mode": "whitelist",
+			"animelist": {
+				"Numbers": true,
+				"Score": true,
+				"Episodes": true
+			},
+			"mangalist": {
+				"Numbers": true,
+				"Score": true,
+				"Chapters": true
+			}
+		}
+	}
+}
