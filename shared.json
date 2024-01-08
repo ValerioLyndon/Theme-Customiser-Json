@@ -268,7 +268,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Plastic%20Memories.json",
 			"tags": {"layout": ["card"], "source": ["Plastic Memories"], "other": ["based on anime"]},
-			"date": "2015-12-26",
+			"date": "2015-08-05",
 			"date_added": "2022-10-20"
 		},
 		{
@@ -309,6 +309,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Charlotte.json",
 			"tags": {"layout": ["card"], "source": ["Charlotte"], "other": ["based on anime"]},
+			"date": "2015-12-26",
 			"date_added": "2024-01-06"
 		},
 		{
@@ -318,6 +319,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/DanMachi.json",
 			"tags": {"layout": ["table"], "source": ["DanMachi"], "other": ["based on anime", "ecchi"]},
+			"date": "2015-07-11",
 			"date_added": "2024-01-06"
 		},
 		{
@@ -327,6 +329,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Darker%20than%20Black.json",
 			"tags": {"layout": ["table"], "source": ["Darker than Black"], "other": ["based on anime"]},
+			"date": "2017-12-17",
 			"date_added": "2024-01-06"
 		},
 		{
@@ -336,6 +339,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Doll.json",
 			"tags": {"layout": ["table"], "source": ["Unbreakable Machine-Doll", "Machine-Doll wa Kizutsukanai"], "other": ["based on anime", "ecchi", "animated"]},
+			"date": "2017-12-17",
 			"date_added": "2024-01-06"
 		},
 		{
@@ -346,6 +350,7 @@
 			"supports": ["animelist"],
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Durarara.json",
 			"tags": {"layout": ["table"], "source": ["Durarara"], "other": ["based on anime", "animated"]},
+			"date": "2013-07-27",
 			"date_added": "2024-01-06"
 		},
 		{
@@ -355,6 +360,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Eva.json",
 			"tags": {"layout": ["table"], "source": ["Neon Genesis Evangelion"], "other": ["based on anime"]},
+			"date": "2015-02-14",
 			"date_added": "2024-01-06"
 		},
 		{
@@ -364,6 +370,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Fate.json",
 			"tags": {"layout": ["table"], "source": ["Fate"], "other": ["based on anime", "based on game", "minimalist", "lightweight"]},
+			"date": "2015-12-27",
 			"date_added": "2024-01-06"
 		},
 		{
@@ -374,6 +381,7 @@
 			"supports": ["animelist"],
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Gate.json",
 			"tags": {"layout": ["table"], "source": ["GATE"], "other": ["based on anime", "animated"]},
+			"date": "2015-11-10",
 			"date_added": "2024-01-06"
 		},
 		{
@@ -383,6 +391,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Ghost%20in%20the%20Shell.json",
 			"tags": {"layout": ["table"], "source": ["Ghost in the Shell"], "other": ["based on anime"]},
+			"date": "2013-07-14",
 			"date_added": "2024-01-06"
 		},
 		{
@@ -392,6 +401,7 @@
 			"type": "modern",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Gintama.json",
 			"tags": {"layout": ["table"], "source": ["Gintama"], "other": ["based on anime"]},
+			"date": "2016-04-17",
 			"date_added": "2024-01-06"
 		},
 		{
@@ -401,6 +411,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Guilty%20Crown.json",
 			"tags": {"layout": ["table"], "source": ["Guilty Crown"], "other": ["based on anime", "animated"]},
+			"date": "2013-06-04",
 			"date_added": "2024-01-06"
 		},
 		{
@@ -411,6 +422,7 @@
 			"supports": ["animelist"],
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Hitsugi%20no%20Chaika.json",
 			"tags": {"layout": ["table"], "source": ["Hitsugi no Chaika", "Chaiki: The Coffin Princess"], "other": ["based on anime"]},
+			"date": "2016-01-30",
 			"date_added": "2024-01-06"
 		},
 		{
@@ -421,6 +433,7 @@
 			"supports": ["animelist"],
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Index.json",
 			"tags": {"layout": ["table"], "source": ["Toaru Kagaku no Railgun", "A Certain Scientific Railgun"], "other": ["based on anime"]},
+			"date": "2015-07-20",
 			"date_added": "2024-01-06"
 		},
 		{
@@ -431,6 +444,7 @@
 			"supports": ["animelist"],
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Infinite%20Stratos.json",
 			"tags": {"layout": ["table"], "source": ["Infinite Stratos"], "other": ["based on anime", "ecchi"]},
+			"date": "2015-12-27",
 			"date_added": "2024-01-06"
 		},
 		{
@@ -440,6 +454,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Ano%20Hana.json",
 			"tags": {"layout": ["table"], "source": ["Anohana: The Flower We Saw That Day", "Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai."], "other": ["based on anime", "animated"]},
+			"date": "2013-08-15",
 			"date_added": "2024-01-06"
 		},
 		{
@@ -450,6 +465,7 @@
 			"supports": ["animelist"],
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Ano%20Natsu%20de%20Matteru.json",
 			"tags": {"layout": ["table"], "source": ["Ano Natsu de Matteru", "Waiting in the Summer"], "other": ["based on anime"]},
+			"date": "2013-04-13",
 			"date_added": "2024-01-06"
 		},
 		{
@@ -459,6 +475,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Boku%20wa%20Tomodachi%20ga%20Sukunai.json",
 			"tags": {"layout": ["table"], "source": ["Boku wa Tomodachi ga Sukunai", "Haganai: I don't have many friends"], "other": ["based on anime"]},
+			"date": "2013-04-07",
 			"date_added": "2024-01-06"
 		},
 		{
@@ -468,6 +485,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Kaichou%20wa%20Maid-sama.json",
 			"tags": {"layout": ["table"], "source": ["Kaichou wa Maid-sama"], "other": ["based on anime"]},
+			"date": "2012-11-07",
 			"date_added": "2024-01-06"
 		},
 		{
@@ -477,6 +495,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Kimi%20ni%20Todoke.json",
 			"tags": {"layout": ["table"], "source": ["Kimi ni Todoke: From Me to You"], "other": ["based on anime"]},
+			"date": "2012-10-31",
 			"date_added": "2024-01-06"
 		},
 		{
@@ -486,6 +505,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Kiseijuu.json",
 			"tags": {"layout": ["table"], "source": ["Kiseijuu: Sei no Kakuritsu", "Parasyte: The Maxim"], "other": ["based on anime", "animated"]},
+			"date": "2015-12-26",
 			"date_added": "2024-01-06"
 		},
 		{
@@ -495,6 +515,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Kokoro%20Connect.json",
 			"tags": {"layout": ["card"], "source": ["Kokoro Connect"], "other": ["based on anime"]},
+			"date": "2015-07-13",
 			"date_added": "2024-01-06"
 		},
 		{
@@ -504,6 +525,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/K-On!.json",
 			"tags": {"layout": ["table"], "source": ["K-On!"], "other": ["based on anime"]},
+			"date": "2015-02-27",
 			"date_added": "2024-01-06"
 		},
 		{
@@ -514,6 +536,7 @@
 			"supports": ["animelist"],
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/K-On!.json",
 			"tags": {"layout": ["table"], "source": ["Kore wa Zombie desu ka?", "Is This a Zombie?"], "other": ["based on anime"]},
+			"date": "2012-11-22",
 			"date_added": "2024-01-06"
 		},
 		{
@@ -524,6 +547,7 @@
 			"supports": ["animelist"],
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Kuroko%20no%20Basket.json",
 			"tags": {"layout": ["table"], "source": ["Kuroko no Basket", "Kuroko's Basketball"], "other": ["based on anime", "animated"]},
+			"date": "2013-05-01",
 			"date_added": "2024-01-06"
 		},
 		{
@@ -533,6 +557,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Kuroshitsuji.json",
 			"tags": {"layout": ["cover"], "source": ["Kuroshitsuji", "Black Butler", "Umineko no Naku Koro ni", "Umineko: When They Cry"], "other": ["based on anime"]},
+			"date": "2015-12-26",
 			"date_added": "2024-01-06"
 		},
 		{
@@ -542,6 +567,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Lineage.json",
 			"tags": {"layout": ["table"], "source": ["Lineage"], "other": ["based on game"]},
+			"date": "2014-02-22",
 			"date_added": "2024-01-06"
 		},
 		{
@@ -551,6 +577,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Mirai%20Nikki.json",
 			"tags": {"layout": ["table"], "source": ["Mirai Nikki", "The Future Diary"], "other": ["based on anime"]},
+			"date": "2015-07-17",
 			"date_added": "2024-01-07"
 		},
 		{
@@ -560,6 +587,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Naruto.json",
 			"tags": {"layout": ["table"], "source": ["Naruto"], "other": ["based on anime"]},
+			"date": "2015-07-16",
 			"date_added": "2024-01-07"
 		},
 		{
@@ -569,6 +597,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Non%20Non%20Biyori.json",
 			"tags": {"layout": ["table"], "source": ["Non Non Biyori"], "other": ["based on anime"]},
+			"date": "2016-03-06",
 			"date_added": "2024-01-07"
 		},
 		{
@@ -579,6 +608,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Noragami.json",
 			"tags": {"layout": ["unique"], "source": ["Noragami"], "other": ["based on anime"]},
+			"date": "2016-02-26",
 			"date_added": "2024-01-07"
 		},
 		{
@@ -588,6 +618,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Nozaki-kun.json",
 			"tags": {"layout": ["table"], "source": ["Gekkan Shoujo Nozaki-kun", "Monthly Girls' Nozaki-kun"], "other": ["based on anime"]},
+			"date": "2015-02-16",
 			"date_added": "2024-01-07"
 		},
 		{
@@ -597,6 +628,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/One%20Piece.json",
 			"tags": {"layout": ["table"], "source": ["One Piece"], "other": ["based on anime"]},
+			"date": "2015-07-15",
 			"date_added": "2024-01-07"
 		},
 		{
@@ -607,6 +639,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/One%20Punch%20Man.json",
 			"tags": {"layout": ["table"], "source": ["One Punch Man"], "other": ["based on anime"]},
+			"date": "2016-01-11",
 			"date_added": "2024-01-07"
 		},
 		{
@@ -616,6 +649,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Persona%204.json",
 			"tags": {"layout": ["table"], "source": ["Persona 4"], "other": ["based on game"]},
+			"date": "2015-12-27",
 			"date_added": "2024-01-07"
 		},
 		{
@@ -625,6 +659,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Rozen%20Maiden.json",
 			"tags": {"layout": ["table"], "source": ["Rozen Maiden"], "other": ["based on anime"]},
+			"date": "2015-06-07",
 			"date_added": "2024-01-07"
 		},
 		{
@@ -634,6 +669,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/SAO.json",
 			"tags": {"layout": ["table"], "source": ["Sword Art Online"], "other": ["based on anime"]},
+			"date": "2013-08-22",
 			"date_added": "2024-01-07"
 		},
 		{
@@ -643,6 +679,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/SAO2.json",
 			"tags": {"layout": ["table"], "source": ["Sword Art Online"], "other": ["based on anime"]},
+			"date": "2015-12-26",
 			"date_added": "2024-01-07"
 		},
 		{
@@ -652,6 +689,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Shigatsu%20wa%20Kimi%20no%20Uso.json",
 			"tags": {"layout": ["table"], "source": ["Shigatsu wa Kimi no Uso", "Your Lie in April"], "other": ["based on anime"]},
+			"date": "2015-08-11",
 			"date_added": "2024-01-07"
 		},
 		{
@@ -661,6 +699,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Shingeki%20no%20Kyojin.json",
 			"tags": {"layout": ["table"], "source": ["Shingeki no Kyojin", "Attack on Titan"], "other": ["based on anime"]},
+			"date": "2015-07-13",
 			"date_added": "2024-01-07"
 		},
 		{
@@ -670,6 +709,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Space.json",
 			"tags": {"layout": ["table"]},
+			"date": "2013-06-27",
 			"date_added": "2024-01-07"
 		},
 		{
@@ -679,6 +719,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Steins;Gate.json",
 			"tags": {"layout": ["table"], "source": ["Steins;Gate"], "other": ["based on anime", "animated"]},
+			"date": "2013-10-03",
 			"date_added": "2024-01-07"
 		},
 		{
@@ -689,15 +730,17 @@
 			"supports": ["animelist"],
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Tokyo%20Ghoul.json",
 			"tags": {"layout": ["table"], "source": ["Tokyo Ghoul"], "other": ["based on anime"]},
+			"date": "2014-09-30",
 			"date_added": "2024-01-07"
 		},
 		{
-			"name": "Mischevous",
+			"name": "Mischievous",
 			"author": "Hahaido",
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Touhou.jpg",
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Touhou.json",
 			"tags": {"layout": ["table"], "source": ["Touhou"], "other": ["based on game", "animated"]},
+			"date": "2015-12-27",
 			"date_added": "2024-01-07"
 		},
 		{
@@ -707,6 +750,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Usagi%20Drop.json",
 			"tags": {"layout": ["table"], "source": ["Usagi Drop", "Bunny Drop"], "other": ["based on anime"]},
+			"date": "2013-05-26",
 			"date_added": "2024-01-07"
 		},
 		{
@@ -716,6 +760,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Vampire%20Knight.json",
 			"tags": {"layout": ["unique"], "source": ["Vampire Knight"], "other": ["based on anime", "animated"]},
+			"date": "2012-12-14",
 			"date_added": "2024-01-07"
 		},
 		{
@@ -725,6 +770,7 @@
 			"type": "classic",
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Vocaloids.json",
 			"tags": {"layout": ["unique"], "source": ["Vocaloid"]},
+			"date": "2015-10-31",
 			"date_added": "2024-01-07"
 		},
 		{
