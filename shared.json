@@ -699,6 +699,15 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Touhou.json",
 			"tags": {"layout": ["table"], "source": ["Touhou"], "other": ["based on game", "animated"]},
 			"date_added": "2024-01-07"
+		},
+		{
+			"name": "Bunny and I: new colors of life",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Usagi%20Drop.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Usagi%20Drop.json",
+			"tags": {"layout": ["table"], "source": ["Usagi Drop", "Bunny Drop"], "other": ["based on anime"]},
+			"date_added": "2024-01-07"
 		}
 	]
 }
