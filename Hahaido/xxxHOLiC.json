@@ -12,11 +12,13 @@
 			"animelist": {
 				"Numbers": true,
 				"Score": true,
+				"Type": true,
 				"Episodes": true
 			},
 			"mangalist": {
 				"Numbers": true,
 				"Score": true,
+				"Type": true,
 				"Chapters": true
 			}
 		}
