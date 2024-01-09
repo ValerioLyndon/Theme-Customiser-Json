@@ -781,6 +781,16 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/xxxHOLiC.json",
 			"tags": {"layout": ["unique"], "source": ["xxxHOLiC"], "other": ["based on anime"]},
 			"date_added": "2024-01-07"
+		},
+		{
+			"name": "Kantai Collection",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/KanColle.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/KanColle.json",
+			"tags": {"layout": ["table"], "source": ["Kantai Collection"], "other": ["based on game"]},
+			"date": "2016-02-26",
+			"date_added": "2024-01-08"
 		}
 	]
 }
