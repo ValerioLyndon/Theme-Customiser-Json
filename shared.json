@@ -791,6 +791,16 @@
 			"tags": {"layout": ["table"], "source": ["Kantai Collection"], "other": ["based on game"]},
 			"date": "2016-02-26",
 			"date_added": "2024-01-08"
+		},
+		{
+			"name": "Boku dake ga Inai Machi",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/BokuMachi.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/BokuMachi.json",
+			"tags": {"layout": ["unique", "cover"], "source": ["ERASED", "Boku dake ga Inai Machi"], "other": ["based on anime"]},
+			"date": "2016-03-27",
+			"date_added": "2024-01-08"
 		}
 	]
 }
