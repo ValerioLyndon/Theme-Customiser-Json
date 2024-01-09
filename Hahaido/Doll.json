@@ -1,12 +1,12 @@
 {
-	"json_version": 0.3,
+	"json_version": 0.4,
 	"data": {
 		"name": "Doll",
 		"author": "Hahaido",
 		"type": "classic",
 		"help": "https://myanimelist.net/forum/?topicid=1693080",
 		"css": "https://yuiafterdark.github.io/Hahaido/Doll/Doll.css",
-		"category": 1,
+		"category": [1,2,3,4,6],
 		"columns": {
 			"mode": "whitelist",
 			"animelist": {

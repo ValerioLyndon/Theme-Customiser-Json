@@ -1,10 +1,10 @@
 {
-	"json_version": 0.3,
+	"json_version": 0.4,
 	"data": {
 		"name": "Feelings covered in bamboo branches",
 		"author": "Hahaido",
 		"type": "classic",
-		"category": 1,
+		"category": [1,2,3,4,6],
 		"help": "https://myanimelist.net/forum/?topicid=526726",
 		"css": "https://yuiafterdark.github.io/Hahaido/Naruto/Naruto.css",
 		"columns": {
