@@ -44,6 +44,13 @@
 					["all/anime/presets", "anime/{{{insert}}}/presets"],
 					["all/manga/presets", "manga/{{{insert}}}/presets"]
 				]
+			},
+			"text": {
+				"name": "Text Flair",
+				"description": "Change the header text to your own username or anything else!",
+				"type": "text/content",
+				"replacements": [["\"Hahaido's workshop\"", "{{{insert}}}"]],
+				"default": "Hahaido's workshop"
 			}
 		}
 	}
