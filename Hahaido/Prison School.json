@@ -1,0 +1,22 @@
+{
+	"json_version": 0.3,
+	"data": {
+		"name": "Prison School",
+		"author": "Hahaido",
+		"type": "classic",
+		"css": "https://yuiafterdark.github.io/Hahaido/Prison%20School/Prison%20School.css",
+		"columns": {
+			"mode": "whitelist",
+			"animelist": {
+				"Numbers": true,
+				"Score": true,
+				"Episodes": true
+			},
+			"mangalist": {
+				"Numbers": true,
+				"Score": true,
+				"Chapters": true
+			}
+		}
+	}
+}

@@ -801,6 +801,16 @@
 			"tags": {"layout": ["unique", "cover"], "source": ["ERASED", "Boku dake ga Inai Machi"], "other": ["based on anime"]},
 			"date": "2016-03-27",
 			"date_added": "2024-01-08"
+		},
+		{
+			"name": "Prison School",
+			"author": "Hahaido",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Prison%20School.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Prison%20School.json",
+			"tags": {"layout": ["table"], "source": ["Prison School"], "other": ["based on anime", "ecchi"]},
+			"date": "2016-03-15",
+			"date_added": "2024-01-10"
 		}
 	]
 }
