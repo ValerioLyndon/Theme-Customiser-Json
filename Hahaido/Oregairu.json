@@ -1,0 +1,24 @@
+{
+	"json_version": 0.4,
+	"data": {
+		"name": "Oregairu",
+		"author": "Hahaido",
+		"type": "classic",
+		"css": "https://yuiafterdark.github.io/Hahaido/Oregairu/Oregairu.css",
+		"preview": {
+			"columns": {
+				"mode": "whitelist",
+				"animelist": {
+					"Numbers": true,
+					"Score": true,
+					"Episodes": true
+				},
+				"mangalist": {
+					"Numbers": true,
+					"Score": true,
+					"Chapters": true
+				}
+			}
+		}
+	}
+}
