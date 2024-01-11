@@ -821,6 +821,16 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Aria.json",
 			"tags": {"layout": ["table"], "source": ["Aria"], "other": ["based on anime"]},
 			"date_added": "2024-01-10"
+		},
+		{
+			"name": "Bakemonogatari",
+			"author": "Hahaido",
+			"supports": ["animelist"],
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Bakemonogatari.jpg",
+			"type": "modern",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Bakemonogatari.json",
+			"tags": {"layout": ["table"], "source": ["Bakemonogatari"], "other": ["based on anime"]},
+			"date_added": "2024-01-10"
 		}
 	]
 }

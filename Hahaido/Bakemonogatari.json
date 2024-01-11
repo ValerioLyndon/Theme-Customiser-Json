@@ -1,0 +1,30 @@
+{
+	"json_version": 0.4,
+	"data": {
+		"name": "Bakemonogatari",
+		"author": "Hahaido",
+		"type": "modern",
+		"supports": ["animelist"],
+		"style": [1],
+		"cover": false,
+		"css": "https://yuiafterdark.github.io/Hahaido/Bakemonogatari/Bakemonogatari.css",
+		"columns": {
+			"mode": "greylist",
+			"animelist": {
+				"Numbers": true,
+				"Image": true
+			}
+		},
+		"preview": {
+			"columns": {
+				"mode": "whitelist",
+				"animelist": {
+					"Numbers": true,
+					"Score": true,
+					"Image": true,
+					"Episodes": true
+				}
+			}
+		}
+	}
+}
