@@ -6,7 +6,7 @@
 		"type": "modern",
 		"supports": ["animelist"],
 		"style": [1],
-		"css": "https://yuiafterdark.github.io/Hahaido/ShinamiMaou/ShinamiMaou.css",
+		"css": "https://yuiafterdark.github.io/Hahaido/ShinmaiMaou/ShinmaiMaou.css",
 		"columns": {
 			"mode": "whitelist",
 			"animelist": {
