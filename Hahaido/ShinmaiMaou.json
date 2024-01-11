@@ -1,0 +1,35 @@
+{
+	"json_version": 0.4,
+	"data": {
+		"name": "Shinmai Maou no Testament",
+		"author": "Hahaido",
+		"type": "modern",
+		"supports": ["animelist"],
+		"style": [1],
+		"css": "https://yuiafterdark.github.io/Hahaido/ShinamiMaou/ShinamiMaou.css",
+		"columns": {
+			"mode": "whitelist",
+			"animelist": {
+				"Image": true,
+				"Numbers": null,
+				"Score": null,
+				"Episodes": null,
+				"Type": null,
+				"Tags": null
+			}
+		},
+		"preview": {
+			"columns": {
+				"mode": "whitelist",
+				"animelist": {
+					"Image": true,
+					"Numbers": true,
+					"Score": true,
+					"Episodes": true,
+					"Type": true,
+					"Tags": true
+				}
+			}
+		}
+	}
+}

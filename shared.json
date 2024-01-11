@@ -850,6 +850,16 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Oregairu.json",
 			"tags": {"layout": ["table"], "source": ["Oregairu", "Yahari Ore no Seishun Love Comedy wa Machigatteiru.", "My Teen Romantic Comedy SNAFU"], "other": ["based on anime"]},
 			"date_added": "2024-01-10"
+		},
+		{
+			"name": "Shinmai Maou no Testament",
+			"author": "Hahaido",
+			"supports": ["animelist"],
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/ShinamiMaou.jpg",
+			"type": "modern",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/ShinamiMaou.json",
+			"tags": {"layout": ["table"], "source": ["Shinmai Maou no Testament", "The Testament of Sister New Devil"], "other": ["based on anime"]},
+			"date_added": "2024-01-10"
 		}
 	]
 }
