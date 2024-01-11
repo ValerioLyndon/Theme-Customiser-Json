@@ -811,6 +811,16 @@
 			"tags": {"layout": ["table"], "source": ["Prison School"], "other": ["based on anime", "ecchi"]},
 			"date": "2016-03-15",
 			"date_added": "2024-01-10"
+		},
+		{
+			"name": "Aria",
+			"author": "Hahaido",
+			"supports": ["animelist"],
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Aria.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Aria.json",
+			"tags": {"layout": ["table"], "source": ["Aria"], "other": ["based on anime"]},
+			"date_added": "2024-01-10"
 		}
 	]
 }
