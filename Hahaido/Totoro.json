@@ -1,0 +1,24 @@
+{
+	"json_version": 0.3,
+	"data": {
+		"name": "Totoro",
+		"author": "Hahaido",
+		"type": "classic",
+		"css": "https://yuiafterdark.github.io/Hahaido/Totoro/Totoro.css",
+		"preview": {
+			"columns": {
+				"mode": "whitelist",
+				"animelist": {
+					"Numbers": true,
+					"Score": true,
+					"Episodes": true
+				},
+				"mangalist": {
+					"Numbers": true,
+					"Score": true,
+					"Chapters": true
+				}
+			}
+		}
+	}
+}

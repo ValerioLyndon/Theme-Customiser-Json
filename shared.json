@@ -831,6 +831,16 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Bakemonogatari.json",
 			"tags": {"layout": ["table"], "source": ["Bakemonogatari"], "other": ["based on anime"]},
 			"date_added": "2024-01-10"
+		},
+		{
+			"name": "Totoro",
+			"author": "Hahaido",
+			"supports": ["animelist"],
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Totoro.jpg",
+			"type": "modern",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/Totoro.json",
+			"tags": {"layout": ["table"], "source": ["My Neighbour Totoro", "Tonari no Totoro"], "other": ["based on anime"]},
+			"date_added": "2024-01-10"
 		}
 	]
 }
