@@ -1,5 +1,5 @@
 {
-	"json_version": 0.3,
+	"json_version": 0.4,
 	"data": {
 		"name": "Akame ga Kill",
 		"author": "Hahaido",
@@ -11,12 +11,31 @@
 			"animelist": {
 				"Numbers": true,
 				"Score": true,
-				"Episodes": true
+				"Episodes": true,
+				"Tags": null
 			},
 			"mangalist": {
 				"Numbers": true,
 				"Score": true,
-				"Chapters": true
+				"Chapters": true,
+				"Tags": null
+			}
+		},
+		"preview": {
+			"columns": {
+			"mode": "whitelist",
+				"animelist": {
+					"Numbers": true,
+					"Score": true,
+					"Episodes": true,
+					"Tags": true
+				},
+				"mangalist": {
+					"Numbers": true,
+					"Score": true,
+					"Chapters": true,
+					"Tags": true
+				}
 			}
 		},
 		"options": {
@@ -69,6 +88,22 @@
 					["all/anime/presets", "anime/{{{insert}}}/presets"],
 					["all/manga/presets", "manga/{{{insert}}}/presets"]
 				]
+			}
+		},
+		"mods": {
+			"favorites": {
+				"name": "Highlight Favorites",
+				"description": "[b]This mod is not automatic and requires the use of tags.[/b] Highlights the first letter of any anime titles that you have marked with a \"Favorite\" tag.",
+				"css": {"bottom": "https://yuiafterdark.github.io/Hahaido/Akame%20ga%20Kill/mods/Favorites.css"},
+				"options": {
+					"tag": {
+						"name": "Choose Tag",
+						"description": "Change which tag is chosen as your favourite tag. The default is \"Favourite\", if you use something else then input it here! Be sure to write the tag [b]exactly[/b] as you wrote it on your list.",
+						"type": "text/url_fragment",
+						"replacements": [["Favourite", "{{{insert}}}"]],
+						"default": "Favourite"
+					}
+				}
 			}
 		}
 	}
