@@ -1,12 +1,13 @@
 {
-	"json_version": 0.3,
+	"json_version": 0.4,
 	"data": {
 		"name": "w i n d o w",
 		"author": "nymphiae",
+		"author_url": "https://myanimelist.net/profile/nymphiae",
 		"type": "classic",
 		"help": "https://myanimelist.net/forum/?topicid=1370768",
 		"css": "https://yuiafterdark.github.io/nymphiae/window%20style/window%20style.css",
-		"category": 1,
+		"category": [1,2,3,4,6],
 		"options": {
 			"picture": {
 				"name": "Side Picture",

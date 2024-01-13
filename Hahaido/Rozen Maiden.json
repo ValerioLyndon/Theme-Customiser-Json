@@ -1,8 +1,9 @@
 {
-	"json_version": 0.3,
+	"json_version": 0.4,
 	"data": {
 		"name": "Kostbare Tochter",
 		"author": "Hahaido",
+		"author_url": "https://myanimelist.net/profile/Hahaido",
 		"type": "classic",
 		"help": "https://myanimelist.net/forum/?topicid=1465955",
 		"css": "https://yuiafterdark.github.io/Hahaido/Rozen%20Maiden/Rozen%20Maiden.css",

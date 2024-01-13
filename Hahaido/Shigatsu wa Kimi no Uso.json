@@ -1,8 +1,9 @@
 {
-	"json_version": 0.3,
+	"json_version": 0.4,
 	"data": {
 		"name": "This Melody",
 		"author": "Hahaido",
+		"author_url": "https://myanimelist.net/profile/Hahaido",
 		"type": "classic",
 		"help": "https://myanimelist.net/forum/?topicid=1465947",
 		"css": "https://yuiafterdark.github.io/Hahaido/Shigatsu%20wa%20Kimi%20no%20Uso/Shigatsu%20wa%20Kimi%20no%20Uso.css",

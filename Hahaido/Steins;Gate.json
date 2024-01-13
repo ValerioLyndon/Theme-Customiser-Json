@@ -1,8 +1,9 @@
 {
-	"json_version": 0.3,
+	"json_version": 0.4,
 	"data": {
 		"name": "A time for us",
 		"author": "Hahaido",
+		"author_url": "https://myanimelist.net/profile/Hahaido",
 		"type": "classic",
 		"help": "https://myanimelist.net/forum/?topicid=671463",
 		"css": "https://yuiafterdark.github.io/Hahaido/Steins;Gate/Steins;Gate.css",

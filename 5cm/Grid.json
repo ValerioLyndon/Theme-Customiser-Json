@@ -1,8 +1,9 @@
 {
-	"json_version": 0.3,
+	"json_version": 0.4,
 	"data": {
 		"name": "Grid Refresh",
 		"author": "5cm",
+		"author_url": "https://myanimelist.net/profile/5cm",
 		"type": "modern",
 		"css": "https://yuiafterdark.github.io/5cm/Grid/Grid.css",
 		"help": "https://myanimelist.net/forum/?topicid=1640096#msg56466319",

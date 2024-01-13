@@ -1,8 +1,9 @@
 {
-	"json_version": 0.3,
+	"json_version": 0.4,
 	"data": {
 		"name": "Shelter Style Refresh - Line Ver.",
 		"author": "Takana no Hana",
+		"author_url": "https://myanimelist.net/profile/Takana_no_Hana",
 		"css": "https://yuiafterdark.github.io/Takana-no-Hana/Shelter%20Style%20Refresh/Line.css",
 		"type": "modern",
 		"columns": {

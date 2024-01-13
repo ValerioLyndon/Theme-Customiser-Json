@@ -1,8 +1,9 @@
 {
-	"json_version": 0.3,
+	"json_version": 0.4,
 	"data": {
 		"name": "minimalist sidebar",
 		"author": "nymphiae",
+		"author_url": "https://myanimelist.net/profile/nymphiae",
 		"type": "classic",
 		"css": "https://yuiafterdark.github.io/nymphiae/minimalist%20sidebar/minimalist%20sidebar.css",
 		"help": "https://myanimelist.net/forum/?topicid=1167775",

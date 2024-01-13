@@ -1,8 +1,9 @@
 {
-	"json_version": 0.3,
+	"json_version": 0.4,
 	"data": {
 		"name": "Magi",
 		"author": "Hahaido",
+		"author_url": "https://myanimelist.net/profile/Hahaido",
 		"type": "modern",
 		"help": "https://myanimelist.net/forum/?topicid=1603344",
 		"style": [1],

@@ -1,8 +1,9 @@
 {
-	"json_version": 0.3,
+	"json_version": 0.4,
 	"data": {
 		"name": "Barakamon",
 		"author": "5cm",
+		"author_url": "https://myanimelist.net/profile/5cm",
 		"type": "classic",
 		"css": "https://yuiafterdark.github.io/5cm/Barakamon/Barakamon.css",
 		"help": "https://myanimelist.net/forum/?topicid=393503&show=250#msg50423223"

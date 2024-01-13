@@ -1,8 +1,9 @@
 {
-	"json_version": 0.3,
+	"json_version": 0.4,
 	"data": {
 		"name": "The Moments of Sena",
 		"author": "Hahaido",
+		"author_url": "https://myanimelist.net/profile/Hahaido",
 		"type": "classic",
 		"help": "https://myanimelist.net/forum/?topicid=582261",
 		"css": "https://yuiafterdark.github.io/Hahaido/Boku%20wa%20Tomodachi%20ga%20Sukunai/Boku%20wa%20Tomodachi%20ga%20Sukunai.css",

@@ -1,14 +1,15 @@
 {
-	"json_version": 0.3,
+	"json_version": 0.4,
 	"data": {
 		"name": "GochiUsa Refresh",
 		"author": "Takana no Hana",
+		"author_url": "https://myanimelist.net/profile/Takana_no_Hana",
 		"type": "modern",
 		"css": "https://yuiafterdark.github.io/Takana-no-Hana/GochiUsa%20Refresh/GochiUsa%20Refresh.css",
 		"help": "https://myanimelist.net/forum/?topicid=1524727",
 		"supports": ["animelist"],
 		"cover": false,
-		"category": 1,
+		"category": [1,2,3,4,6],
 		"columns": {
 			"animelist": {
 				"Numbers": true,

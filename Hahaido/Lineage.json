@@ -1,8 +1,9 @@
 {
-	"json_version": 0.3,
+	"json_version": 0.4,
 	"data": {
 		"name": "Lineage",
 		"author": "SylakentH & Hahaido",
+		"author_url": "https://myanimelist.net/profile/Hahaido",
 		"type": "classic",
 		"help": "https://myanimelist.net/forum/?topicid=1074387",
 		"css": "https://yuiafterdark.github.io/Hahaido/Lineage/Lineage.css",

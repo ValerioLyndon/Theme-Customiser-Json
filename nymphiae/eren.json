@@ -1,8 +1,9 @@
 {
-	"json_version": 0.3,
+	"json_version": 0.4,
 	"data": {
 		"name": "eren",
 		"author": "nymphiae",
+		"author_url": "https://myanimelist.net/profile/nymphiae",
 		"type": "classic",
 		"css": "https://yuiafterdark.github.io/nymphiae/eren/eren.css",
 		"mods": {

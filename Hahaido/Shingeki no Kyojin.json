@@ -1,8 +1,9 @@
 {
-	"json_version": 0.3,
+	"json_version": 0.4,
 	"data": {
 		"name": "Everyone's choice",
 		"author": "Hahaido",
+		"author_url": "https://myanimelist.net/profile/Hahaido",
 		"type": "classic",
 		"help": "https://myanimelist.net/forum/?topicid=679077",
 		"css": "https://yuiafterdark.github.io/Hahaido/Shingeki%20no%20Kyojin/Shingeki%20no%20Kyojin.css",

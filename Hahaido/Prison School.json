@@ -1,8 +1,9 @@
 {
-	"json_version": 0.3,
+	"json_version": 0.4,
 	"data": {
 		"name": "Prison School",
 		"author": "Hahaido",
+		"author_url": "https://myanimelist.net/profile/Hahaido",
 		"type": "classic",
 		"css": "https://yuiafterdark.github.io/Hahaido/Prison%20School/Prison%20School.css",
 		"columns": {

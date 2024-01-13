@@ -1,8 +1,9 @@
 {
-	"json_version": 0.3,
+	"json_version": 0.4,
 	"data": {
 		"name": "Yukinoshita",
 		"author": "_Kairu_",
+		"author_url": "https://myanimelist.net/profile/_Kairu_",
 		"type": "classic",
 		"supports": ["animelist"],
 		"css": "https://yuiafterdark.github.io/_Kairu_/Oregairu%20-%20Yukinoshita/v3.css",

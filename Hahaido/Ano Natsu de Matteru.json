@@ -1,8 +1,9 @@
 {
-	"json_version": 0.3,
+	"json_version": 0.4,
 	"data": {
 		"name": "My life is a movie",
 		"author": "Hahaido",
+		"author_url": "https://myanimelist.net/profile/Hahaido",
 		"type": "classic",
 		"help": "https://myanimelist.net/forum/?topicid=585717",
 		"css": "https://yuiafterdark.github.io/Hahaido/Ano%20Natsu%20de%20Matteru/Ano%20Natsu%20de%20Matteru.css",

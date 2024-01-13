@@ -3,6 +3,7 @@
 	"data": {
 		"name": "Bakemonogatari",
 		"author": "Hahaido",
+		"author_url": "https://myanimelist.net/profile/Hahaido",
 		"type": "modern",
 		"supports": ["animelist"],
 		"style": [1],

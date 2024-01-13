@@ -1,8 +1,9 @@
 {
-	"json_version": 0.3,
+	"json_version": 0.4,
 	"data": {
 		"name": "Sailor Moon",
 		"author": "5cm",
+		"author_url": "https://myanimelist.net/profile/5cm",
 		"type": "modern",
 		"css": "https://yuiafterdark.github.io/5cm/Sailor%20Moon/Sailor%20Moon.css",
 		"help": "https://myanimelist.net/forum/?topicid=1863392",

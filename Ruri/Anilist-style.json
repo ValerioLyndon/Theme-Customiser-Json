@@ -1,8 +1,9 @@
 {
-	"json_version": 0.3,
+	"json_version": 0.4,
 	"data": {
 		"name": "Anilist-style",
 		"author": "Ruri",
+		"author_url": "https://myanimelist.net/profile/Ruri",
 		"type": "modern",
 		"css": "https://yuiafterdark.github.io/Ruri/Anilist-style/Anilist-style.css",
 		"help": "https://myanimelist.net/forum/?topicid=1594324",
