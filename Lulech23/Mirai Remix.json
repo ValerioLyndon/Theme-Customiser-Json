@@ -1,0 +1,118 @@
+{
+	"json_version": 0.4,
+	"data": {
+		"name": "Mirai Remix",
+		"author": "Lulech23",
+		"author_url": "https://myanimelist.net/profile/Lulech23",
+		"type": "modern",
+		"help": "https://myanimelist.net/forum/?topicid=1826033",
+		"css": "@\\import \"https://lucasc.me/share/mal/theme-mirai-remix.css\";",
+		"columns": {
+			"mode": "greylist",
+			"animelist": {
+				"Numbers": true,
+				"Score": true,
+				"Type": true,
+				"Episodes": true,
+				"Image": true,
+				"MAL Score": false,
+				"Score Diff.": false,
+				"Popularity": false
+			},
+			"mangalist": {
+				"Numbers": true,
+				"Score": true,
+				"Type": true,
+				"Chapters": true,
+				"Image": true,
+				"MAL Score": false,
+				"Score Diff.": false,
+				"Popularity": false
+			}
+		},
+		"preview": {
+			"columns": {
+				"mode": "whitelist",
+				"animelist": {
+					"Numbers": true,
+					"Score": true,
+					"Type": true,
+					"Episodes": true,
+					"Image": true
+				},
+				"mangalist": {
+					"Numbers": true,
+					"Score": true,
+					"Type": true,
+					"Chapters": true,
+					"Image": true
+				}
+			}
+		},
+		"options": {
+			"theme": {
+				"name": "Theme",
+				"type": "select",
+				"selections": {
+					"light": {
+						"label": "Light",
+						"replacements": []
+					},
+					"dark": {
+						"label": "Dark",
+						"replacements": [["\"https://lucasc.me/share/mal/theme-mirai-remix.css","\"https://lucasc.me/share/mal/theme-mirai-dark-remix.css"]]
+					},
+					"auto": {
+						"label": "Automatic (user preference)",
+						"replacements": [["\"https://lucasc.me/share/mal/theme-mirai-remix.css","\"https://lucasc.me/share/mal/theme-mirai-auto-remix.css"]]
+					}
+				},
+				"default": "light"
+			},
+			"bg-size": {
+				"name": "Fullscreen Background",
+				"description": "For a perfect fullscreen background, I highly recommend this. This will override MAL settings, but in my opinion, it looks way better!",
+				"type": "toggle",
+				"replacements": [["RegExp/$", "", "\n\n/* fullscreen background */\nbody { background-size: cover; }"]],
+				"default": true
+			}
+		},
+		"mods": {
+			"hd-images": {
+				"name": "High-resolution Images",
+				"description": "If you want higher resolution images, this will enable them. [b]Will increase page load times[/b].",
+				"css": {"import": "@\\import \"https://malscraper.azurewebsites.net/covers/all/anime/presets/dataimagelinkbefore\";\n@\\import \"https://malscraper.azurewebsites.net/covers/all/manga/presets/dataimagelinkbefore\";"},
+				"options": {
+					"list": {
+						"name": "List Type",
+						"description": "Select whether you are installing this on your anime or manga list. While not required, this will reduce the page load impact by 20-80%.",
+						"type": "select",
+						"selections": {
+							"both": {
+								"label": "Both (unoptimised)",
+								"replacements": []
+							},
+							"anime": {
+								"label": "Animelist",
+								"replacements": [["RegExp/\\n?@\\\\import \"https:\\/\\/malscraper\\.azurewebsites\\.net\\/[^\\\"]*\\/manga\\/[^\\\"]*?\";\\n?", ""]]
+							},
+							"manga": {
+								"label": "Mangalist",
+								"replacements": [["RegExp/\\n?@\\\\import \"https:\\/\\/malscraper\\.azurewebsites\\.net\\/[^\\\"]*\\/anime\\/[^\\\"]*?\";\\n?", ""]]
+							}
+						}
+					},
+					"username": {
+						"name": "Your MyAnimeList Username",
+						"description": "Must be entered exactly as it appears on MyAnimeList. While not required, this will reduce the page load impact by more than 95% for most users.",
+						"type": "text",
+						"replacements": [
+							["all/anime/presets", "anime/{{{insert}}}/presets"],
+							["all/manga/presets", "manga/{{{insert}}}/presets"]
+						]
+					}
+				}
+			}
+		}
+	}
+}

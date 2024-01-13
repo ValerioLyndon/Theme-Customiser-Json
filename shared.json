@@ -860,6 +860,16 @@
 			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Hahaido/ShinmaiMaou.json",
 			"tags": {"layout": ["table"], "source": ["Shinmai Maou no Testament", "The Testament of Sister New Devil"], "other": ["based on anime"]},
 			"date_added": "2024-01-10"
+		},
+		{
+			"name": "Mirai Remix",
+			"author": "Lulech23",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Lulech23/Mirai%20Remix.jpg",
+			"type": "modern",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Lulech23/Mirai%20Remix.json",
+			"tags": {"layout": ["cover"], "other": ["based on anime"]},
+			"date": "2020-02-21",
+			"date_added": "2024-01-12"
 		}
 	]
 }
