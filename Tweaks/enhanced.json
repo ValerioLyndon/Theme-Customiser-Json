@@ -1,5 +1,5 @@
 {
-	"json_version": 0.2,
+	"json_version": 0.4,
 	"data": {
 		"name": "Enhanced Default",
 		"author": "Various Authors",
@@ -8,62 +8,111 @@
 			"vl-accent": {
 				"name": "Change accent colour",
 				"description": "[i]Mod by Valerio Lyndon.[/i]",
-				"tags": ["colours"],
-				"css": {"bottom": "https://dl.dropboxusercontent.com/s/4f1fzy7dvdssqro/vl-accent.css"}
+				"tags": [
+					"colours"
+				],
+				"css": {
+					"bottom": "https://dl.dropboxusercontent.com/s/4f1fzy7dvdssqro/vl-accent.css"
+				}
 			},
 			"vl-cat-bars": {
 				"name": "Category-coloured Header Bars",
 				"description": "[i]Mod by Valerio Lyndon.[/i]",
-				"tags": ["per-category options", "colours"],
-				"css": {"bottom": "https://dl.dropboxusercontent.com/s/tc72stvnooitc4r/vl-cat-bars.css"}
+				"tags": [
+					"per-category options",
+					"colours"
+				],
+				"css": {
+					"bottom": "https://dl.dropboxusercontent.com/s/tc72stvnooitc4r/vl-cat-bars.css"
+				}
 			},
 			"vl-cat-text-list": {
 				"name": "Category-coloured List Text",
 				"description": "[i]Mod by Valerio Lyndon.[/i]",
-				"tags": ["per-category options", "colours"],
-				"conflicts": ["vl-cat-text-titles"],
-				"css": {"bottom": "https://dl.dropboxusercontent.com/s/w38ktudj94p2c7i/vl-cat-text-list.css"}
+				"tags": [
+					"per-category options",
+					"colours"
+				],
+				"conflicts": [
+					"vl-cat-text-titles"
+				],
+				"css": {
+					"bottom": "https://dl.dropboxusercontent.com/s/w38ktudj94p2c7i/vl-cat-text-list.css"
+				}
 			},
 			"vl-cat-text-titles": {
 				"name": "Category-coloured List Titles",
 				"description": "[i]Mod by Valerio Lyndon.[/i]",
-				"tags": ["per-category options", "colours"],
-				"conflicts": ["vl-cat-text-list"],
-				"css": {"bottom": "https://dl.dropboxusercontent.com/s/vqm1b9efv5rm4zw/vl-cat-text-titles.css"}
+				"tags": [
+					"per-category options",
+					"colours"
+				],
+				"conflicts": [
+					"vl-cat-text-list"
+				],
+				"css": {
+					"bottom": "https://dl.dropboxusercontent.com/s/vqm1b9efv5rm4zw/vl-cat-text-titles.css"
+				}
 			},
 			"vl-tag-notes": {
 				"name": "Convert Tags to Notes",
 				"description": "[i]Mod by Valerio Lyndon.[/i]",
-				"tags": ["tags", "conversion"],
-				"css": {"bottom": "https://dl.dropboxusercontent.com/s/277sehq0max8nle/vl-tag-notes.css"}
+				"tags": [
+					"tags",
+					"conversion"
+				],
+				"css": {
+					"bottom": "https://dl.dropboxusercontent.com/s/277sehq0max8nle/vl-tag-notes.css"
+				}
 			},
 			"vl-large-images": {
 				"name": "Larger Images",
 				"description": "[i]Mod by Valerio Lyndon.[/i]",
-				"tags": ["imagery", "conversion"],
-				"css": {"bottom": "https://dl.dropboxusercontent.com/s/nivi679lw66khcg/vl-large-images.css"},
+				"tags": [
+					"imagery",
+					"conversion"
+				],
+				"css": {
+					"bottom": "https://dl.dropboxusercontent.com/s/nivi679lw66khcg/vl-large-images.css"
+				},
 				"options": {
 					"hd": {
 						"name": "HD Images",
-						"description": "This will add a third-party tool that should increase the resolution of images. This will increase page load times."
+						"description": "TODO - This will add a third-party tool that should increase the resolution of images. This will increase page load times.",
+						"type": "toggle"
 					},
 					"width": {
 						"name": "Width of images.",
 						"type": "text/size",
-						"replacements": [["192px", "{{{insert}}}"]],
+						"replacements": [
+							[
+								"192px",
+								"{{{insert}}}"
+							]
+						],
 						"default": "192px"
 					},
 					"height": {
 						"name": "Height of images.",
 						"type": "text/size",
-						"replacements": [["272px", "{{{insert}}}"]],
+						"replacements": [
+							[
+								"272px",
+								"{{{insert}}}"
+							]
+						],
 						"default": "272px"
 					},
 					"object-fit": {
 						"name": "Image fit.",
 						"description": "Changes how the image is placed within the width and height.",
 						"type": "text/value/object-fit",
-						"replacements": [["cover", "{{{insert}}}"]],
+						"replacements": [
+							[
+								"cover",
+								"{{{insert}}}"
+							]
+						],
 						"default": "cover"
 					}
 				}
