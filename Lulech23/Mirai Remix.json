@@ -31,6 +31,8 @@
 			}
 		},
 		"preview": {
+			"cover": "https://i.imgur.com/nNXoN4V.jpg",
+			"background": "https://i.imgur.com/l6zA2SV.jpg",
 			"columns": {
 				"mode": "whitelist",
 				"animelist": {
@@ -55,8 +57,7 @@
 				"type": "select",
 				"selections": {
 					"light": {
-						"label": "Light",
-						"replacements": []
+						"label": "Light"
 					},
 					"dark": {
 						"label": "Dark",
@@ -89,8 +90,7 @@
 						"type": "select",
 						"selections": {
 							"both": {
-								"label": "Both (unoptimised)",
-								"replacements": []
+								"label": "Both (unoptimised)"
 							},
 							"anime": {
 								"label": "Animelist",
