@@ -45,8 +45,7 @@
 				"type": "select",
 				"selections": {
 					"original": {
-						"label": "Kakuriyo no Yadomeshi by 5cm",
-						"replacements": ["",""]
+						"label": "Kakuriyo no Yadomeshi by 5cm"
 					},
 					"aot": {
 						"label": "Attack on Titan by Shishio-kun",
