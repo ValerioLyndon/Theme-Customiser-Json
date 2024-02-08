@@ -31,8 +31,8 @@
 			}
 		},
 		"preview": {
-			"cover": "https://i.imgur.com/nNXoN4V.jpg",
-			"background": "https://i.imgur.com/l6zA2SV.jpg",
+			"cover_url": "https://i.imgur.com/nNXoN4V.jpg",
+			"background_url": "https://i.imgur.com/l6zA2SV.jpg",
 			"columns": {
 				"mode": "whitelist",
 				"animelist": {
