@@ -74,8 +74,7 @@
 				"name": "Fullscreen Background",
 				"description": "For a perfect fullscreen background, I highly recommend this. This will override MAL settings, but in my opinion, it looks way better!",
 				"type": "toggle",
-				"replacements": [["RegExp/$", "", "\n\n/* fullscreen background */\nbody { background-size: cover; }"]],
-				"default": true
+				"replacements": [["RegExp/$", "", "\n\n/* fullscreen background */\nbody { background-size: cover; }"]]
 			}
 		},
 		"mods": {
