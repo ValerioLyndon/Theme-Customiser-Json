@@ -1,0 +1,27 @@
+{
+	"json_version": 0.4,
+	"data": {
+		"name": "Nekopara",
+		"author": "Lycelra",
+		"author_url": "https://myanimelist.net/profile/Lycelra",
+		"type": "classic",
+		"supports": ["animelist"],
+		"help": "https://myanimelist.net/forum/?topicid=1397924",
+		"css": "https://yuiafterdark.github.io/Lycelra/Nekopara/Nekopara.css",
+		"columns": {
+			"animelist": {
+				"Numbers": true,
+				"Score": true,
+				"Episodes": true
+			}
+		},
+		"options": {
+			"username": {
+				"name": "Your MyAnimeList Username",
+				"description": "Must be entered exactly as it appears on MyAnimeList. While not required, this will reduce the page load impact from the cover images by more than 95% for most users.",
+				"type": "text",
+				"replacements": [["all/anime/presets", "anime/{{{insert}}}/presets"]]
+			}
+		}
+	}
+}

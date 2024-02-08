@@ -870,6 +870,17 @@
 			"tags": {"layout": ["cover"], "other": ["based on anime"]},
 			"date": "2020-02-21",
 			"date_added": "2024-01-12"
+		},
+		{
+			"name": "Nekopara",
+			"author": "Lycelra",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/Lycelra/Nekopara.jpg",
+			"type": "classic",
+			"supports": ["animelist"],
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/Lycelra/Nekopara.json",
+			"tags": {"layout": ["table"], "other": ["based on game"], "source": ["Nekopara"]},
+			"date": "2015-06-23",
+			"date_added": "2024-01-27"
 		}
 	]
 }
