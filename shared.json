@@ -93,6 +93,16 @@
 			"date_added": "2022-07-21"
 		},
 		{
+			"name": "Gundam",
+			"author": "5cm",
+			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Gundam.jpg",
+			"type": "classic",
+			"url": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Gundam.json",
+			"tags": {"layout": ["table"], "source": ["Code Geass"], "other": ["minimalist", "animated", "heavyweight", "supports all columns"]},
+			"date": "2020-09-28",
+			"date_added": "2024-04-01"
+		},
+		{
 			"name": "Symphogear XV",
 			"author": "5cm",
 			"image": "https://valeriolyndon.github.io/Theme-Customiser-Json/5cm/Symphogear%20XV.jpg",

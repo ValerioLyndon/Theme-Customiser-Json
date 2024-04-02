@@ -1,0 +1,36 @@
+{
+	"json_version": 0.4,
+	"data": {
+		"name": "Gundam",
+		"author": "5cm",
+		"author_url": "https://myanimelist.net/profile/5cm",
+		"type": "classic",
+		"css": "https://yuiafterdark.github.io/5cm/Gundam/Gundam.css",
+		"help": "https://myanimelist.net/forum/?topicid=1099375&show=350#msg60809518",
+		"options": {
+			"list": {
+				"name": "List Type",
+				"description": "Select whether you are installing this on your anime or manga list. This is required for the cover images to work.",
+				"type": "select",
+				"selections": {
+					"anime": {
+						"label": "Animelist"
+					},
+					"manga": {
+						"label": "Mangalist",
+						"replacements": [["/anime/", "/manga/"]]
+					}
+				}
+			},
+			"username": {
+				"name": "Your MyAnimeList Username",
+				"description": "Must be entered exactly as it appears on MyAnimeList. While not required, this will reduce the page load impact from the cover images by more than 95% for most users.",
+				"type": "text",
+				"replacements": [
+					["all/anime/presets", "anime/{{{insert}}}/presets"],
+					["all/manga/presets", "manga/{{{insert}}}/presets"]
+				]
+			}
+		}
+	}
+}
