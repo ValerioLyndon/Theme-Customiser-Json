@@ -21,7 +21,7 @@
 			},
 			"background-tint": {
 				"name": "Background Tint",
-				"description": "The colour to apply on top of the background image. The 4th number is the opacity and accepts any value from 0 to 1.",
+				"description": "The colour to apply on top of the background image.",
 				"type": "color",
 				"replacements": [["rgba(0,0,0,.265)", "{{{insert}}}"]],
 				"default": "rgba(0,0,0,.265)"
